@@ -1,0 +1,605 @@
+@relation data_100_20_5_10_10_500
+
+@attribute A1 {q,e,h,g,d,b,a,m,l,s,p,j,i,r,f,o,c,t,n,k}
+@attribute A2 {n,c,k,a,d,o,q,s,t,r,e,p,g,f,i,m,j,h,b,l}
+@attribute A3 {o,b,c,a,m,q,e,p,s,h,i,n,k,j,t,r,l,d,f,g}
+@attribute A4 {h,q,b,l,t,g,p,j,e,o,k,m,r,d,f,s,n,c,a,i}
+@attribute A5 {r,j,d,a,p,h,c,e,l,m,q,g,t,n,b,i,f,o,s,k}
+@attribute A6 {t,a,q,k,s,h,f,m,i,r,o,l,d,j,c,b,p,g,n,e}
+@attribute A7 {j,c,h,l,r,k,d,f,a,i,s,n,e,b,t,q,g,p,o,m}
+@attribute A8 {s,j,h,a,q,n,d,r,p,c,m,t,k,e,o,f,i,g,l,b}
+@attribute A9 {m,r,k,b,i,f,h,n,d,o,q,p,l,a,s,c,e,t,j,g}
+@attribute A10 {d,a,o,h,j,s,t,e,l,c,m,k,r,b,n,g,q,f,p,i}
+@attribute A11 {p,o,i,j,f,d,s,l,n,t,r,m,a,g,q,k,b,c,e,h}
+@attribute A12 {t,r,q,e,i,k,s,j,b,a,d,f,g,c,h,l,o,p,n,m}
+@attribute A13 {b,h,g,s,e,l,c,j,t,o,d,i,f,n,a,k,p,q,r,m}
+@attribute A14 {l,t,o,r,m,s,p,f,c,a,g,n,q,h,k,j,d,e,i,b}
+@attribute A15 {t,k,a,g,q,n,f,o,h,c,m,b,j,l,e,r,d,p,i,s}
+@attribute A16 {j,a,d,f,p,c,k,e,i,n,q,l,h,g,s,r,t,o,b,m}
+@attribute A17 {d,i,f,s,t,n,o,l,e,b,q,g,j,a,p,m,h,c,r,k}
+@attribute A18 {g,c,i,n,r,f,o,s,a,q,b,h,m,l,j,t,k,d,p,e}
+@attribute A19 {f,o,p,n,c,l,q,j,i,k,r,d,s,m,g,e,t,a,h,b}
+@attribute A20 {e,g,a,m,f,s,t,p,l,o,q,j,d,b,c,n,r,h,i,k}
+@attribute A21 {k,e,l,b,f,n,d,a,q,j,s,r,t,o,h,c,p,i,m,g}
+@attribute A22 {o,f,r,q,j,d,t,p,i,l,m,n,g,s,a,c,k,h,e,b}
+@attribute A23 {n,l,c,o,h,g,q,b,t,a,i,k,f,s,j,m,r,d,p,e}
+@attribute A24 {t,f,m,g,a,h,s,i,e,n,k,c,b,j,r,l,o,q,d,p}
+@attribute A25 {q,a,c,j,r,g,e,p,f,s,m,n,d,i,b,t,o,k,l,h}
+@attribute A26 {c,f,g,q,d,j,m,i,n,s,l,b,o,k,h,a,r,t,p,e}
+@attribute A27 {b,n,s,f,p,d,o,h,i,r,g,c,q,l,k,m,a,t,j,e}
+@attribute A28 {o,t,r,l,k,q,i,n,c,h,f,g,s,j,d,p,b,m,a,e}
+@attribute A29 {l,f,k,n,i,c,m,j,b,s,g,p,q,a,d,e,h,r,o,t}
+@attribute A30 {s,k,c,g,q,e,h,f,p,d,t,a,r,o,b,i,l,n,j,m}
+@attribute A31 {k,g,j,p,i,a,o,d,n,e,c,h,l,q,b,s,m,t,r,f}
+@attribute A32 {d,l,m,j,a,c,k,g,r,s,p,b,q,o,t,i,n,h,f,e}
+@attribute A33 {q,a,f,j,c,e,k,i,n,o,g,r,b,d,h,s,t,p,l,m}
+@attribute A34 {t,a,p,b,l,s,n,f,r,k,e,j,o,m,q,g,d,c,i,h}
+@attribute A35 {k,b,l,d,i,a,m,g,r,n,o,j,c,p,t,q,f,e,s,h}
+@attribute A36 {o,m,h,d,c,f,t,i,e,r,n,q,b,j,l,p,s,a,k,g}
+@attribute A37 {l,f,k,d,s,c,p,r,a,o,h,n,b,q,m,t,j,g,e,i}
+@attribute A38 {l,p,n,j,b,g,a,t,h,r,c,f,d,o,i,k,q,m,s,e}
+@attribute A39 {m,g,e,f,i,a,s,o,j,c,d,q,k,t,l,r,p,b,n,h}
+@attribute A40 {o,f,r,b,d,q,h,e,l,j,a,n,t,k,m,p,c,s,i,g}
+@attribute A41 {r,m,f,j,l,b,s,e,g,o,c,k,t,n,a,h,d,i,p,q}
+@attribute A42 {j,b,m,h,d,g,k,r,n,q,l,f,t,e,s,a,p,c,o,i}
+@attribute A43 {k,b,p,j,m,s,n,d,o,c,q,r,i,a,f,t,g,h,l,e}
+@attribute A44 {t,n,q,f,k,b,g,r,c,i,d,s,l,m,a,h,o,e,j,p}
+@attribute A45 {g,t,b,i,q,o,m,j,k,s,e,r,p,l,a,h,n,f,d,c}
+@attribute A46 {c,t,h,f,k,q,b,d,l,s,i,p,n,g,r,m,e,o,j,a}
+@attribute A47 {d,t,l,j,h,f,s,m,g,o,q,c,b,r,a,e,k,n,i,p}
+@attribute A48 {r,s,i,q,c,a,b,f,j,g,t,l,o,n,m,k,e,d,p,h}
+@attribute A49 {j,g,o,r,m,d,b,p,k,f,n,e,i,q,l,t,c,s,a,h}
+@attribute A50 {h,l,g,t,p,m,f,a,i,r,b,s,d,k,q,c,o,e,j,n}
+@attribute A51 {b,i,p,c,j,g,f,d,n,k,m,s,t,q,l,h,o,a,r,e}
+@attribute A52 {k,j,q,n,l,a,p,e,m,s,t,g,c,o,f,b,d,r,i,h}
+@attribute A53 {t,r,o,d,e,g,n,c,b,s,k,j,f,a,l,i,m,q,p,h}
+@attribute A54 {b,t,k,f,q,g,m,r,c,d,a,j,l,p,o,h,e,n,i,s}
+@attribute A55 {f,h,k,o,m,t,l,j,i,e,q,c,g,p,n,a,s,d,r,b}
+@attribute A56 {r,n,g,c,l,j,h,e,b,s,p,t,f,a,d,k,m,o,i,q}
+@attribute A57 {t,a,n,j,g,i,q,k,r,p,l,s,m,h,b,c,e,f,o,d}
+@attribute A58 {t,r,f,m,h,c,o,s,g,k,n,d,b,i,q,l,p,j,e,a}
+@attribute A59 {k,l,p,g,b,r,n,j,c,m,s,o,f,h,e,i,t,a,q,d}
+@attribute A60 {c,r,h,j,m,g,s,k,o,f,i,d,a,p,e,t,l,n,b,q}
+@attribute A61 {f,n,j,r,k,p,a,q,i,m,b,t,e,h,c,l,o,s,g,d}
+@attribute A62 {b,e,l,j,d,k,f,r,n,c,i,a,s,g,q,m,h,o,t,p}
+@attribute A63 {b,r,p,j,a,l,m,o,f,q,i,n,c,g,e,d,h,s,k,t}
+@attribute A64 {k,l,n,m,s,i,h,b,c,t,j,d,r,q,p,o,g,f,a,e}
+@attribute A65 {q,m,j,k,t,o,l,h,c,a,s,b,p,i,r,d,e,g,f,n}
+@attribute A66 {t,j,k,g,i,c,s,o,h,e,d,b,f,a,r,n,p,l,q,m}
+@attribute A67 {i,f,n,q,l,b,e,o,s,r,m,g,d,j,h,c,k,a,t,p}
+@attribute A68 {a,m,r,h,j,p,k,q,e,d,c,i,n,b,l,s,o,g,f,t}
+@attribute A69 {c,a,t,l,b,s,e,f,m,k,n,q,r,j,p,i,d,g,h,o}
+@attribute A70 {b,p,d,q,a,m,k,c,f,r,n,g,l,s,i,e,o,j,h,t}
+@attribute A71 {p,h,s,n,m,k,q,f,e,l,d,o,j,t,g,i,c,b,r,a}
+@attribute A72 {p,q,t,n,k,f,l,s,a,j,d,m,c,e,r,g,b,h,o,i}
+@attribute A73 {t,j,g,s,h,k,n,f,q,a,o,l,e,d,b,c,i,r,m,p}
+@attribute A74 {j,g,n,d,a,t,h,q,b,o,r,c,m,p,k,f,e,l,s,i}
+@attribute A75 {h,e,o,p,k,f,a,c,s,d,t,n,i,m,b,g,r,l,j,q}
+@attribute A76 {p,f,g,h,a,o,n,c,e,s,m,r,k,i,b,t,l,q,j,d}
+@attribute A77 {p,f,b,s,d,h,g,a,i,n,k,t,l,q,e,o,m,j,c,r}
+@attribute A78 {n,p,q,d,s,b,l,j,c,t,e,r,i,h,o,m,k,f,a,g}
+@attribute A79 {q,r,j,s,o,n,a,t,m,b,l,h,k,d,e,c,p,f,g,i}
+@attribute A80 {k,h,l,p,s,r,n,b,t,i,f,d,m,o,e,a,g,q,j,c}
+@attribute A81 {a,t,s,p,b,r,g,j,e,q,f,c,d,n,h,m,l,i,o,k}
+@attribute A82 {k,d,m,e,o,l,t,c,g,a,s,n,p,q,j,i,h,r,f,b}
+@attribute A83 {t,i,e,m,o,s,d,l,h,n,g,q,k,f,a,b,c,r,p,j}
+@attribute A84 {a,j,d,f,n,t,q,m,r,p,o,h,l,k,g,c,b,s,e,i}
+@attribute A85 {l,q,n,c,t,r,a,e,m,j,g,o,p,h,s,f,k,b,d,i}
+@attribute A86 {a,c,k,d,t,o,f,q,l,m,b,n,h,e,j,p,i,r,s,g}
+@attribute A87 {a,b,e,i,s,h,o,j,m,d,c,f,g,n,p,r,l,k,t,q}
+@attribute A88 {b,o,s,f,j,c,e,r,m,p,l,k,h,n,t,a,g,i,q,d}
+@attribute A89 {n,e,o,b,l,m,f,j,g,d,i,s,p,c,q,k,t,h,r,a}
+@attribute A90 {l,j,n,s,p,a,c,g,h,m,e,r,t,b,f,o,k,i,d,q}
+@attribute A91 {j,a,e,k,d,q,n,b,o,p,t,f,i,h,l,r,s,m,c,g}
+@attribute A92 {i,e,f,c,r,s,d,a,m,t,k,l,g,p,h,o,j,b,n,q}
+@attribute A93 {r,a,j,i,n,k,l,m,c,g,t,p,e,o,q,d,b,h,s,f}
+@attribute A94 {h,m,e,s,t,b,q,o,j,c,p,n,f,d,g,r,i,a,l,k}
+@attribute A95 {l,p,r,k,s,m,f,o,t,c,g,n,e,j,i,a,d,q,b,h}
+@attribute A96 {m,q,r,n,b,l,g,t,h,a,s,e,i,c,d,p,j,k,o,f}
+@attribute A97 {q,d,s,h,j,c,k,g,m,r,f,n,e,l,b,p,a,t,o,i}
+@attribute A98 {q,h,i,l,n,p,o,a,t,f,g,e,r,d,c,k,m,b,s,j}
+@attribute A99 {o,h,t,p,a,g,b,m,l,i,j,e,q,r,f,n,c,d,k,s}
+@attribute A100 {e,m,c,o,f,g,i,s,t,r,k,h,l,b,p,j,d,n,a,q}
+@attribute Class {c4,c3,c2,c1,c5}
+
+@data
+q,n,o,h,r,t,j,s,m,d,p,t,b,l,t,j,d,g,f,e,k,o,n,t,q,c,b,o,l,s,k,d,q,t,k,o,l,l,m,o,r,j,k,t,g,c,d,r,j,h,b,k,t,b,f,r,t,t,k,c,f,b,b,k,q,t,i,a,c,b,p,p,t,j,h,p,p,n,q,k,a,k,t,a,l,a,a,b,n,l,j,i,r,h,l,m,q,q,o,e,c4
+e,c,b,q,j,a,c,j,r,a,o,r,h,t,k,a,i,c,o,g,e,f,l,f,a,f,n,t,f,k,g,l,a,a,b,m,f,p,g,f,m,b,b,n,t,t,t,s,g,l,i,j,r,t,h,n,a,r,l,r,n,e,r,l,m,j,f,m,a,p,h,q,j,g,e,f,f,p,r,h,t,d,t,j,q,c,b,o,e,j,j,i,a,m,l,q,d,h,h,m,c3
+h,k,c,b,d,q,j,h,k,o,i,q,g,o,k,d,f,i,p,a,l,r,c,m,c,g,s,r,f,c,j,m,f,p,l,h,k,n,e,r,f,m,p,q,b,h,l,i,o,g,p,q,o,k,k,r,n,f,p,h,j,l,b,n,j,k,i,m,t,d,s,t,g,n,o,g,b,q,j,l,s,d,i,d,q,k,e,s,o,n,a,e,j,e,p,r,s,i,t,c,c2
+g,a,a,l,a,k,h,a,b,h,j,e,s,r,a,f,s,n,n,m,b,q,o,g,j,q,f,o,k,g,p,j,j,a,d,h,d,j,f,b,j,h,j,f,t,f,d,r,r,t,i,n,d,f,o,r,j,m,g,j,r,j,p,l,k,g,n,r,t,q,n,n,s,d,p,h,s,d,s,p,p,m,e,f,n,d,b,s,b,s,e,f,i,s,r,n,h,l,p,c,c1
+d,d,m,t,d,s,l,q,b,a,f,i,e,m,t,p,t,r,o,f,f,r,h,a,r,d,p,l,l,g,i,a,c,p,k,d,s,j,i,d,l,d,k,f,i,t,j,q,m,p,c,j,e,b,m,r,t,r,b,c,f,d,j,m,t,t,q,a,t,a,n,k,t,a,k,a,d,n,o,k,b,e,m,n,n,t,a,f,l,l,j,i,n,t,k,b,j,n,t,m,c4
+d,o,q,g,d,q,r,n,i,j,d,k,h,s,t,c,t,f,c,s,n,j,l,h,g,j,d,k,l,q,a,c,q,b,d,m,s,l,a,q,b,g,k,k,t,c,h,c,d,m,j,l,g,q,t,r,t,h,r,c,f,k,a,s,k,i,l,a,l,m,m,f,h,t,p,o,h,n,n,k,r,o,o,t,c,o,a,s,m,p,j,c,n,b,s,l,c,h,a,e,c4
+b,q,c,p,p,h,r,h,f,s,i,s,l,p,t,d,n,o,o,e,n,d,g,s,e,d,o,q,n,e,g,k,e,l,i,c,f,b,s,h,m,k,k,f,q,c,f,a,b,f,g,a,n,g,l,r,t,c,b,c,f,j,l,i,q,i,b,a,b,k,k,l,k,h,f,p,s,n,q,k,a,m,s,q,t,f,a,j,b,l,j,r,k,b,m,g,d,p,g,o,c4
+e,n,e,j,h,f,c,a,h,a,o,j,c,m,g,k,i,s,l,a,e,t,q,i,p,m,o,i,i,h,p,g,k,s,a,m,f,p,o,r,s,r,m,b,o,k,s,b,p,a,i,p,t,m,j,n,g,f,n,m,k,f,m,h,o,g,n,m,s,p,q,l,h,q,a,n,g,s,a,s,g,o,t,m,r,c,i,c,l,a,k,c,r,m,f,q,k,o,t,f,c3
+a,s,p,p,c,m,c,d,m,a,s,b,j,f,k,e,i,n,q,t,d,p,b,m,r,c,h,q,c,f,o,r,e,n,m,m,f,p,j,e,e,n,s,g,m,q,m,c,k,i,i,e,o,r,i,n,i,o,j,g,f,r,o,b,l,c,e,h,e,p,f,q,n,h,c,c,a,b,t,r,j,l,d,r,a,c,s,f,o,n,d,s,l,m,k,t,g,a,h,g,c3
+m,t,c,e,e,q,j,r,n,h,s,e,t,o,q,d,o,a,p,p,l,i,t,e,r,g,i,n,m,c,i,m,a,s,l,f,c,g,c,b,g,q,n,r,g,b,j,f,f,r,p,m,t,c,l,g,n,o,k,h,p,b,f,c,h,s,l,j,f,d,e,s,h,b,s,e,i,l,m,n,a,t,s,d,e,q,h,s,f,c,a,d,m,q,o,h,g,t,a,c,c2
+d,s,s,o,l,i,k,p,d,t,i,a,o,c,a,a,l,q,j,l,a,i,g,i,f,j,r,c,j,p,d,a,i,a,a,d,p,a,d,b,o,q,j,c,j,d,t,j,r,b,f,s,c,f,l,c,q,s,c,s,k,n,a,k,h,o,o,p,m,c,l,a,f,o,c,s,i,j,r,l,e,c,e,m,t,l,b,e,j,g,d,a,c,o,t,a,m,p,b,i,c5
+d,r,h,k,m,r,d,s,d,t,l,b,d,r,n,i,e,q,c,o,a,q,g,n,f,j,g,h,b,d,j,s,e,l,g,t,c,t,g,l,b,h,d,i,k,l,g,f,n,p,j,t,b,d,l,l,t,g,m,k,a,c,q,t,q,s,s,m,f,f,s,j,q,r,e,s,n,c,r,r,p,g,l,j,e,m,o,b,g,h,d,m,g,j,c,n,m,f,b,c,c5
+e,t,h,m,h,o,c,p,o,e,n,d,s,a,t,n,b,n,i,p,q,i,h,k,j,q,h,f,s,q,n,p,a,t,r,o,r,h,q,j,o,b,k,d,s,s,m,g,r,i,d,g,t,a,e,r,t,k,g,c,f,c,i,j,c,c,q,a,l,r,h,d,a,c,c,e,f,n,b,k,q,l,i,p,n,o,a,r,d,c,j,a,t,c,t,h,r,g,m,s,c4
+g,e,p,b,q,l,c,c,q,a,f,s,i,g,f,e,i,b,p,q,b,l,c,c,s,j,f,g,g,t,p,a,n,s,g,m,f,p,k,e,c,l,o,c,e,i,t,c,n,i,i,q,s,j,h,n,i,s,b,o,j,k,n,b,k,h,r,k,k,p,d,s,k,n,d,m,a,c,l,r,e,l,e,m,r,c,j,m,m,m,j,t,p,m,k,t,f,l,l,t,c3
+d,p,i,b,g,d,r,m,d,t,t,d,f,a,o,a,b,q,k,g,j,m,g,h,m,j,o,i,p,a,e,j,o,f,n,o,a,r,t,a,l,n,c,s,s,i,o,t,j,m,p,e,k,l,l,j,g,n,b,f,q,i,o,d,a,e,i,q,m,c,o,f,f,o,s,s,k,b,j,b,b,k,t,d,m,l,m,p,m,g,d,a,c,o,g,s,m,e,b,r,c5
+d,g,n,m,r,j,f,t,d,t,f,f,n,s,n,q,q,q,r,j,k,t,g,b,n,j,r,s,f,e,j,b,g,r,o,i,a,c,l,b,k,f,q,r,r,p,q,i,e,s,n,e,o,m,l,j,k,d,p,i,i,a,c,k,s,c,f,e,m,a,j,m,o,a,p,s,b,t,h,h,r,a,h,o,j,b,d,l,i,j,d,r,g,p,r,g,m,r,b,m,c5
+l,f,m,q,t,r,a,c,b,l,o,g,a,t,o,l,s,n,f,d,s,f,a,j,a,i,c,o,k,p,c,j,r,a,j,m,f,b,f,e,t,m,m,d,b,n,c,g,i,t,k,s,k,p,q,h,t,t,s,j,m,l,g,d,b,i,m,r,t,f,t,c,q,j,k,f,t,s,k,l,q,s,n,f,g,q,d,o,s,e,q,a,c,e,t,n,n,f,b,k,c1
+d,c,k,g,h,c,i,k,d,t,r,b,k,n,h,k,q,q,d,f,r,m,g,i,d,j,q,n,l,q,p,p,a,k,b,e,a,f,r,n,n,l,p,b,p,f,b,i,m,h,m,e,j,o,l,e,a,k,s,d,b,s,p,h,l,g,l,p,e,n,g,e,l,d,c,s,l,t,d,t,b,n,d,h,c,k,e,k,p,h,d,k,i,o,g,b,m,g,b,h,c5
+s,p,j,r,n,q,l,e,p,a,o,s,j,f,c,h,s,n,s,m,f,n,l,i,d,c,b,o,k,s,h,j,b,e,c,r,a,j,f,l,l,n,q,f,r,l,m,t,q,t,m,p,f,r,f,b,g,d,p,j,p,s,e,i,p,d,g,r,t,g,j,m,e,h,d,r,d,e,o,i,e,p,g,f,o,n,s,m,l,r,n,l,k,c,n,e,e,a,t,l,c1
+d,n,q,d,l,l,l,s,d,t,m,f,p,g,m,g,g,q,r,b,t,g,g,n,e,j,o,j,m,c,o,g,a,k,p,n,f,d,f,t,l,h,n,k,i,n,d,r,j,d,j,c,b,k,l,c,r,m,n,j,k,g,d,k,i,k,d,d,t,l,i,t,d,c,a,s,q,c,b,f,p,q,n,t,p,n,c,h,s,p,d,r,e,c,e,n,m,n,b,c,c5
+s,i,b,h,r,s,c,r,o,a,t,b,i,r,b,s,i,i,p,f,d,s,i,g,i,j,f,d,q,r,d,q,f,s,t,m,f,p,p,l,a,t,r,t,g,f,j,q,p,k,i,o,g,h,k,n,p,b,l,a,q,q,i,t,m,b,r,a,n,p,s,r,t,t,t,o,q,r,s,d,f,o,q,l,e,c,f,o,c,j,n,r,m,m,r,a,n,h,h,c,c3
+d,t,o,r,b,b,i,c,d,t,d,r,e,a,f,r,o,q,c,b,r,s,g,r,r,j,q,q,l,o,k,b,d,n,o,i,o,o,e,h,b,d,i,l,l,g,s,l,l,r,s,f,c,j,l,l,t,f,o,p,j,b,l,k,r,i,g,c,a,f,k,s,t,m,o,s,a,j,e,p,c,d,i,k,n,t,f,c,n,t,d,g,o,n,e,h,m,d,b,i,c5
+b,f,a,e,j,a,s,p,p,c,r,c,p,p,t,l,j,h,m,s,d,m,k,t,p,c,c,o,a,k,p,o,h,a,d,t,h,i,r,k,h,e,k,n,k,h,q,i,o,p,k,b,a,q,c,r,t,g,c,c,f,k,a,r,t,f,e,a,q,k,e,g,o,p,n,f,h,n,c,k,r,j,s,q,o,q,a,b,n,l,j,l,p,f,j,g,q,i,i,f,c4
+p,m,j,q,l,l,n,p,m,m,p,h,q,f,t,s,a,c,g,o,k,s,n,b,j,j,l,s,j,q,l,o,r,f,q,d,n,g,b,m,s,s,k,q,q,q,l,o,g,q,p,d,k,d,e,r,t,g,s,c,f,m,m,q,k,h,n,a,e,s,c,a,s,k,f,k,e,n,p,k,d,o,k,r,h,h,a,e,i,b,j,p,k,d,l,t,c,t,o,g,c4
+s,r,t,f,i,q,c,r,l,a,p,h,s,q,j,f,i,r,k,b,o,a,b,g,i,n,o,k,d,o,q,t,s,r,r,m,f,p,d,d,r,a,i,m,j,f,r,i,t,b,i,k,g,e,g,n,l,i,o,g,i,r,f,p,d,g,q,h,e,p,b,e,d,m,i,e,o,t,f,m,n,i,f,g,l,c,g,n,c,t,b,h,r,m,p,i,r,o,h,b,c3
+h,q,a,g,b,o,s,m,i,o,a,d,f,a,t,n,o,m,c,c,j,o,a,a,f,s,k,j,l,f,b,t,a,a,o,i,b,k,p,k,h,k,k,k,a,l,a,n,g,f,n,r,f,f,p,r,t,b,f,c,f,b,m,l,q,a,l,a,e,b,h,p,b,c,m,k,p,n,q,k,e,h,q,q,t,e,a,o,q,p,j,o,q,q,i,c,l,i,m,l,c4
+b,f,r,s,d,c,s,o,a,t,g,l,t,o,l,a,s,n,l,f,h,c,g,r,m,l,n,o,k,f,g,j,t,l,m,q,r,j,f,m,j,b,b,a,e,r,o,f,c,t,d,e,f,r,n,c,l,q,g,j,t,h,q,t,r,b,d,r,t,i,i,j,g,t,k,i,i,i,c,b,p,o,a,f,c,l,m,t,j,p,o,m,d,e,a,g,m,c,l,t,c1
+j,o,o,d,e,i,c,f,s,a,q,o,k,h,t,i,i,l,e,q,s,k,k,l,n,m,k,p,e,s,d,k,i,p,f,m,f,p,b,d,d,b,r,t,h,m,g,i,r,c,i,e,d,l,a,n,t,c,s,j,n,c,j,o,m,r,j,i,r,p,c,r,k,r,o,m,n,h,q,d,e,r,t,d,h,c,n,c,l,f,n,k,m,m,f,d,n,i,m,p,c3
+i,t,i,n,a,j,s,i,c,k,j,o,d,n,t,d,p,i,t,l,c,k,k,l,n,l,q,h,d,p,p,l,n,b,q,b,a,q,c,p,i,p,k,h,n,e,j,b,e,d,t,e,t,r,o,r,t,b,h,c,f,f,i,g,c,n,b,a,s,e,c,c,t,b,i,c,h,n,j,k,j,o,b,c,n,j,a,p,g,f,j,m,n,h,t,h,b,a,t,i,c4
+d,j,q,t,a,d,n,q,d,t,i,c,t,r,h,t,d,q,e,n,n,f,g,o,j,j,m,b,q,p,s,i,f,j,b,r,h,t,s,l,b,q,a,g,f,p,j,b,l,g,p,q,s,f,l,s,s,f,j,j,b,q,h,n,h,o,h,r,c,e,j,j,d,c,t,s,m,o,p,i,e,r,q,o,s,m,g,n,k,e,d,s,c,e,e,b,m,k,b,l,c5
+r,p,l,q,d,k,e,c,e,m,g,c,k,g,t,e,m,i,s,r,b,k,f,s,q,b,d,i,p,h,m,q,a,o,d,e,l,f,s,b,t,r,k,m,f,o,t,q,f,l,s,a,g,a,l,r,t,i,j,c,f,h,s,h,i,h,c,a,e,n,h,k,t,a,n,i,j,n,b,k,c,q,c,j,r,j,a,p,i,r,j,g,l,g,k,c,p,i,j,h,c4
+m,h,b,c,d,l,c,n,e,a,k,k,j,g,c,l,i,l,e,e,t,a,h,g,p,o,r,m,n,o,t,s,h,k,j,m,f,p,t,r,o,n,f,k,s,t,j,i,k,t,i,k,o,m,p,n,k,b,j,k,e,h,e,h,h,j,s,n,j,p,e,k,e,c,f,o,j,i,f,l,d,t,e,j,t,c,b,c,t,s,p,p,q,m,c,p,f,q,g,t,c3
+f,q,d,p,q,d,i,q,r,c,b,e,a,m,h,o,s,n,p,r,f,k,f,h,f,k,f,o,k,e,n,j,c,m,e,e,q,h,f,c,r,t,b,d,h,e,b,g,d,t,q,m,c,t,p,p,m,s,m,j,p,s,a,f,t,o,e,r,t,f,t,t,c,m,k,a,l,r,l,o,n,d,f,f,a,c,p,r,j,p,t,h,m,b,p,l,l,l,l,l,c1
+r,q,c,a,a,r,b,d,t,c,p,o,r,k,a,d,e,l,p,r,l,r,s,t,s,g,q,t,p,c,l,m,o,r,c,n,b,c,b,e,o,c,m,o,d,r,e,m,t,i,p,i,s,k,n,l,n,f,e,k,k,g,e,b,t,r,e,a,p,i,s,p,t,f,e,k,i,j,k,e,r,p,o,d,m,p,o,c,c,h,f,j,j,s,s,g,a,g,e,c,c2
+l,p,k,k,g,k,t,d,d,h,q,t,h,a,j,b,s,n,t,h,s,h,h,k,b,c,a,o,k,b,i,j,t,l,m,e,p,r,f,s,f,o,q,q,m,s,k,i,m,t,l,h,d,a,j,j,h,b,c,j,a,n,q,k,p,r,d,r,t,a,b,b,i,a,k,o,j,p,d,a,p,s,s,f,c,m,r,a,f,e,p,c,m,r,e,q,e,i,j,m,c1
+h,j,c,j,e,s,l,a,h,r,b,p,k,h,b,d,h,b,p,t,l,k,j,r,c,g,t,n,q,c,e,m,g,b,e,j,q,p,q,a,m,r,n,n,p,t,q,s,q,f,p,o,l,t,s,j,n,f,o,j,b,f,o,k,e,t,n,e,m,o,b,k,r,e,e,b,i,m,l,a,h,e,h,d,t,m,s,c,m,h,j,d,j,e,s,j,l,c,q,c,c2
+p,k,c,b,j,l,q,n,p,b,o,l,t,m,a,d,g,o,p,j,l,s,o,g,n,g,n,h,e,c,b,m,c,q,r,t,m,o,p,c,k,r,t,h,g,n,b,k,c,c,p,r,t,b,f,b,n,r,h,g,h,h,j,h,t,r,o,q,j,o,c,r,s,b,b,h,d,b,e,b,m,l,t,d,c,p,d,g,d,o,k,o,j,s,o,r,s,h,t,c,c2
+d,c,m,k,j,r,n,f,d,t,r,h,j,c,a,p,b,q,d,b,s,r,g,l,a,j,q,d,h,f,t,b,g,q,g,c,d,p,l,a,j,p,q,a,e,q,o,g,q,b,q,m,i,b,l,p,l,n,n,r,j,m,g,o,g,r,n,k,e,o,c,c,c,t,i,s,c,o,m,s,g,o,t,q,n,j,l,o,h,p,d,m,b,f,j,s,m,m,b,j,c5
+o,s,c,p,f,p,n,g,q,m,t,f,h,h,j,d,b,m,p,c,l,n,m,a,q,g,a,n,s,c,k,m,i,m,m,l,r,n,j,c,p,g,p,e,a,m,n,s,p,d,p,o,m,c,t,t,n,b,s,s,a,f,l,q,p,d,s,d,k,e,m,b,m,l,g,t,b,b,n,g,t,e,f,d,m,e,f,h,g,s,i,l,q,o,c,p,b,h,a,c,c2
+g,t,c,f,n,j,h,e,a,a,c,j,b,q,b,d,q,j,p,l,l,d,h,q,j,g,g,a,r,c,b,m,b,n,e,e,t,m,m,d,m,a,i,n,l,r,c,e,c,o,p,b,q,r,a,f,n,g,s,e,k,d,k,j,r,p,c,e,n,b,m,n,m,f,b,b,c,p,c,k,l,f,r,d,f,i,r,n,j,e,n,c,g,s,t,i,g,k,l,c,c2
+f,e,c,g,a,d,c,i,b,a,r,a,a,f,g,d,i,h,p,b,l,r,g,h,q,g,n,p,c,c,r,m,e,j,a,e,n,h,s,o,g,s,o,s,m,p,t,r,e,p,p,h,o,q,n,n,n,d,j,o,c,o,q,d,c,l,k,p,l,j,r,m,m,f,k,m,b,o,s,r,t,b,b,d,h,i,p,r,b,n,h,k,r,f,k,h,s,r,m,c,c2
+o,j,n,j,j,g,c,j,k,a,j,n,i,h,e,b,i,t,n,a,j,n,s,j,a,h,f,b,k,g,h,o,d,g,o,m,f,p,r,f,t,c,q,l,g,q,q,d,m,d,i,j,f,f,c,n,a,r,f,t,n,h,d,h,p,q,b,e,i,p,h,p,l,o,e,f,o,k,g,q,r,g,q,d,f,c,k,i,k,a,l,p,m,m,s,k,b,b,l,f,c3
+e,c,a,c,n,n,b,r,f,h,m,r,e,o,t,s,m,k,i,a,c,f,m,t,t,i,c,n,l,p,i,m,k,m,s,d,t,j,i,r,n,g,k,n,i,j,b,a,r,f,s,g,i,d,d,r,t,c,g,c,f,q,t,h,o,g,j,a,m,g,m,b,t,j,i,h,r,n,a,k,i,f,l,c,o,c,a,q,s,j,j,s,p,i,d,n,c,m,g,d,c4
+c,b,c,t,e,q,t,q,h,n,r,b,e,j,j,d,l,d,p,m,l,e,m,h,q,g,k,p,k,c,d,m,r,f,s,p,j,q,p,b,p,p,b,s,t,l,h,k,j,p,p,a,d,h,f,f,n,c,r,r,l,n,b,l,l,g,j,b,q,m,q,l,e,j,f,r,h,f,t,h,s,r,h,d,n,l,c,f,p,k,r,g,j,o,q,h,t,r,q,c,c2
+t,s,a,t,l,o,j,l,p,a,t,d,a,r,t,g,c,g,d,n,f,j,n,l,q,a,p,a,h,e,a,m,k,d,f,p,g,t,g,h,r,m,k,n,a,j,q,d,m,e,b,r,j,c,j,r,t,l,p,c,f,i,t,g,r,i,l,a,p,e,o,f,c,n,r,l,n,n,t,k,b,j,a,j,a,m,a,r,q,b,j,i,d,p,a,m,d,o,r,m,c4
+d,j,s,q,p,n,s,s,d,t,l,q,h,r,c,o,o,q,n,n,e,d,g,b,s,j,q,e,q,c,t,b,g,l,p,s,t,k,j,h,s,q,q,d,r,m,k,a,l,j,h,f,m,m,l,a,b,p,j,j,f,b,l,c,b,f,e,l,n,s,m,h,e,p,g,s,o,j,k,t,o,g,p,h,r,t,j,q,f,f,d,c,r,s,i,d,m,i,b,c,c5
+e,m,k,i,d,b,c,j,p,a,t,t,g,f,l,o,i,f,n,g,n,k,r,r,s,q,s,q,e,s,k,d,k,s,f,m,f,p,r,j,s,b,g,k,q,g,m,m,j,r,i,n,p,n,g,n,c,l,j,i,i,a,c,h,o,a,l,m,s,p,d,t,a,o,l,b,n,b,p,d,j,g,o,l,g,c,c,i,s,l,k,p,k,m,m,q,g,h,f,g,c3
+m,b,c,n,a,h,e,n,i,t,r,j,f,n,a,d,l,p,p,o,l,r,d,q,o,g,r,s,o,c,p,m,s,s,d,c,s,b,p,a,o,g,s,c,c,g,h,b,k,c,p,q,m,i,h,s,n,c,s,o,o,r,r,r,c,r,i,h,d,i,a,q,n,e,j,a,f,n,l,g,l,n,l,d,e,h,b,e,d,k,j,b,h,t,m,d,c,d,r,c,c2
+l,e,e,i,o,m,g,q,i,a,s,k,g,j,t,d,f,o,q,b,a,k,q,i,g,j,r,a,k,b,t,c,t,q,j,s,f,r,o,b,q,h,k,d,g,q,n,o,s,c,j,i,h,d,j,r,t,j,l,c,f,s,q,m,a,h,o,a,k,n,h,f,d,j,f,a,g,n,d,k,t,d,t,r,h,j,a,n,g,i,j,b,k,f,r,i,h,p,g,j,c4
+o,i,c,g,s,m,c,i,b,k,a,n,t,o,f,d,r,k,p,n,l,f,l,i,q,g,m,l,a,c,l,m,h,j,o,f,m,s,e,d,d,r,q,t,t,h,i,a,f,m,p,j,s,t,k,d,n,r,b,d,t,o,i,j,a,g,i,b,i,h,h,n,k,p,q,g,m,t,h,q,s,h,j,d,q,b,r,r,t,j,h,k,d,d,c,m,t,k,o,c,c2
+s,t,b,p,b,q,c,a,j,a,o,n,d,c,k,k,i,s,o,j,s,e,k,d,j,g,b,r,o,i,l,n,a,s,h,m,f,p,n,o,t,n,i,e,s,k,f,p,o,l,i,d,s,r,c,n,e,n,i,l,r,n,t,p,h,h,b,m,g,p,f,r,b,f,r,r,a,f,e,i,f,n,e,a,h,c,k,t,r,a,k,n,i,m,j,i,e,k,g,n,c3
+g,f,c,c,f,e,p,d,o,e,j,o,l,k,j,d,q,h,p,f,l,q,s,g,s,g,o,n,p,c,j,m,o,k,i,b,q,l,g,h,s,n,d,t,j,q,o,t,m,n,p,t,f,t,r,p,n,c,p,e,i,q,q,p,i,k,k,r,s,n,r,f,h,h,m,q,f,o,h,e,d,p,f,d,j,a,f,n,o,p,i,h,m,p,j,c,k,p,a,c,c2
+d,p,l,g,h,p,c,h,d,t,c,g,l,d,e,o,n,q,k,g,h,d,g,e,t,j,c,t,m,l,b,c,n,m,p,m,s,l,f,t,o,t,o,f,t,k,m,s,d,l,p,l,c,k,l,l,j,o,k,m,k,r,j,m,l,e,a,a,h,o,f,s,r,a,g,s,o,r,i,r,e,k,i,d,k,e,s,d,q,n,d,s,p,d,k,h,m,n,b,m,c5
+q,j,f,s,f,k,c,c,m,a,q,a,e,k,m,l,i,e,a,l,r,k,m,g,m,m,n,m,q,q,g,s,k,p,g,m,f,p,a,t,d,d,n,q,p,r,g,k,q,b,i,b,o,q,m,n,i,g,c,d,i,r,s,k,c,d,k,s,q,p,c,o,g,r,q,a,o,j,d,b,k,o,o,b,f,c,d,m,i,l,i,p,i,m,b,r,f,i,f,a,c3
+i,s,d,i,l,g,q,p,l,d,d,q,m,j,t,s,i,d,d,n,b,e,n,c,m,b,d,c,t,k,d,q,d,f,e,b,k,o,d,l,g,b,k,l,b,c,p,j,a,q,b,j,a,o,t,r,t,e,b,c,f,c,d,m,t,i,o,a,i,m,d,j,t,n,c,e,c,n,t,k,c,d,i,a,o,e,a,k,b,k,j,l,c,e,n,q,p,r,b,e,c4
+p,d,c,c,d,o,f,i,b,g,g,p,c,c,t,t,r,f,h,t,c,n,b,e,m,o,n,r,b,r,t,t,p,c,f,b,g,i,t,o,r,i,k,c,f,q,a,q,t,a,p,p,g,i,t,r,t,a,h,c,f,h,k,k,g,r,h,a,j,j,o,g,q,s,n,b,k,n,j,k,n,e,q,o,g,d,a,r,g,t,j,n,a,g,l,l,k,d,l,h,c4
+d,f,l,d,s,g,r,m,d,t,l,t,k,l,r,m,l,q,h,j,k,e,g,e,e,j,l,e,t,n,n,d,h,c,g,j,e,c,i,o,k,m,i,i,r,a,f,i,d,k,k,i,f,j,l,k,b,c,i,h,b,h,d,o,i,o,k,d,a,q,a,b,s,b,p,s,q,n,f,n,a,a,n,a,s,p,t,c,o,j,d,p,c,t,c,j,m,c,b,e,c5
+d,c,c,f,b,k,a,f,d,t,l,j,a,j,f,a,h,q,p,g,p,p,g,m,p,j,o,d,o,i,e,g,c,l,a,b,r,k,c,l,e,k,r,c,i,a,r,g,o,s,o,b,i,e,l,a,k,b,o,r,b,l,n,h,h,b,c,e,q,m,r,s,j,d,t,s,l,o,h,i,n,o,o,j,m,m,d,c,m,b,d,f,h,j,p,c,m,s,b,j,c5
+i,d,j,d,m,p,c,q,k,a,q,j,l,a,l,s,i,p,t,f,d,h,j,k,g,s,p,k,a,b,f,b,i,r,d,m,f,p,r,p,a,q,i,l,b,s,o,c,j,a,i,b,t,e,b,n,p,o,j,n,c,n,f,l,a,l,s,j,c,p,q,s,d,r,g,h,l,d,e,f,a,n,j,g,b,c,g,c,j,d,i,e,j,m,a,k,c,o,l,e,c3
+c,h,b,a,o,b,s,q,i,l,d,g,l,g,t,e,p,a,l,l,o,a,d,c,t,s,q,j,s,o,r,o,c,c,k,t,f,m,s,e,r,j,k,n,q,r,m,s,d,o,k,g,m,s,m,r,t,h,j,c,f,f,i,a,l,t,k,a,o,c,r,e,m,g,g,j,b,n,r,k,f,q,o,r,m,r,a,g,f,i,j,k,r,d,j,a,o,a,n,a,c4
+d,m,r,e,g,d,c,b,l,a,q,a,a,s,h,a,i,f,e,h,b,r,t,r,g,l,l,s,b,d,j,p,g,o,r,m,f,p,i,i,c,e,r,s,h,g,i,o,j,f,i,c,q,q,l,n,g,e,t,p,r,l,m,g,k,h,t,r,b,p,g,a,s,n,k,i,h,t,b,a,q,i,n,m,d,c,l,o,g,d,s,a,t,m,h,q,e,b,c,g,c3
+h,s,c,a,p,g,g,p,a,n,f,i,o,o,g,d,q,s,p,g,l,h,l,l,q,g,d,i,i,c,g,m,i,o,f,m,q,i,f,h,t,s,d,f,f,r,s,p,i,a,p,a,i,n,a,r,n,j,a,s,c,c,j,e,c,b,r,h,m,e,o,a,m,q,g,j,g,q,j,f,t,p,p,d,g,t,s,q,p,d,e,j,t,o,j,m,o,d,p,c,c2
+g,m,b,q,k,k,i,t,l,q,l,o,t,t,t,p,h,s,i,c,f,f,q,m,o,g,g,l,p,a,i,g,p,i,n,l,q,b,o,k,h,a,k,r,s,n,a,m,c,t,o,t,q,i,a,r,t,l,k,c,f,f,k,q,d,s,i,a,s,b,j,r,q,a,r,k,c,n,o,k,s,p,i,d,t,i,a,g,p,o,j,h,i,h,d,r,q,j,q,a,c4
+m,i,i,r,b,g,l,i,e,m,k,e,f,f,t,q,a,m,e,m,f,l,j,c,g,l,q,k,t,b,f,k,j,l,s,t,d,q,f,m,p,l,k,j,i,q,m,l,l,g,b,q,q,e,n,r,t,s,o,c,f,f,l,h,m,p,r,a,g,j,c,a,m,t,i,l,g,n,t,k,a,j,q,f,l,f,a,p,t,d,j,l,t,a,n,t,j,k,d,l,c4
+a,g,f,g,l,a,c,q,r,a,t,m,k,e,o,d,i,n,k,s,c,n,m,m,c,s,d,r,m,e,e,n,p,a,f,m,f,p,j,g,e,h,q,r,r,i,o,b,p,o,i,l,s,o,q,n,i,s,p,g,f,g,o,r,d,d,m,j,t,p,k,l,m,m,d,s,m,a,k,o,s,d,q,g,m,c,s,g,r,i,h,t,l,m,l,g,j,p,b,o,c3
+c,p,l,k,l,n,c,p,j,a,b,h,g,c,j,n,i,d,j,j,k,t,l,i,e,s,d,e,o,t,k,o,l,d,d,m,f,p,m,f,f,h,b,l,g,q,t,r,e,s,i,b,r,o,q,n,k,e,h,b,k,f,h,n,d,l,s,n,p,p,d,k,p,c,s,p,t,d,j,l,t,e,t,l,c,c,t,h,e,e,h,a,g,m,h,h,l,t,l,d,c3
+f,p,o,o,h,i,j,n,r,c,r,j,b,j,t,d,m,p,f,s,i,d,h,h,b,g,t,o,r,q,t,p,f,p,l,m,l,g,h,s,q,e,k,b,f,i,r,i,l,d,g,q,f,k,p,r,t,g,j,c,f,m,b,r,a,r,g,a,t,s,p,l,r,o,e,s,n,n,o,k,c,h,h,s,r,e,a,h,o,e,j,c,g,f,t,a,m,p,k,g,c4
+i,p,q,l,m,c,i,a,b,m,t,h,e,r,o,b,s,n,e,n,d,c,t,e,d,j,i,o,k,t,m,j,l,t,m,s,j,i,f,e,e,h,p,k,e,a,h,h,f,t,f,l,t,n,t,m,c,f,m,j,a,e,p,g,b,j,n,r,t,o,t,d,t,d,f,e,q,e,r,g,s,e,r,f,f,e,f,t,l,c,a,e,d,b,m,g,m,d,m,i,c1
+d,j,p,h,a,d,f,i,d,t,p,h,b,f,t,a,j,q,d,d,m,m,g,e,p,j,j,s,s,f,m,s,e,t,n,p,c,g,s,e,k,h,s,a,o,j,m,m,i,g,a,b,g,h,l,s,g,d,q,s,e,o,b,p,t,q,d,o,s,p,o,f,j,o,o,s,h,r,f,r,o,q,f,e,j,o,i,m,f,r,d,c,m,q,r,o,m,o,b,r,c5
+r,e,l,h,e,l,g,a,f,o,o,d,b,r,t,o,d,l,t,d,j,l,r,a,j,f,l,h,p,b,h,a,k,c,g,a,q,f,a,j,n,d,k,e,c,i,q,p,l,i,t,g,t,q,p,r,t,i,t,c,f,r,m,t,h,p,t,a,h,r,m,h,k,o,p,a,c,n,b,k,p,n,d,d,i,s,a,c,m,d,j,m,n,g,q,q,m,n,f,i,c4
+l,l,s,l,e,p,c,e,o,a,p,n,m,k,d,r,i,s,p,j,m,k,s,g,c,n,t,g,m,t,l,r,m,s,h,m,f,p,d,k,j,h,t,j,b,b,k,i,n,d,i,c,e,l,f,n,q,c,r,h,e,t,a,k,e,e,a,g,n,p,m,k,a,o,n,m,h,o,m,d,f,o,a,k,j,c,f,h,b,g,o,m,n,m,g,t,m,j,q,r,c3
+s,i,f,h,s,o,c,l,s,a,f,e,b,r,o,b,i,d,m,d,h,j,j,i,k,f,n,c,b,t,h,k,e,i,n,m,f,p,p,c,b,a,j,j,o,r,h,l,a,c,i,r,f,s,g,n,p,t,g,k,k,m,b,d,j,k,b,j,q,p,n,g,o,i,j,i,o,d,k,e,a,q,m,q,e,c,o,s,s,f,l,n,j,m,f,p,l,f,h,i,c3
+o,j,c,e,r,s,n,p,j,l,d,k,q,d,k,d,c,j,p,i,l,i,c,q,l,g,k,s,a,c,c,m,g,d,q,c,n,f,s,c,d,p,h,s,g,d,s,s,e,j,p,j,q,i,i,j,n,e,g,a,m,t,l,c,h,j,k,p,n,p,k,e,f,b,i,s,t,a,o,t,s,e,n,d,b,b,o,b,q,m,s,h,b,p,c,j,k,f,o,c,c2
+n,r,p,b,i,h,d,k,n,t,p,g,j,t,n,o,s,n,o,f,j,g,n,a,a,m,k,o,k,h,d,j,s,c,p,s,h,f,f,s,s,c,t,n,s,n,c,l,b,t,a,d,k,j,k,p,h,s,d,j,o,g,o,c,g,a,j,r,t,g,j,e,a,l,c,p,t,t,s,n,o,g,q,f,l,h,i,p,n,p,e,g,p,s,l,o,r,o,g,a,c1
+d,i,p,n,k,c,o,b,d,t,o,n,o,o,r,e,l,q,i,g,n,h,g,b,n,j,h,c,q,r,o,d,f,j,e,s,p,d,l,p,c,g,p,q,t,s,g,o,l,i,p,b,g,q,l,k,m,r,l,b,f,g,t,s,b,r,e,g,q,h,p,q,m,d,c,s,b,j,j,b,n,e,f,l,d,i,h,p,h,t,d,q,s,l,d,o,m,q,b,d,c5
+m,n,r,q,a,e,o,s,q,c,i,c,q,n,t,q,m,p,b,a,b,t,j,o,n,r,a,i,g,c,o,b,p,p,s,s,a,h,c,i,l,f,k,f,s,p,g,p,r,t,f,k,l,d,h,r,t,k,t,c,f,b,a,o,g,a,s,a,t,s,s,q,m,q,a,s,e,n,l,k,a,s,n,o,n,n,a,e,m,s,j,c,q,t,d,r,c,m,k,a,c4
+l,n,c,h,t,f,b,q,h,a,r,r,k,s,t,f,o,a,g,p,s,i,p,c,c,o,o,n,b,k,i,q,b,h,c,i,s,l,q,f,c,j,k,t,k,c,p,a,n,n,f,i,h,r,a,r,t,e,l,c,f,c,t,c,o,p,s,a,k,n,k,l,r,k,b,m,q,n,k,k,d,h,r,d,j,q,a,t,r,m,j,m,c,c,m,p,l,i,j,n,c4
+b,g,e,h,f,m,c,j,t,a,l,b,m,p,t,a,i,e,d,h,o,i,h,d,g,r,t,o,r,b,d,s,k,h,i,m,f,p,a,d,a,t,a,o,g,s,m,s,a,n,i,k,e,a,c,n,t,s,j,o,r,q,t,m,a,g,k,f,s,p,m,j,h,f,i,a,c,s,s,i,o,q,t,l,p,c,e,e,j,s,o,f,o,m,t,e,b,s,k,f,c3
+d,m,t,b,i,n,e,e,d,t,b,c,a,m,t,m,t,q,h,m,l,t,g,b,t,j,t,i,h,c,s,s,j,a,e,j,t,f,k,a,k,l,s,i,j,e,o,m,c,h,a,j,a,g,l,j,s,b,s,e,l,g,o,c,e,a,g,r,s,h,i,b,t,s,j,s,a,h,m,b,g,f,q,d,d,a,i,s,k,s,d,m,a,e,p,j,m,q,b,h,c5
+e,q,c,o,q,s,t,s,c,b,o,p,g,e,d,d,e,b,p,m,l,l,c,t,t,g,d,c,k,c,o,m,r,l,i,c,a,b,q,d,j,b,d,d,f,q,o,e,e,t,p,m,b,o,i,l,n,n,q,l,o,g,n,t,e,j,f,s,l,q,f,p,i,f,q,q,a,a,a,h,c,k,r,d,f,d,q,r,d,f,o,g,n,p,n,n,h,r,n,c,c2
+d,g,h,m,d,a,n,b,d,t,r,l,o,j,r,b,g,q,i,g,i,o,g,k,k,j,j,c,f,t,p,p,s,o,l,r,o,s,c,g,e,r,g,a,r,m,s,m,s,g,l,j,n,g,l,c,b,n,m,d,p,m,t,m,h,g,e,l,l,s,s,m,q,h,e,s,o,o,c,n,d,o,a,h,m,l,a,s,h,m,d,o,j,p,e,e,m,e,b,p,c5
+i,o,m,t,p,h,c,g,n,a,e,h,g,m,a,p,i,t,e,c,a,k,h,l,h,t,q,k,h,f,j,o,r,h,h,m,f,p,l,r,t,m,j,p,k,h,m,a,a,h,i,f,s,p,a,n,t,e,d,i,c,p,h,j,b,m,n,q,t,p,m,c,e,k,o,a,l,t,j,e,k,o,q,o,k,c,h,k,e,i,m,f,n,m,s,h,l,d,q,p,c3
+h,p,c,n,r,a,t,j,g,k,i,l,f,e,p,d,h,s,p,s,l,n,i,h,j,g,n,c,j,c,j,m,e,c,s,o,q,t,t,a,c,k,t,d,p,l,p,e,i,l,p,k,p,r,k,c,n,k,i,s,h,e,t,o,m,i,k,g,p,k,h,q,s,h,h,s,i,e,e,s,l,b,b,d,p,c,j,e,e,a,j,a,p,j,g,g,a,o,a,c,c2
+d,e,s,t,h,a,g,g,d,t,q,q,d,f,b,k,d,q,i,s,c,d,g,t,j,j,i,j,n,j,a,h,k,s,l,e,o,n,c,p,i,s,b,r,b,k,e,k,p,k,g,t,e,c,l,e,j,i,o,b,l,h,h,f,q,o,o,r,p,n,n,m,p,n,l,s,i,f,d,m,o,p,i,m,t,s,b,o,h,m,d,o,k,r,i,k,m,b,b,n,c5
+l,m,c,p,m,l,b,s,r,g,m,a,p,e,l,d,c,m,p,b,l,j,f,c,j,g,s,p,s,c,m,m,l,k,m,f,e,a,k,d,r,m,h,m,c,l,s,d,t,p,p,k,b,g,n,t,n,j,e,b,s,k,s,p,o,s,l,t,f,k,o,m,a,n,a,f,e,c,e,l,f,f,e,d,o,c,a,c,o,b,b,h,q,s,o,s,l,r,b,c,c2
+d,j,l,b,r,o,c,o,c,a,g,c,m,e,k,m,i,s,b,l,p,p,t,s,t,d,p,d,c,h,q,t,n,k,e,m,f,p,t,l,o,i,c,q,g,n,j,c,b,a,i,m,e,t,e,n,f,s,l,n,i,a,c,n,p,f,q,j,c,p,c,k,f,l,r,h,p,k,t,h,n,s,r,q,i,c,j,l,g,n,d,n,i,m,l,b,s,m,a,m,c3
+m,g,o,f,m,h,m,n,o,a,a,t,r,e,t,q,b,c,o,e,p,l,i,g,k,s,l,r,o,t,b,f,c,l,q,e,b,j,s,j,r,h,k,g,l,q,g,b,q,e,t,m,c,d,h,r,t,h,e,c,f,g,c,f,e,r,c,a,s,b,s,s,m,a,s,q,l,n,f,k,i,c,q,a,k,t,a,o,t,f,j,k,i,n,j,q,f,k,e,l,c4
+d,r,f,l,h,t,c,t,d,t,d,p,t,c,i,p,f,q,p,d,q,h,g,k,t,j,k,j,a,c,p,i,a,f,n,o,c,l,p,o,c,m,n,h,r,g,a,q,o,n,r,j,j,o,l,b,m,l,i,o,e,i,i,h,l,h,c,j,r,i,d,f,r,r,q,s,r,i,d,j,s,c,k,r,n,d,n,l,t,d,d,k,n,g,q,p,m,i,b,m,c5
+e,j,c,g,h,r,s,s,n,g,a,n,f,i,n,p,s,n,l,k,j,r,o,c,b,s,l,o,k,p,c,j,r,j,g,t,e,k,f,a,q,n,q,r,b,t,c,g,i,t,d,g,m,j,e,k,g,l,a,j,g,j,n,b,m,g,h,r,t,r,p,a,r,j,n,b,l,f,p,n,i,g,i,f,b,q,q,i,a,q,s,e,f,o,g,c,m,d,j,h,c1
+d,k,p,t,t,p,i,t,d,t,k,g,l,n,k,k,j,q,k,a,e,d,g,k,i,j,o,p,g,j,o,i,l,f,l,m,k,i,c,o,h,o,f,i,s,c,g,p,r,c,n,c,p,n,l,f,b,n,g,k,g,k,b,i,e,g,g,l,s,o,c,n,n,i,m,s,g,j,p,p,g,l,g,k,b,a,g,l,p,k,d,d,e,p,g,i,m,n,b,r,c5
+t,m,k,j,l,p,t,k,d,h,j,t,d,h,t,o,g,f,b,d,r,o,j,h,t,t,b,l,r,g,p,t,j,h,t,t,q,d,d,p,c,q,k,m,p,o,f,l,n,e,l,i,r,k,k,r,t,a,a,c,f,m,a,q,l,e,q,a,d,p,d,s,j,j,b,g,j,n,b,k,p,i,c,n,i,q,a,f,q,k,j,f,d,c,p,e,r,a,i,m,c4
+c,e,b,s,o,q,c,g,r,a,s,a,a,h,o,q,i,i,l,i,s,i,s,q,o,r,j,k,c,d,a,d,r,d,k,m,f,p,a,h,f,g,n,d,r,q,d,m,e,p,i,h,p,q,e,n,o,a,k,l,i,l,o,o,a,s,e,k,n,p,m,r,c,c,r,a,q,g,k,j,r,k,c,s,k,c,n,q,e,b,p,h,g,m,n,p,q,p,l,s,c3
+m,h,c,k,k,c,q,m,g,m,q,e,f,l,r,d,t,s,p,q,l,d,o,s,n,g,g,a,i,c,q,m,k,s,f,l,r,a,t,e,a,k,q,p,s,b,e,l,g,q,p,g,h,d,p,a,n,i,r,q,g,l,n,g,k,i,e,t,b,c,e,f,m,b,o,g,h,o,h,n,c,k,j,d,p,n,b,a,c,e,b,k,o,t,t,r,m,o,d,c,c2
+d,d,p,p,q,j,p,b,d,t,n,t,i,q,f,p,n,q,g,q,o,k,g,j,l,j,t,m,g,l,h,o,l,l,b,d,d,c,r,q,g,o,q,p,p,m,r,s,a,o,o,c,m,s,l,h,i,a,n,p,l,h,o,j,l,g,q,r,i,s,t,j,a,g,p,s,r,j,g,c,s,s,t,s,t,s,q,h,a,o,d,a,e,j,d,l,m,m,b,m,c5
+r,t,g,q,g,n,r,c,r,g,b,o,f,l,t,k,b,d,g,i,l,i,t,q,s,p,q,e,i,f,l,m,s,g,f,s,g,o,h,l,c,f,k,k,i,s,f,i,b,k,a,n,h,a,a,r,t,r,a,c,f,o,a,g,t,q,h,a,n,e,s,b,s,h,e,n,i,n,a,k,n,p,h,q,b,l,a,b,g,j,j,i,i,m,j,r,s,k,k,l,c4
+n,l,o,p,t,j,n,o,b,s,c,s,c,e,t,c,f,k,e,o,e,r,t,b,p,k,q,s,s,p,r,n,m,j,h,q,e,k,k,d,d,h,k,l,c,g,o,i,k,i,b,h,l,l,c,r,t,r,t,c,f,f,f,i,l,t,a,a,h,a,d,j,i,d,b,q,j,n,d,k,n,q,e,r,d,a,a,n,s,a,j,i,g,a,l,f,a,d,t,s,c4
+d,j,p,e,k,q,g,a,d,t,n,a,e,a,e,k,s,q,j,n,k,n,g,n,q,j,l,i,q,a,m,d,f,o,i,f,t,g,p,b,h,h,k,s,f,c,j,m,l,h,l,p,d,g,l,l,g,b,b,q,n,q,g,d,e,t,p,g,e,e,e,n,d,j,l,s,e,l,q,s,i,n,a,h,r,k,n,a,q,h,d,p,p,p,m,q,m,r,b,l,c5
+l,t,d,h,j,b,q,s,k,o,a,i,k,a,m,f,s,n,g,d,d,o,t,n,t,g,b,o,k,g,h,j,e,o,p,k,k,r,f,t,h,e,c,p,l,s,i,a,i,t,f,a,n,e,q,a,c,f,e,j,t,f,i,e,a,q,e,r,t,c,c,m,i,b,b,m,e,b,m,s,b,d,f,f,p,r,l,m,g,e,m,h,s,c,n,h,p,j,g,c,c1
+m,b,j,n,n,l,c,t,g,a,g,c,f,n,l,q,i,b,o,n,b,a,p,d,b,r,s,t,f,d,i,i,c,g,g,m,f,p,r,b,e,g,g,p,g,g,f,f,d,i,i,l,e,j,a,n,d,i,c,a,t,l,q,l,h,t,t,s,h,p,j,c,h,e,i,k,h,l,o,g,p,j,b,q,b,c,e,c,o,g,b,o,r,m,t,k,n,d,h,m,c3
+l,l,h,i,q,j,d,q,t,q,a,l,n,o,f,q,s,n,p,m,p,o,j,n,a,n,f,o,k,p,d,j,k,e,p,h,t,i,f,e,i,o,l,s,l,b,d,s,q,t,f,j,l,q,f,c,l,i,f,j,q,e,g,p,k,e,k,r,t,e,o,g,t,o,j,l,p,r,k,r,d,c,f,f,s,e,r,l,k,a,j,g,r,d,e,c,j,d,g,i,c1
+o,t,k,j,c,k,r,d,g,e,i,j,b,j,t,c,k,j,a,q,n,o,p,h,g,j,t,q,g,m,a,i,t,n,g,o,j,i,b,k,t,b,k,h,q,r,r,a,d,o,n,l,m,m,s,r,t,l,g,c,f,a,e,k,f,e,r,a,f,d,e,p,k,p,p,d,b,n,b,k,m,a,i,b,l,h,a,d,h,r,j,h,r,i,n,t,m,f,h,q,c4
+t,d,p,i,b,g,c,o,e,a,d,j,b,c,t,e,i,i,j,j,d,d,p,o,m,k,i,d,a,j,h,i,n,j,s,m,f,p,s,i,e,l,r,j,f,q,g,f,c,q,i,h,j,g,m,n,k,s,f,i,e,i,a,q,m,s,a,g,a,p,d,j,l,i,s,b,o,m,d,f,r,d,a,m,r,c,n,d,p,i,i,p,r,m,a,m,e,c,m,b,c3
+l,g,g,b,q,b,c,e,r,a,c,f,e,m,c,h,i,o,q,e,n,m,l,i,m,o,k,g,m,t,e,o,d,m,f,m,f,p,i,p,j,q,t,s,r,m,g,a,l,i,i,e,o,k,k,n,g,q,c,q,h,s,j,h,n,f,c,q,n,p,q,t,f,k,b,a,t,h,s,f,a,i,c,q,a,c,j,b,j,m,j,n,g,m,p,l,g,j,o,h,c3
+a,r,c,l,q,l,s,r,o,n,j,q,n,e,h,d,h,q,p,l,l,r,f,q,s,g,p,q,c,c,r,m,e,a,k,l,q,g,h,o,n,t,a,s,m,m,t,g,e,r,p,j,d,t,q,a,n,r,e,b,l,h,l,j,q,r,n,b,r,r,p,i,o,f,h,m,h,f,f,f,p,o,i,d,l,i,r,k,t,j,q,q,h,j,n,t,j,i,k,c,c2
+d,q,c,a,j,b,f,b,d,t,k,p,s,j,f,k,e,q,b,j,i,q,g,g,f,j,k,f,j,h,l,p,l,s,k,r,m,o,m,a,q,k,t,n,m,r,q,d,k,h,a,o,f,c,l,j,e,k,a,f,d,e,t,c,k,i,s,q,f,j,d,e,r,n,e,s,l,o,f,t,j,p,f,p,r,k,r,o,k,g,d,s,j,m,t,n,m,p,b,i,c5
+n,h,c,j,h,f,m,o,o,c,o,b,r,i,g,d,p,d,p,l,l,o,g,f,t,g,k,b,f,c,k,m,r,k,a,d,q,k,e,j,o,i,d,j,m,b,d,r,q,d,p,j,g,g,f,b,n,k,j,f,c,p,e,q,l,j,f,g,h,n,q,l,l,s,t,j,s,c,e,b,m,s,e,d,s,o,j,i,k,h,q,g,e,c,n,f,s,f,d,c,c2
+d,n,a,s,f,f,c,l,n,a,d,e,b,s,g,n,i,n,i,t,l,b,b,a,a,l,m,q,f,b,g,h,q,i,b,m,f,p,b,d,s,f,l,r,i,d,j,t,d,j,i,i,s,b,k,n,s,f,f,q,o,p,i,m,k,j,k,r,r,p,g,a,r,q,n,r,h,r,g,m,g,o,k,k,l,c,i,c,h,d,f,f,h,m,r,h,b,j,a,o,c3
+o,c,c,s,n,e,q,i,h,b,k,c,e,i,f,d,f,a,p,h,l,k,c,o,h,g,t,a,i,c,a,m,p,m,k,t,e,q,n,s,f,l,o,i,j,c,n,g,m,g,p,s,a,t,j,o,n,d,g,p,n,i,r,e,k,o,c,b,e,q,k,n,b,p,p,n,j,s,l,o,n,g,a,d,f,s,t,t,k,j,p,d,q,d,i,c,h,i,o,c,c2
+o,h,c,e,h,o,c,i,f,a,p,c,b,e,f,b,i,c,q,s,p,m,a,c,s,b,c,t,f,a,i,h,s,n,b,m,f,p,a,h,o,i,e,m,a,n,l,j,f,r,i,f,b,m,o,n,l,n,s,i,h,d,j,i,d,g,l,f,e,p,n,l,k,f,s,s,o,q,f,a,j,h,s,i,h,c,h,q,c,l,h,h,d,m,i,j,b,e,i,m,c3
+d,f,g,c,m,i,k,t,d,t,n,d,s,r,n,e,q,q,g,f,c,k,g,t,j,j,a,k,k,f,a,t,h,n,c,h,r,t,c,m,h,a,p,d,f,k,g,s,j,n,p,l,j,e,l,e,r,j,e,e,o,t,c,i,h,l,f,n,q,l,t,k,n,d,p,s,m,m,l,j,d,q,q,e,h,a,t,h,b,j,d,m,f,l,o,l,m,j,b,r,c5
+c,b,r,g,j,s,d,l,a,f,s,q,j,h,q,c,s,n,r,k,n,q,e,s,f,e,m,o,k,a,a,j,m,c,c,g,r,f,f,i,q,q,p,k,j,b,c,d,f,t,h,c,d,a,n,s,h,f,f,j,f,e,n,m,l,c,i,r,t,g,g,h,h,p,j,r,m,n,m,t,o,n,j,f,s,l,n,r,r,q,t,o,b,s,j,e,e,l,g,e,c1
+s,t,r,q,p,d,c,o,j,a,t,d,f,r,o,a,i,a,r,b,o,h,o,n,a,m,f,t,s,k,t,n,a,c,o,m,f,p,p,q,s,a,g,d,p,p,f,c,m,d,i,k,t,i,e,n,o,a,d,k,g,e,p,d,t,c,d,s,d,p,h,d,r,j,j,m,p,s,p,b,i,b,s,b,m,c,q,j,m,b,a,b,c,m,r,e,o,l,i,b,c3
+n,n,s,h,b,b,c,a,t,a,a,f,m,c,p,j,i,g,r,h,o,e,o,c,b,j,b,m,s,a,i,j,g,r,j,m,f,p,q,m,f,b,t,n,n,k,q,q,i,a,i,j,n,o,c,n,r,n,n,b,p,f,d,o,r,g,s,o,d,p,m,q,a,d,b,k,b,f,h,f,l,t,r,q,m,c,e,b,d,j,a,m,e,m,f,d,i,l,t,l,c3
+k,c,i,s,r,l,c,o,k,a,p,i,n,p,t,l,i,t,s,g,r,n,b,h,b,l,l,e,j,c,t,m,f,o,c,m,f,p,m,r,r,m,b,o,i,f,g,p,n,b,i,c,l,h,a,n,c,i,b,k,i,c,m,a,f,m,q,s,c,p,r,s,i,g,j,f,s,l,f,s,m,k,a,d,f,c,b,d,k,h,d,e,s,m,h,c,o,s,t,i,c3
+i,l,f,t,a,f,c,s,i,a,a,j,g,i,f,n,i,j,g,h,d,q,a,d,q,t,e,b,e,a,m,m,l,s,q,m,f,p,m,r,g,l,l,g,o,o,s,m,f,m,i,o,s,d,k,n,i,a,o,m,g,s,r,l,p,o,r,i,l,p,a,k,n,j,g,t,c,h,g,h,a,q,j,t,s,c,c,k,i,e,d,g,i,m,d,p,d,g,k,n,c3
+m,r,c,m,j,q,p,b,a,p,t,f,g,n,r,d,j,c,p,q,l,r,o,g,n,g,b,m,f,c,a,m,o,f,q,r,s,e,q,r,o,l,l,n,m,c,c,q,p,h,p,f,p,c,a,r,n,a,j,e,b,l,a,i,p,k,n,g,c,n,j,l,c,r,e,n,k,e,r,s,k,l,l,d,q,g,f,m,o,c,r,o,s,i,c,e,m,s,t,c,c2
+l,t,a,j,m,l,n,e,e,l,a,f,d,d,t,s,e,g,s,j,c,d,m,d,e,s,q,j,s,m,k,p,i,i,t,o,l,c,h,o,j,f,k,s,e,t,s,d,a,p,i,r,a,n,c,r,t,f,a,c,f,o,m,i,c,e,n,a,c,d,c,t,e,r,l,n,o,n,i,k,k,j,f,e,i,r,a,e,i,a,j,k,g,f,o,n,n,j,i,b,c4
+t,p,t,k,o,a,m,e,t,d,t,t,a,b,t,q,r,h,l,i,l,b,d,m,l,o,t,s,h,a,s,q,a,g,j,h,f,n,a,p,d,r,k,q,l,h,o,b,h,i,q,r,s,j,s,r,t,n,m,c,f,k,b,k,b,f,e,a,m,k,e,d,f,e,a,h,n,n,q,k,n,f,s,m,s,n,a,j,a,i,j,m,o,k,k,a,l,c,c,i,c4
+d,g,j,c,l,c,e,p,d,t,j,f,q,m,q,p,m,q,m,b,n,f,g,l,l,j,n,d,t,p,l,c,h,l,m,l,o,d,r,r,q,t,b,d,g,g,s,e,g,f,p,c,m,k,l,r,k,q,c,f,m,j,d,j,c,n,j,o,c,j,i,i,b,a,i,s,s,k,i,q,j,l,e,p,n,i,f,n,a,e,d,q,m,j,f,h,m,k,b,d,c5
+d,b,g,a,t,f,n,b,d,t,f,l,l,e,a,g,r,q,d,o,i,f,g,i,p,j,o,g,h,d,j,b,p,c,s,k,c,c,f,d,f,r,n,b,n,d,h,c,m,m,l,p,q,d,l,b,q,m,j,k,t,b,c,i,m,m,b,c,m,t,p,q,p,j,t,s,f,q,h,o,j,l,q,d,d,p,m,q,p,q,d,r,k,q,l,t,m,f,b,s,c5
+d,b,s,m,h,d,c,n,k,a,c,s,b,d,t,f,a,q,c,k,i,l,s,i,h,p,i,b,o,g,q,a,t,t,o,b,s,e,o,i,g,l,k,p,i,j,r,g,l,r,m,g,f,p,c,r,t,k,b,c,f,h,a,c,e,r,k,a,o,f,k,m,h,j,j,a,e,n,q,k,n,n,p,m,l,t,a,b,s,d,j,m,n,m,m,o,e,l,b,n,c4
+b,l,s,n,m,r,i,g,k,k,f,d,l,q,f,m,s,n,p,o,m,t,s,n,d,q,f,o,k,s,l,j,l,t,k,p,q,q,f,e,n,i,e,p,s,c,p,f,g,t,q,t,a,f,i,j,e,h,m,j,q,t,i,p,h,k,p,r,t,o,t,q,j,r,l,d,a,m,r,q,r,g,j,f,r,g,p,s,o,r,e,p,d,q,q,h,i,n,c,r,c1
+e,e,c,f,e,q,t,i,q,m,c,b,t,a,d,d,c,p,p,m,l,i,s,j,g,g,t,l,a,c,d,m,n,c,b,a,r,c,f,f,j,c,r,q,t,h,s,b,e,n,p,b,n,a,g,i,n,e,s,o,b,m,c,m,n,h,g,h,m,e,t,a,r,p,b,j,a,f,f,c,j,m,i,d,m,g,h,f,s,b,m,h,c,s,s,s,i,p,s,c,c2
+m,i,h,p,e,a,t,q,f,d,j,r,m,e,q,b,s,n,b,l,h,a,c,s,g,h,i,o,k,h,f,j,p,d,n,h,s,s,f,p,b,c,r,i,b,g,h,q,p,t,n,d,m,n,s,p,o,j,n,j,m,s,r,d,h,h,j,r,t,m,r,s,s,m,k,i,h,k,q,t,h,p,l,f,l,t,s,e,e,m,e,k,b,m,k,q,m,n,a,b,c1
+d,g,o,i,k,s,e,o,d,t,f,c,b,r,d,g,p,q,l,l,r,a,g,r,h,j,i,k,s,t,i,p,i,k,i,e,s,m,p,f,e,d,b,c,p,h,h,s,m,i,g,l,a,r,l,i,e,b,b,q,f,t,s,e,r,i,s,q,g,m,n,q,m,g,p,s,d,q,p,l,a,p,d,q,m,l,p,c,e,d,d,t,k,p,f,j,m,m,b,d,c5
+d,e,d,q,m,s,b,m,b,c,k,f,o,n,t,d,k,d,o,b,k,s,s,c,b,b,b,o,j,e,g,a,a,r,j,r,o,t,p,e,q,r,k,f,k,i,o,q,a,a,s,h,s,t,b,r,t,p,j,c,f,p,j,j,a,c,n,a,i,b,b,a,m,f,a,k,o,n,q,k,k,j,f,o,g,o,a,l,i,a,j,b,i,m,e,q,i,a,j,n,c4
+d,j,b,h,s,e,p,h,d,t,s,e,l,i,o,j,b,q,r,l,b,g,g,r,h,j,i,m,c,d,b,j,e,q,i,b,b,m,c,j,r,p,h,j,d,i,n,h,j,c,k,o,h,i,l,h,h,r,t,i,h,o,o,m,r,l,o,a,m,a,g,n,h,m,r,s,i,t,h,t,n,e,k,r,j,p,j,t,q,s,d,h,k,t,t,f,m,i,b,i,c5
+d,f,m,g,s,q,k,j,d,t,k,c,s,p,k,e,d,q,c,l,r,e,g,h,a,j,f,m,b,q,g,g,i,q,d,l,b,o,e,e,p,t,f,q,d,h,l,l,i,i,e,a,k,e,l,a,t,p,i,n,c,h,a,p,i,e,j,o,j,g,b,s,e,p,o,s,m,s,p,i,s,q,t,i,a,p,t,r,o,e,d,p,n,f,g,q,m,m,b,r,c5
+d,q,j,o,j,n,j,n,d,t,a,e,t,p,d,k,i,q,n,h,a,h,g,h,g,j,m,n,l,i,s,g,n,s,m,j,q,m,m,t,q,o,c,q,h,f,o,q,o,q,q,n,q,f,l,c,c,b,k,n,i,t,f,h,l,l,k,o,a,o,s,l,k,s,s,s,o,h,h,e,p,l,s,m,m,l,c,b,s,q,d,p,o,j,m,t,m,g,b,m,c5
+a,d,c,b,g,p,b,f,g,t,d,m,q,h,c,s,s,n,r,t,e,h,j,b,n,r,c,o,k,s,p,j,p,a,d,t,g,i,f,l,a,q,q,m,d,d,r,m,m,t,n,b,q,n,c,j,g,t,g,j,c,b,f,h,c,o,c,r,t,s,a,a,d,c,k,q,j,a,q,l,n,h,b,f,d,c,b,j,n,h,i,o,r,k,s,j,g,h,f,i,c1
+n,d,i,d,k,t,p,g,s,n,m,a,p,t,t,e,h,k,n,j,a,q,g,q,n,q,e,m,o,f,h,f,h,d,j,r,l,s,h,j,o,i,k,e,q,i,l,e,k,t,o,s,a,a,c,r,t,e,f,c,f,j,b,l,n,i,h,a,a,h,e,s,e,e,c,d,e,n,f,k,t,p,c,r,c,j,a,l,r,b,j,m,l,a,h,a,q,o,q,f,c4
+d,h,f,m,g,p,d,d,d,t,b,p,l,j,b,c,l,q,s,h,i,k,g,r,d,j,h,b,j,g,n,k,g,s,q,p,i,e,e,j,c,d,c,s,c,s,c,o,j,p,g,l,k,s,l,m,r,o,f,q,r,b,k,b,d,b,b,f,o,t,c,h,l,f,h,s,t,c,s,n,q,a,b,q,s,o,m,g,a,e,d,p,g,g,n,n,m,s,b,o,c5
+d,b,d,a,g,q,c,c,d,t,t,b,a,g,h,q,i,q,q,c,d,c,g,s,l,j,q,i,s,f,p,i,g,l,q,s,j,p,g,o,i,e,h,m,k,o,a,p,l,f,k,j,p,p,l,c,d,d,r,i,b,o,j,n,e,h,p,f,p,b,t,g,g,t,g,s,k,q,e,g,r,r,d,f,p,m,r,g,b,p,d,q,e,a,f,s,m,g,b,p,c5
+h,r,c,t,l,c,c,n,g,a,q,q,l,b,l,m,i,c,i,q,i,a,b,a,o,j,t,q,k,l,a,e,m,d,s,m,f,p,h,n,d,a,l,a,i,p,a,h,j,d,i,e,n,s,t,n,t,d,i,b,f,e,l,g,g,i,h,m,b,p,c,j,p,h,b,r,r,s,n,m,k,g,m,f,n,c,k,h,n,o,b,m,o,m,l,c,o,i,k,l,c3
+d,h,q,l,c,q,q,g,c,a,k,b,g,h,t,b,i,o,p,k,f,f,r,b,l,j,f,l,a,m,i,o,o,j,f,s,m,h,o,c,d,t,k,n,q,q,e,p,c,o,k,j,c,e,k,r,t,f,k,c,f,l,b,r,s,s,s,a,t,i,o,g,l,e,b,i,s,n,n,k,e,q,p,o,a,g,a,q,e,f,j,b,p,h,b,r,r,e,k,c,c4
+l,p,b,f,t,f,n,l,q,r,e,e,c,k,t,l,r,t,l,m,r,l,l,h,b,j,b,m,m,s,n,t,j,i,k,p,k,l,l,b,q,c,k,d,e,g,o,p,c,n,c,k,k,m,q,r,t,p,g,c,f,h,h,c,k,b,i,a,s,n,n,e,j,r,o,e,o,n,j,k,k,e,k,e,s,s,a,g,q,o,j,s,m,a,p,e,d,q,a,i,c4
+e,t,r,h,e,a,c,j,d,a,n,m,b,d,f,r,i,p,r,q,k,a,j,b,t,l,r,p,b,d,l,j,l,m,d,m,f,p,l,b,b,l,q,j,k,i,g,f,l,k,i,h,f,d,n,n,p,e,j,l,b,n,f,l,h,d,o,g,l,p,c,i,b,c,h,c,t,f,s,b,h,e,n,r,q,c,g,f,m,g,f,t,c,m,f,q,t,o,c,l,c3
+p,k,t,j,h,e,q,b,g,a,t,l,o,c,f,g,s,n,t,p,t,f,h,f,a,q,d,o,k,a,n,j,s,l,o,i,g,c,f,p,s,a,a,m,l,d,e,t,j,t,p,c,f,s,j,d,q,h,i,j,c,r,q,a,m,l,g,r,t,q,m,j,f,g,s,c,d,p,f,i,l,g,e,f,m,i,f,d,o,o,n,s,d,e,o,t,q,t,l,a,c1
+d,h,s,r,f,f,t,p,d,t,f,m,i,b,a,g,e,q,k,q,c,p,g,k,o,j,f,d,b,i,d,j,p,t,l,s,n,f,i,e,p,a,o,j,c,a,a,s,o,m,d,j,j,m,l,t,h,k,p,k,f,p,g,p,a,r,a,h,m,a,g,s,q,k,s,s,g,l,g,b,c,c,r,r,t,g,o,h,g,r,d,j,l,a,i,g,m,i,b,d,c5
+d,q,e,b,p,s,d,g,d,t,s,f,a,a,i,j,r,q,c,j,o,q,g,i,n,j,n,t,f,b,l,p,e,p,n,a,s,l,o,d,d,d,j,n,f,n,r,r,t,r,o,q,e,p,l,g,d,q,m,h,s,d,r,m,g,j,j,f,m,s,q,k,a,l,o,s,e,b,b,r,p,c,a,e,h,b,q,a,o,o,d,p,s,m,n,e,m,f,b,h,c5
+i,s,c,c,h,b,a,c,l,h,e,d,a,o,e,d,s,d,p,h,l,e,d,g,c,g,q,s,p,c,e,m,p,p,d,e,o,p,g,n,p,j,n,k,s,t,s,j,i,p,p,g,n,h,b,d,n,c,m,a,a,a,n,e,k,m,t,a,f,k,r,e,m,q,g,d,a,e,o,d,t,f,o,d,c,a,k,l,c,i,r,g,a,b,t,a,k,t,g,c,c2
+r,o,c,t,p,b,a,g,i,m,d,f,s,a,i,d,c,p,p,j,l,l,q,c,j,g,i,a,k,c,p,m,o,p,f,g,k,m,h,s,q,q,i,f,n,l,h,a,r,s,p,g,c,k,t,b,n,e,p,l,s,r,e,k,q,d,d,k,i,i,m,g,q,d,i,f,a,m,n,i,t,c,j,d,p,a,s,k,s,h,r,r,k,a,q,k,n,t,e,c,c2
+d,o,h,r,m,e,d,t,d,t,l,k,e,g,d,d,i,q,i,c,t,k,g,p,c,j,k,n,p,j,t,m,m,m,k,n,o,d,e,s,o,h,n,n,j,k,l,b,b,b,a,t,i,f,l,t,o,j,h,s,f,c,o,k,k,o,k,l,f,j,l,o,e,s,f,s,g,s,d,n,i,o,h,q,t,s,e,g,o,h,d,n,a,t,s,h,m,e,b,k,c5
+n,p,c,b,a,f,m,e,k,e,a,t,o,i,q,d,a,c,p,l,l,k,r,p,r,g,d,o,t,c,i,m,o,q,r,k,e,b,s,l,j,f,i,k,n,f,n,r,q,d,p,e,l,m,p,k,n,l,t,q,a,g,i,p,k,k,g,f,a,g,f,p,g,f,h,c,n,a,s,e,p,c,f,d,c,k,r,i,a,g,f,e,o,l,d,r,g,j,m,c,c2
+d,e,a,o,b,o,g,g,d,t,f,s,j,a,p,c,n,q,t,t,b,q,g,f,n,j,d,i,d,q,o,b,c,n,j,e,k,k,s,o,k,h,r,d,f,f,t,k,j,o,i,i,p,j,l,q,t,h,l,m,d,t,b,s,q,t,a,e,f,m,r,h,g,m,t,s,k,r,i,k,i,t,b,k,h,e,p,a,a,h,d,o,l,b,t,p,m,e,b,b,c5
+q,m,f,f,g,i,b,d,f,c,p,l,q,g,j,k,s,n,d,g,b,p,t,g,g,g,l,o,k,c,p,j,t,a,k,i,c,s,f,c,r,o,s,p,l,h,k,j,e,t,h,e,m,r,c,s,d,l,n,j,q,f,a,o,e,f,l,r,t,j,g,j,e,c,i,c,a,r,i,a,p,g,r,f,f,f,j,l,o,d,o,h,b,t,q,c,d,o,b,c,c1
+j,e,k,m,o,e,n,q,c,o,t,l,a,k,t,q,l,p,o,p,b,b,j,q,t,e,g,o,c,b,f,d,o,b,r,g,q,s,d,h,k,a,k,n,c,o,e,o,h,e,l,q,m,a,n,r,t,d,s,c,f,m,e,e,s,s,q,a,q,m,b,b,j,i,j,l,s,n,j,k,r,g,d,e,q,o,a,q,b,h,j,b,m,p,h,s,o,o,j,e,c4
+d,t,k,e,e,a,c,p,p,a,i,b,n,t,b,j,i,s,q,o,j,d,c,d,i,c,d,p,r,n,a,e,c,t,f,m,f,p,g,b,p,s,s,j,p,l,r,c,q,e,i,l,r,f,c,n,i,r,b,i,d,h,l,s,g,b,q,i,k,p,d,d,o,d,f,j,q,c,p,a,d,d,a,a,c,c,h,q,t,k,s,b,i,m,t,m,n,e,n,s,c3
+d,k,t,g,g,p,e,i,d,t,r,f,r,p,o,l,n,q,p,g,i,a,g,c,d,j,s,h,a,h,s,e,l,p,b,l,d,h,a,s,c,h,j,f,n,i,g,m,e,t,d,d,i,j,l,h,e,g,m,r,k,s,r,d,d,h,d,i,r,k,f,f,e,i,j,s,t,r,q,g,r,p,i,a,r,h,m,p,q,r,d,t,q,f,a,q,m,b,b,r,c5
+f,t,c,q,r,o,a,q,i,n,p,f,f,c,p,d,f,o,p,i,l,t,j,f,q,g,k,g,j,c,r,m,k,g,k,g,t,n,i,o,a,e,r,r,p,b,a,t,l,o,p,l,b,k,g,k,n,m,f,s,m,b,j,q,k,h,i,g,r,n,m,m,f,k,j,l,e,t,t,r,a,i,c,d,e,a,j,b,b,j,s,d,d,m,t,c,a,d,b,c,c2
+d,n,g,j,d,s,h,o,d,t,q,p,n,g,s,h,i,q,p,q,f,j,g,k,j,j,t,q,j,g,t,e,b,p,t,s,h,t,s,i,p,l,l,m,t,f,p,r,n,r,q,j,n,m,l,p,h,b,l,d,j,i,l,o,l,a,i,m,n,h,e,b,m,s,d,s,c,j,e,t,t,q,a,l,m,m,l,q,l,p,d,e,e,f,j,h,m,b,b,g,c5
+d,s,a,d,k,l,p,f,f,a,p,f,t,k,b,m,s,n,q,q,i,f,o,d,j,h,d,o,k,p,i,j,p,r,t,p,r,r,f,r,i,p,m,r,m,l,o,q,s,t,p,e,e,q,n,s,f,d,k,j,m,f,c,d,q,j,g,r,t,m,g,r,h,b,p,c,h,a,e,g,t,o,d,f,m,r,a,f,e,i,h,c,n,p,f,m,k,t,r,s,c1
+s,i,c,d,t,r,d,g,d,k,k,s,s,k,e,d,i,g,p,r,l,g,f,o,d,g,n,d,d,c,g,m,c,j,m,o,m,m,i,g,o,p,f,s,p,l,j,t,g,p,p,e,j,i,p,l,n,g,h,k,f,b,g,d,t,j,q,j,k,q,p,a,q,h,s,s,n,f,s,e,c,k,m,d,g,k,s,q,o,g,p,s,i,h,b,e,e,e,e,c,c2
+g,m,h,k,l,g,c,q,a,a,n,k,k,b,h,o,i,b,s,l,e,g,s,t,r,o,i,e,j,n,c,c,f,t,c,m,f,p,p,m,n,s,s,k,e,m,d,s,p,l,i,m,i,f,d,n,j,e,d,t,e,n,d,m,o,g,b,e,e,p,h,b,c,b,q,p,o,f,r,k,q,a,c,p,j,c,r,h,k,i,h,m,j,m,s,q,p,t,b,s,c3
+f,p,c,e,r,a,c,j,k,a,s,c,b,b,f,k,i,d,t,j,i,b,r,n,f,n,i,f,j,r,s,r,j,c,q,m,f,p,b,p,l,o,o,g,q,e,a,s,o,b,i,e,a,t,c,n,o,j,n,r,e,r,e,b,j,p,k,h,n,p,c,m,o,f,e,p,d,s,a,k,g,q,f,p,i,c,n,p,r,b,i,f,d,m,c,e,l,f,d,b,c3
+d,d,d,q,m,q,c,s,j,a,b,h,o,d,m,h,i,t,r,m,j,n,l,s,e,b,r,c,h,k,o,l,r,c,i,m,f,p,s,b,m,p,h,d,h,p,j,e,n,o,i,l,l,i,h,n,d,s,q,t,k,p,m,h,e,l,d,q,i,p,e,j,s,d,t,o,l,j,e,n,b,h,k,o,a,c,o,d,m,e,k,c,d,m,p,c,f,h,m,n,c3
+q,d,j,b,g,r,c,c,f,a,q,t,h,f,k,g,i,b,c,d,p,s,f,c,i,t,h,i,t,m,f,o,d,a,o,m,f,p,m,t,j,t,q,r,n,g,e,l,i,f,i,l,l,c,l,n,n,o,q,m,g,j,s,o,g,f,o,r,a,p,l,i,f,t,o,a,n,f,b,g,m,c,b,e,c,c,i,b,m,a,c,o,c,m,a,n,k,i,q,f,c3
+p,p,c,s,t,b,k,h,j,q,n,c,d,l,n,d,f,o,p,t,l,h,d,e,p,g,g,q,p,c,h,m,a,j,n,l,k,l,b,r,a,t,c,a,l,q,m,q,c,n,p,m,t,f,o,c,n,b,a,q,e,s,s,t,q,f,h,o,t,i,r,e,t,p,t,o,i,q,n,s,r,i,a,d,m,f,p,t,q,o,q,f,m,i,o,g,i,c,e,c,c2
+d,j,o,q,p,l,p,b,d,t,i,n,r,c,c,q,q,q,g,q,j,t,g,f,c,j,a,q,k,o,j,k,d,k,r,f,i,q,k,b,s,b,f,s,h,k,s,l,j,p,s,n,p,t,l,k,d,q,k,p,n,l,m,k,p,p,p,i,n,p,q,p,j,c,g,s,s,s,h,b,g,o,l,f,s,m,c,b,t,k,d,c,e,p,d,p,m,h,b,d,c5
+r,f,d,n,h,c,s,n,g,a,q,f,s,n,s,a,s,n,l,h,l,c,n,s,s,j,c,o,k,n,h,j,t,m,m,o,o,o,f,d,t,k,m,g,t,l,a,l,e,t,k,k,c,h,j,a,o,o,n,j,e,k,n,i,l,m,d,r,t,j,o,b,a,h,q,j,a,l,l,e,f,h,k,f,e,a,g,r,p,o,o,c,s,o,t,s,h,n,b,d,c1
+c,t,r,q,j,o,f,i,d,m,q,h,m,n,s,p,s,n,h,s,b,d,i,m,r,h,a,o,k,h,j,j,h,l,m,s,j,f,f,j,m,f,p,p,i,j,e,b,g,t,l,l,f,l,k,a,i,g,g,j,f,b,l,d,l,l,a,r,t,t,k,b,a,g,s,j,e,o,k,e,b,q,d,f,d,q,g,b,b,q,n,r,i,e,q,g,p,j,j,h,c1
+b,r,e,q,s,q,q,c,o,b,m,q,i,b,t,t,t,g,m,o,b,h,o,o,k,j,g,l,o,p,g,h,m,r,o,m,t,p,p,f,o,a,k,m,q,h,c,o,g,e,c,r,q,c,c,r,t,s,q,c,f,i,c,n,g,o,h,a,s,d,k,q,t,k,s,r,q,n,i,k,c,t,s,o,f,q,a,e,c,n,j,n,e,s,p,f,s,p,h,n,c4
+h,s,c,t,l,r,g,g,m,b,g,l,d,g,d,d,g,n,p,d,l,r,f,p,o,g,b,n,t,c,d,m,c,n,j,h,a,o,q,b,q,c,f,e,d,e,l,n,c,f,p,e,g,t,h,d,n,l,e,t,b,n,s,o,p,j,g,c,p,e,c,l,d,b,r,r,f,p,h,i,f,i,n,d,c,c,d,j,j,e,t,f,g,h,o,g,n,k,g,c,c2
+q,i,o,h,p,f,j,d,l,g,f,m,k,i,l,q,s,n,f,r,d,a,r,d,t,a,n,o,k,t,s,j,c,s,s,g,k,r,f,a,j,g,o,b,t,h,j,f,f,t,a,l,p,t,o,g,f,a,i,j,g,l,r,p,c,q,d,r,t,h,a,o,d,a,n,e,q,s,d,n,q,m,i,f,o,s,j,r,o,p,d,r,i,j,n,i,r,n,f,o,c1
+f,s,c,h,d,a,a,r,b,m,j,n,c,p,k,r,s,n,i,e,d,a,b,c,g,p,l,o,k,f,i,j,g,i,t,g,h,j,f,e,m,j,j,p,e,f,g,o,f,t,a,p,q,p,k,h,c,h,h,j,b,k,t,h,l,d,c,r,t,h,r,q,c,d,b,g,h,b,p,e,h,r,j,f,q,d,c,k,l,d,g,p,j,s,j,s,f,t,q,d,c1
+r,b,e,k,s,a,c,g,o,a,i,p,f,b,p,n,i,h,e,c,g,q,o,f,n,t,r,n,t,d,d,j,j,g,e,m,f,p,m,s,k,g,i,h,a,h,i,s,q,e,i,k,f,h,e,n,p,g,r,o,f,f,k,i,h,t,i,j,s,p,c,n,r,o,r,s,m,n,n,q,n,m,s,m,f,c,g,b,i,i,l,s,o,m,k,i,d,m,e,l,c3
+j,o,c,g,c,t,p,l,j,h,m,b,l,p,b,d,l,s,p,i,l,i,i,j,o,g,a,e,d,c,k,m,d,d,b,b,t,t,t,f,e,r,d,f,r,i,s,g,o,a,p,k,t,f,q,s,n,n,s,b,g,h,s,f,d,t,l,m,f,r,i,r,s,f,o,b,h,n,c,s,s,q,c,d,g,t,q,h,q,i,n,b,k,g,i,t,d,o,m,c,c2
+h,d,n,t,t,q,c,p,t,a,a,o,a,b,g,h,i,q,t,s,l,r,f,t,m,p,k,s,n,r,n,f,i,n,e,m,f,p,h,j,k,t,i,e,k,l,l,l,q,p,i,p,j,t,l,n,r,n,g,l,f,n,q,k,d,c,n,d,e,p,t,g,r,d,q,h,p,f,l,r,n,g,j,e,l,c,c,d,h,e,e,m,n,m,j,e,s,m,t,p,c3
+d,e,k,m,f,d,r,p,d,t,b,t,b,t,h,o,k,q,r,g,h,q,g,s,n,j,k,t,o,o,g,f,c,d,m,b,p,o,p,b,a,g,p,p,c,n,o,i,e,t,i,h,p,h,l,n,p,k,q,f,n,f,e,n,p,g,p,a,c,k,n,h,c,a,a,s,r,r,m,m,a,a,k,t,p,s,q,a,l,q,d,d,c,d,s,k,m,e,b,p,c5
+r,i,m,s,i,k,c,p,e,a,d,j,m,r,n,n,i,o,i,o,a,l,c,h,p,c,o,s,b,g,o,d,c,j,m,m,f,p,t,i,m,n,a,t,s,c,c,r,r,g,i,p,t,s,r,n,f,k,q,c,r,c,m,l,j,s,t,e,q,p,e,b,e,c,e,d,q,g,b,c,f,m,n,p,e,c,j,a,t,t,k,o,j,m,e,s,o,i,k,n,c3
+h,j,c,b,o,h,p,r,m,m,b,m,j,o,i,d,a,d,p,m,l,a,t,s,h,g,a,d,d,c,f,m,b,a,r,q,q,j,c,n,b,d,l,o,f,p,i,i,r,j,p,h,q,i,l,q,n,d,j,j,e,b,b,a,a,d,g,q,s,m,l,k,i,i,n,h,c,a,g,l,i,l,s,d,k,e,l,a,e,p,d,b,l,p,h,c,e,f,o,c,c2
+m,t,c,r,l,k,p,r,t,s,c,h,n,g,l,i,s,n,i,n,o,l,c,h,f,d,s,o,k,t,t,j,a,p,g,r,t,a,f,t,i,q,f,k,t,e,b,d,o,t,l,c,r,k,n,h,q,h,n,j,f,i,h,o,h,k,d,r,t,j,m,i,o,f,d,h,s,h,g,s,q,h,e,f,p,f,m,k,l,q,f,g,b,m,g,g,d,k,n,s,c1
+a,b,h,o,f,e,a,t,n,m,k,f,l,q,d,i,s,n,k,k,e,n,s,n,k,c,j,o,k,i,k,j,d,d,h,c,n,e,f,m,q,h,j,o,c,b,p,o,e,t,h,i,b,j,r,b,s,j,f,j,p,b,o,d,f,b,i,r,t,b,r,e,e,p,m,t,r,q,g,q,r,i,o,f,t,r,o,k,b,t,r,c,e,p,g,i,i,l,e,s,c1
+i,d,s,f,r,e,h,q,c,t,m,n,f,r,t,e,p,n,p,j,r,e,o,o,q,r,e,d,t,i,n,a,a,t,g,k,e,a,c,c,h,q,k,d,s,r,c,j,m,n,h,h,a,c,l,r,t,o,p,c,f,f,a,b,j,l,e,a,f,c,d,q,l,i,g,a,a,n,o,k,g,b,r,e,k,c,a,q,m,g,j,e,t,f,m,e,o,n,n,r,c4
+e,f,m,k,i,s,c,r,n,a,t,j,e,o,g,p,i,d,g,o,t,n,g,l,d,k,g,n,p,j,r,m,e,p,f,m,f,p,g,e,d,n,f,e,c,e,e,l,m,g,i,d,p,r,c,n,i,j,g,h,b,g,m,c,r,i,i,m,q,p,k,e,q,l,r,b,o,d,n,d,r,l,s,o,m,c,d,l,j,t,d,o,j,m,m,f,a,d,m,m,c3
+k,j,e,o,r,o,f,i,t,i,o,g,e,a,t,c,a,j,j,s,e,d,g,n,k,h,l,q,d,t,q,s,d,g,q,r,m,o,s,k,i,r,k,r,c,n,f,m,n,h,m,a,j,o,i,r,t,p,d,c,f,j,k,s,q,m,r,a,l,k,k,l,m,a,e,b,b,n,s,k,o,s,a,g,f,r,a,g,l,l,j,q,a,m,k,t,j,g,b,k,c4
+h,h,r,m,c,a,m,o,m,e,h,m,p,q,t,h,g,j,j,q,a,g,i,g,h,g,f,b,q,q,s,g,o,q,c,r,m,i,o,a,d,s,k,i,b,b,c,d,e,g,p,h,a,k,m,r,t,g,f,c,f,n,s,f,s,q,m,a,p,f,b,j,c,r,q,f,c,n,o,k,i,p,f,h,j,o,a,f,t,c,j,i,c,m,a,m,e,b,c,p,c4
+h,n,d,a,d,r,i,i,n,l,d,h,l,l,q,e,s,n,f,f,d,q,p,h,s,c,c,o,k,g,n,j,o,k,b,g,l,e,f,a,i,f,f,b,i,r,t,p,d,t,q,c,q,g,s,d,i,a,m,j,h,c,s,b,b,o,c,r,t,a,r,k,b,g,d,q,s,j,p,j,l,r,i,f,j,n,t,h,h,n,d,k,c,f,c,s,i,p,m,r,c1
+d,g,d,g,t,i,h,k,d,t,k,t,h,r,k,m,g,q,k,h,g,f,g,m,f,j,d,a,a,b,e,o,o,n,i,j,g,s,o,g,c,b,d,p,j,l,k,m,o,c,p,d,c,r,l,t,m,t,j,l,s,k,e,h,d,d,g,d,k,k,q,c,a,m,s,s,r,s,s,t,r,m,n,o,c,m,o,r,b,j,d,n,g,q,g,f,m,o,b,i,c5
+e,l,d,a,t,n,c,i,e,a,b,d,s,p,e,k,i,e,i,e,h,q,p,a,a,o,f,n,q,t,m,e,k,g,k,m,f,p,g,k,l,n,k,o,l,r,s,a,l,b,i,b,t,e,b,n,t,t,l,c,m,b,t,o,k,a,g,a,l,p,i,b,j,p,h,g,p,r,t,m,s,m,e,q,t,c,c,d,o,g,s,r,r,m,e,m,i,k,c,l,c3
+d,t,f,j,p,e,j,t,d,t,i,k,t,r,a,p,r,q,i,h,c,m,g,e,i,j,c,r,s,g,k,s,i,n,e,f,a,o,l,r,o,s,d,i,f,k,t,n,a,f,h,k,r,q,l,q,h,b,j,r,l,l,p,i,l,i,n,a,b,h,f,l,s,l,i,s,a,r,t,d,f,s,f,d,d,o,e,g,n,g,d,l,p,a,r,o,m,n,b,t,c5
+d,l,l,f,n,h,b,h,d,t,b,s,i,p,s,b,l,q,r,j,f,t,g,c,t,j,m,o,n,c,r,d,e,f,m,e,b,i,b,c,j,m,e,c,a,k,e,e,d,s,q,h,o,h,l,s,l,h,c,i,s,p,o,e,d,g,a,p,q,a,e,a,h,g,k,s,q,r,r,d,m,b,a,g,j,c,s,m,o,f,d,o,q,b,p,p,m,h,b,o,c5
+n,l,r,e,i,m,e,d,g,j,s,j,p,t,t,l,e,l,c,i,t,p,b,a,o,e,r,p,f,r,t,i,h,r,o,b,o,f,j,t,b,p,k,d,p,g,k,g,r,e,b,q,j,e,t,r,t,b,r,c,f,d,p,t,m,i,l,a,n,s,e,a,i,q,f,i,a,n,q,k,m,k,l,f,r,k,a,g,m,e,j,a,n,i,b,a,m,t,g,j,c4
+n,d,r,c,e,t,c,b,s,a,q,i,g,j,c,k,i,n,a,k,d,p,k,l,s,h,m,r,e,g,i,g,n,p,c,m,f,p,t,j,s,d,a,p,p,q,f,r,g,h,i,b,m,i,p,n,r,t,m,r,e,l,l,i,g,t,m,l,o,p,j,a,s,k,q,l,r,o,d,k,n,p,d,j,s,c,e,e,e,d,h,f,i,m,q,q,c,m,h,q,c3
+d,m,i,g,l,t,l,k,a,a,o,t,e,d,r,b,s,n,s,h,r,r,r,r,g,l,q,o,k,n,r,j,e,n,i,j,e,l,f,h,q,p,i,a,l,b,e,s,i,t,q,j,d,h,g,e,a,k,g,j,j,m,e,m,e,a,m,r,t,h,b,p,f,j,b,e,b,p,b,k,a,l,j,f,t,f,i,q,h,t,o,d,p,p,p,b,h,e,n,o,c1
+d,s,n,h,r,s,d,m,d,t,o,i,q,k,b,e,q,q,s,t,e,l,g,q,b,j,q,j,h,c,g,s,h,e,o,s,i,r,t,p,j,o,h,o,d,b,s,j,s,s,f,n,a,h,l,e,r,h,n,q,i,c,o,k,m,l,i,q,o,s,a,t,n,b,n,s,q,m,r,e,j,q,m,d,g,a,p,i,k,b,d,e,a,k,d,q,m,k,b,c,c5
+s,n,c,l,b,o,k,c,b,b,m,d,i,n,b,d,r,b,p,b,l,b,o,g,e,g,n,j,q,c,t,m,s,o,r,a,a,d,k,i,r,g,q,a,n,i,s,a,t,b,p,l,f,e,q,s,n,f,f,t,t,s,r,n,o,a,a,t,a,i,b,i,k,e,d,i,j,l,j,g,c,k,l,d,j,c,k,b,o,p,q,h,q,s,t,b,l,o,j,c,c2
+h,b,c,q,b,d,o,i,k,c,d,c,a,f,t,j,h,g,p,n,e,k,e,o,i,p,o,h,d,o,k,n,m,k,f,o,l,b,q,l,p,r,k,g,m,j,o,d,e,q,i,r,d,g,i,r,t,f,c,c,f,e,p,b,i,o,t,a,t,t,h,r,i,l,l,f,o,n,o,k,i,e,q,e,d,q,a,e,b,t,j,m,d,e,s,c,d,d,f,q,c4
+i,j,h,g,r,a,f,h,c,c,a,a,a,s,t,q,d,j,s,s,c,n,m,d,p,q,m,i,t,j,e,m,o,b,m,h,t,c,c,t,n,l,k,l,s,h,d,k,b,c,j,h,c,h,n,r,t,a,b,c,f,k,e,g,a,p,t,a,e,p,k,l,r,j,s,a,e,n,k,k,a,t,m,g,e,r,a,o,a,b,j,l,l,n,f,a,l,l,o,b,c4
+c,e,c,h,h,d,b,c,k,p,n,s,l,m,g,d,s,n,p,t,l,q,q,h,q,g,b,b,j,c,a,m,k,g,c,g,n,h,e,o,l,r,b,s,c,l,q,p,r,n,p,e,a,b,n,f,n,h,k,o,g,e,o,d,c,n,k,f,i,c,j,l,f,p,a,h,f,o,n,m,d,t,o,d,a,d,f,m,k,d,r,j,k,e,h,s,l,m,f,c,c2
+d,e,n,i,a,a,m,e,d,t,j,g,d,m,j,o,t,q,q,p,i,o,g,o,n,j,g,t,r,m,g,i,d,h,n,q,g,b,q,o,i,i,o,i,k,p,h,s,b,i,j,o,d,k,l,t,f,m,d,s,g,o,p,f,i,k,j,n,n,a,m,q,g,a,k,s,m,p,j,p,g,b,k,o,r,e,n,j,a,f,d,d,l,c,f,t,m,l,b,j,c5
+g,a,c,q,h,n,j,c,g,o,o,s,n,l,p,d,s,b,p,b,l,i,q,q,c,g,m,t,n,c,f,m,o,k,t,g,j,e,o,q,r,c,h,t,l,j,t,p,j,k,p,p,q,a,p,a,n,o,i,f,p,b,c,c,f,g,b,d,l,g,t,r,i,q,k,n,c,q,f,h,m,j,d,d,q,a,j,a,d,f,j,j,p,c,a,k,l,r,c,c,c2
+d,s,h,c,q,e,b,t,d,t,i,o,o,s,l,e,t,q,m,r,t,r,g,i,d,j,n,j,s,l,c,k,f,g,h,h,c,s,s,r,i,q,t,i,l,d,t,r,j,p,n,c,f,d,l,f,h,d,j,l,b,t,g,h,r,k,k,q,e,k,d,m,g,l,d,s,g,n,j,o,j,g,o,c,a,c,o,s,r,d,d,l,i,k,d,c,m,s,b,r,c5
+d,p,i,q,s,n,g,q,d,t,q,s,d,m,a,t,a,q,f,j,o,d,g,q,d,j,f,p,n,f,k,j,b,m,b,k,t,l,a,k,r,i,j,d,e,q,n,m,e,k,s,p,j,n,l,q,s,n,p,o,m,i,f,l,d,i,o,d,e,a,j,s,d,o,b,s,m,r,c,q,o,c,l,l,a,c,r,s,k,l,d,n,q,a,i,s,m,s,b,q,c5
+a,f,n,r,m,b,c,p,l,a,c,d,d,j,f,i,i,a,g,s,o,k,b,h,s,n,m,s,e,m,f,j,c,c,i,m,f,p,t,m,o,e,i,q,j,q,c,s,m,p,i,j,h,q,s,n,c,l,s,f,s,a,o,q,b,m,n,b,r,p,d,q,m,e,m,i,e,c,o,t,j,p,n,s,t,c,a,i,h,b,t,k,a,m,k,m,r,e,t,m,c3
+i,t,o,l,n,r,e,l,o,h,g,j,l,q,e,g,s,n,l,p,a,g,s,l,n,f,n,o,k,d,c,j,q,d,i,g,d,f,f,i,b,a,p,c,m,h,r,t,q,t,i,g,i,h,s,h,r,a,s,j,n,t,n,g,t,q,o,r,t,d,r,t,k,h,k,d,d,n,p,t,t,r,s,f,t,f,q,s,f,f,c,c,m,h,j,d,r,q,b,a,c1
+l,c,e,o,c,d,f,p,s,f,b,b,p,d,t,r,b,j,c,h,f,e,q,d,a,q,c,n,k,q,d,f,r,p,m,s,g,r,q,f,d,q,k,g,s,t,c,e,c,i,k,t,g,d,a,r,t,d,s,c,f,d,o,s,d,f,k,a,j,f,m,k,a,q,n,d,n,n,q,k,a,f,p,a,i,a,a,q,h,k,j,b,r,f,p,k,k,k,h,o,c4
+d,r,n,l,a,g,b,i,d,t,s,a,r,r,j,m,j,q,l,c,b,q,g,l,o,j,s,o,c,r,b,m,l,e,e,k,f,j,s,e,d,q,q,s,n,q,t,p,e,b,b,g,a,f,l,s,f,m,s,j,a,k,j,a,i,m,c,e,l,l,s,q,e,o,c,s,t,c,o,e,c,h,r,o,k,o,s,g,q,p,d,b,n,d,r,d,m,f,b,k,c5
+h,j,p,l,i,c,c,o,j,a,i,f,m,p,n,l,i,t,c,e,h,i,p,s,t,l,n,i,t,m,n,o,p,c,a,m,f,p,c,q,f,n,t,e,h,k,l,t,o,m,i,c,j,h,f,n,j,q,o,r,g,j,c,b,e,i,d,q,j,p,p,s,l,n,h,d,a,d,c,t,l,q,s,h,p,c,i,j,j,r,d,m,t,m,r,i,c,m,n,t,c3
+n,l,b,r,e,s,a,h,b,n,g,c,c,a,t,s,r,a,c,p,h,b,a,m,n,c,d,r,j,p,m,b,c,b,f,q,k,r,d,m,c,b,k,q,q,q,l,a,j,b,t,k,h,k,q,r,t,t,m,c,f,k,j,b,s,k,d,a,m,k,l,a,t,n,r,g,g,n,d,k,i,h,j,b,c,p,a,h,s,m,j,c,d,n,d,b,b,q,g,c,c4
+t,j,r,r,t,l,b,o,r,n,j,d,r,g,t,b,t,o,i,b,g,f,a,a,k,o,m,n,h,p,f,r,o,q,r,s,a,m,e,k,h,k,k,s,m,i,l,m,k,p,o,b,t,t,h,r,t,t,r,c,f,e,f,b,i,k,j,a,p,e,q,o,s,p,c,h,t,n,e,k,h,n,o,j,d,g,a,p,c,c,j,h,k,t,h,c,c,p,o,b,c4
+o,f,k,i,o,s,d,e,r,a,i,p,j,i,e,p,s,n,h,l,c,i,e,j,i,o,s,o,k,c,p,j,q,t,j,h,a,c,f,l,j,s,p,c,m,p,e,q,a,t,c,h,g,t,e,c,m,q,e,j,h,k,o,p,t,i,o,r,t,n,b,g,j,e,f,r,c,b,d,s,a,m,p,f,n,h,q,o,k,a,h,r,c,k,i,e,m,l,s,s,c1
+d,e,c,e,g,t,o,a,d,t,d,n,k,o,h,p,c,q,t,s,j,a,g,s,k,j,n,f,p,r,g,k,j,o,b,n,t,j,h,a,q,q,e,m,n,a,m,s,t,b,b,j,n,j,l,m,d,d,q,j,r,f,i,m,t,a,n,d,m,j,c,c,l,g,m,s,e,a,g,f,k,c,i,c,r,h,s,i,j,d,d,n,h,i,f,n,m,d,b,q,c5
+k,c,i,t,f,q,t,b,b,m,a,j,j,j,t,o,n,t,r,r,o,b,f,o,p,h,a,r,p,l,b,b,o,o,c,o,q,q,n,h,f,f,k,o,a,c,e,s,s,d,n,o,g,f,m,r,t,t,t,c,f,q,n,n,i,n,p,a,l,j,i,q,l,m,c,p,l,n,b,k,j,e,a,i,i,p,a,c,a,i,j,l,q,r,f,l,j,s,q,r,c4
+t,g,d,d,e,c,c,b,i,a,a,e,r,s,i,j,i,e,d,l,b,o,p,d,q,i,p,q,k,g,j,t,h,k,g,m,f,p,n,a,n,i,n,a,m,i,h,i,h,h,i,a,e,o,k,n,q,q,h,h,e,a,g,m,e,m,g,s,d,p,l,a,o,e,f,c,d,d,n,t,d,i,n,l,j,c,l,r,t,j,m,s,j,m,f,o,p,a,h,n,c3
+r,g,h,t,q,n,f,b,a,i,s,j,c,m,t,t,j,i,o,p,j,h,e,a,h,r,t,q,q,k,p,t,o,f,h,i,k,a,t,j,i,j,k,f,c,h,a,h,a,a,q,i,b,q,g,r,t,n,g,c,f,f,e,k,p,q,m,a,d,d,e,n,f,g,m,c,c,n,i,k,a,s,o,t,d,b,a,f,t,a,j,n,s,k,p,a,c,r,o,c,c4
+j,p,k,k,e,a,c,m,l,a,p,f,q,g,o,p,i,j,q,h,o,t,n,n,t,i,f,m,l,l,m,q,k,n,j,m,f,p,g,t,a,s,t,k,k,m,b,g,o,n,i,c,s,s,b,n,l,i,o,m,t,i,j,o,d,p,f,f,e,p,h,c,h,g,n,f,f,l,o,i,i,e,l,a,r,c,b,r,s,d,f,r,a,m,k,i,t,e,t,d,c3
+r,o,c,a,o,i,r,o,s,f,t,m,f,m,m,d,s,c,p,d,l,m,t,o,e,g,f,k,s,c,m,m,t,f,m,m,h,o,t,a,p,f,o,h,k,t,m,a,m,a,p,n,c,f,k,t,n,m,c,c,g,s,t,i,l,g,o,d,h,t,f,l,q,d,d,o,m,a,q,e,l,e,j,d,p,b,n,o,j,t,r,k,l,r,m,b,m,d,h,c,c2
+l,p,c,t,e,k,i,k,n,n,j,i,b,t,j,d,k,f,p,t,l,l,t,i,o,g,i,e,n,c,q,m,c,m,p,c,s,g,j,s,h,h,k,l,g,t,h,h,a,b,p,q,m,o,q,m,n,a,i,b,b,b,s,l,j,b,o,c,f,f,t,m,f,a,n,c,h,q,o,f,s,r,p,d,a,c,i,f,i,h,l,c,k,b,b,i,k,i,h,c,c2
+b,t,c,e,p,m,e,d,k,k,m,j,q,c,e,q,s,n,i,l,c,j,m,p,e,l,l,o,k,j,q,j,o,f,q,l,e,e,f,f,s,j,j,e,o,m,g,q,t,t,e,f,b,d,j,a,n,t,g,j,l,s,l,a,o,s,r,r,t,o,t,c,c,n,g,r,d,q,g,b,g,c,e,f,j,g,t,l,l,m,i,r,o,b,m,r,t,f,j,m,c1
+o,a,c,o,n,e,f,s,h,r,b,o,i,a,s,d,j,r,p,f,l,e,a,q,a,g,t,o,t,c,n,m,i,p,d,r,e,a,a,j,k,q,j,p,f,i,b,e,l,g,p,l,k,m,o,f,n,j,i,a,o,p,l,j,q,e,i,q,h,t,f,m,s,d,n,f,l,j,p,m,a,g,i,d,f,l,j,a,r,p,k,o,a,s,t,o,f,k,s,c,c2
+g,a,g,p,n,e,e,d,e,c,q,o,s,q,p,p,s,n,n,m,b,q,h,r,g,c,q,o,k,f,t,j,g,s,i,q,r,n,f,c,h,n,d,p,l,p,a,f,l,t,a,h,c,i,s,h,j,e,e,j,m,a,k,n,t,b,b,r,t,t,s,m,h,p,j,p,k,e,o,s,r,t,r,f,h,o,s,i,p,h,f,g,g,t,r,o,j,o,e,g,c1
+d,f,m,g,i,h,l,i,d,t,e,i,f,m,m,o,j,q,b,h,g,s,g,d,m,j,q,i,j,f,j,q,f,l,f,e,m,q,q,m,g,o,d,c,s,e,i,p,o,m,t,o,d,m,l,b,j,o,k,l,l,n,d,l,q,k,s,j,l,i,k,p,m,b,o,s,m,b,i,a,h,k,m,m,r,n,n,s,n,b,d,f,i,c,c,a,m,k,b,t,c5
+t,r,p,k,s,g,c,t,p,a,l,d,d,i,j,d,i,j,e,r,a,f,p,o,j,d,a,p,l,r,n,q,c,h,m,m,f,p,a,l,t,h,f,j,t,q,a,s,j,h,i,q,k,n,i,n,c,o,p,c,m,d,j,q,q,r,a,m,s,p,l,q,e,o,f,e,f,s,m,h,e,g,q,s,n,c,a,p,t,a,q,q,b,m,j,r,d,e,l,o,c3
+a,q,e,c,e,s,k,a,e,p,p,a,t,k,t,l,i,q,t,f,c,i,n,t,r,j,l,t,b,k,f,n,k,s,o,o,o,p,i,g,j,n,k,f,b,n,c,e,s,r,h,h,k,r,e,r,t,g,o,c,f,t,q,i,f,s,o,a,i,e,t,q,s,h,a,i,m,n,t,k,d,l,r,q,k,f,a,g,h,o,j,m,j,g,h,q,h,e,m,p,c4
+b,o,o,f,e,j,n,m,r,h,o,h,o,h,t,i,c,k,j,r,d,b,a,l,p,m,j,h,d,m,g,s,a,s,c,q,p,a,n,o,r,l,k,j,k,j,k,p,e,j,a,e,q,b,g,r,t,i,h,c,f,q,q,g,h,r,r,a,s,s,o,s,j,s,h,a,s,n,b,k,g,e,o,c,f,c,a,f,d,q,j,g,p,h,b,m,t,k,l,h,c4
+g,f,o,i,q,t,c,a,q,a,t,s,i,t,j,j,i,n,f,k,n,g,o,r,e,j,k,h,j,l,k,c,f,d,g,m,f,p,i,m,e,l,c,t,b,q,a,h,t,f,i,p,t,b,f,n,p,t,p,r,t,e,e,b,f,m,r,t,g,p,t,a,g,l,f,f,c,s,b,f,m,f,m,i,l,c,c,t,i,j,c,p,t,m,c,a,i,s,r,s,c3
+o,k,c,o,f,r,n,r,i,p,p,i,q,t,m,d,c,c,p,l,l,n,e,c,n,g,a,c,s,c,c,m,n,b,e,o,h,m,a,r,k,c,c,i,a,e,t,n,p,f,p,d,b,n,t,e,n,c,c,p,i,l,m,h,o,p,j,o,i,b,g,f,i,b,k,c,s,g,b,h,i,o,e,d,n,f,d,q,q,b,p,f,k,t,j,h,d,p,q,c,c2
+m,p,c,n,h,s,t,d,a,d,m,l,s,m,e,d,o,l,p,a,l,s,p,g,a,g,a,m,q,c,q,m,l,p,j,m,d,l,o,m,b,l,s,f,p,s,b,m,h,r,p,h,b,c,a,g,n,i,h,p,e,a,n,q,l,n,c,p,h,b,h,m,g,i,j,g,f,p,o,k,r,l,h,d,f,p,r,n,n,f,g,r,e,l,i,k,c,j,n,c,c2
+q,j,e,d,a,o,c,l,n,a,d,a,g,k,m,b,i,l,m,a,p,a,d,g,l,h,c,t,b,s,t,h,c,i,h,m,f,p,r,a,h,f,h,d,k,r,i,d,i,k,i,b,l,d,d,n,q,o,t,a,p,d,i,e,o,k,e,f,i,p,c,n,c,j,c,r,l,l,m,s,r,p,f,q,d,c,g,e,p,b,e,f,r,m,b,g,f,m,f,s,c3
+d,o,g,e,s,d,o,j,d,t,o,r,t,i,k,c,h,q,m,q,m,t,g,f,l,j,m,n,q,n,j,l,n,b,b,k,i,h,n,g,s,d,s,t,a,n,e,e,q,m,a,r,p,k,l,m,m,h,f,d,j,e,c,d,d,c,s,s,b,l,a,s,g,m,r,s,h,e,i,q,s,s,l,m,l,c,a,h,d,d,d,d,j,d,h,c,m,c,b,s,c5
+e,m,l,d,n,d,j,r,b,e,o,n,c,o,t,i,h,a,b,j,i,e,b,n,c,s,j,a,j,j,n,o,l,q,j,s,p,r,n,g,t,o,k,n,i,i,l,k,d,k,g,a,o,i,c,r,t,l,t,c,f,l,o,m,n,s,f,a,f,b,j,n,t,f,l,i,f,n,f,k,o,n,o,t,e,f,a,g,a,j,j,a,i,l,r,h,m,i,r,e,c4
+r,i,c,f,t,j,k,c,h,d,n,o,s,k,n,d,e,o,p,c,l,s,h,k,j,g,f,n,k,c,h,m,j,r,n,t,o,a,s,i,k,o,l,s,r,j,a,b,p,h,p,i,o,r,p,p,n,c,g,a,e,r,l,f,i,k,o,e,f,m,c,q,r,r,p,r,k,p,g,s,f,s,n,d,s,i,t,f,l,d,m,n,b,b,m,q,h,h,f,c,c2
+l,p,a,q,k,s,c,o,p,a,g,f,o,b,f,t,i,r,s,c,o,d,i,q,p,r,n,i,p,c,g,e,i,c,f,m,f,p,q,i,p,t,o,f,q,s,q,q,s,c,i,d,k,m,j,n,o,p,r,h,f,p,c,r,i,g,f,s,a,p,o,c,j,e,l,i,h,s,e,k,k,p,g,a,l,c,c,f,b,o,o,b,m,m,i,p,k,r,q,h,c3
+d,o,s,o,j,k,d,d,d,t,r,i,h,f,s,e,l,q,d,l,l,o,g,c,c,j,j,i,b,f,b,t,s,l,c,r,s,a,k,g,d,d,l,j,b,f,a,s,t,k,g,t,g,r,l,k,e,c,d,q,e,d,b,f,t,r,h,c,l,t,o,h,o,d,f,s,g,t,j,g,p,n,b,c,m,q,i,a,f,a,d,h,b,o,q,m,m,d,b,t,c5
+b,e,b,d,a,r,n,l,l,j,r,l,g,f,t,a,f,b,d,n,b,o,r,n,q,c,h,g,a,p,j,m,a,f,o,h,p,m,p,o,r,b,k,o,e,m,g,k,c,s,m,o,k,r,f,r,t,p,j,c,f,n,d,j,d,g,b,a,c,f,p,e,n,j,e,o,m,n,n,k,j,s,q,r,o,t,a,q,a,o,j,t,t,s,t,k,h,m,j,f,c4
+j,e,c,b,r,f,c,k,b,a,t,i,r,o,c,s,i,q,n,o,q,s,p,b,d,q,m,m,l,e,r,l,h,d,c,m,f,p,n,j,l,j,m,t,g,d,d,c,c,c,i,r,l,h,t,n,d,t,c,m,b,j,i,p,c,b,l,f,q,p,r,g,i,g,f,i,f,m,q,i,e,q,m,b,o,c,j,q,p,j,e,d,m,m,k,s,l,q,e,l,c3
+d,s,o,m,o,g,c,f,d,t,l,d,g,d,o,t,e,q,s,r,p,h,g,r,g,j,m,a,f,m,r,r,p,s,i,m,e,j,r,h,q,j,o,n,b,i,l,j,q,n,l,e,o,j,l,e,l,d,f,r,m,j,i,d,g,g,o,o,a,i,m,a,m,d,h,s,q,s,b,c,c,h,m,d,f,p,f,f,t,j,d,n,d,t,r,p,m,m,b,i,c5
+d,i,o,q,l,m,h,s,d,a,t,t,d,e,t,c,q,i,k,p,o,b,b,h,t,i,p,d,f,n,k,q,e,o,k,t,e,n,l,l,a,b,k,a,f,r,m,h,h,l,k,b,n,i,f,r,t,r,k,c,f,h,l,q,k,m,g,a,o,p,t,c,f,a,s,o,f,n,n,k,n,p,h,r,n,p,a,l,j,b,j,m,h,g,r,s,t,r,c,b,c4
+p,p,s,p,a,a,p,i,b,b,p,n,j,h,k,j,s,n,c,f,i,e,o,p,e,g,t,o,k,f,l,j,k,d,e,c,d,l,f,t,q,m,r,r,p,r,g,g,m,t,f,t,q,k,f,o,q,a,a,j,k,l,h,b,k,q,d,r,t,h,i,g,g,d,h,n,h,p,f,c,h,g,o,f,k,l,a,q,i,j,g,r,h,s,b,f,k,r,m,n,c1
+e,h,c,p,t,r,e,e,i,d,q,k,s,f,d,d,m,s,p,f,l,b,l,k,s,g,r,i,d,c,f,m,d,h,o,a,c,b,f,m,d,f,c,s,f,h,b,r,n,b,p,b,n,j,c,a,n,f,e,b,h,m,e,l,d,r,d,f,d,t,m,r,d,g,j,t,q,l,m,k,q,m,o,d,n,e,j,t,g,p,g,m,n,f,l,i,s,q,p,c,c2
+f,h,c,m,i,m,i,f,p,r,n,l,p,m,a,d,a,a,p,s,l,o,b,d,d,g,d,e,e,c,p,m,g,s,m,s,m,n,q,m,a,r,h,t,k,p,c,h,h,s,p,g,i,q,p,r,n,h,b,k,r,f,j,q,m,f,q,p,d,j,t,c,a,e,p,t,p,i,h,n,a,f,g,d,s,d,g,n,s,o,h,a,t,g,j,j,l,f,t,c,c2
+d,l,a,o,e,h,k,a,d,t,q,h,l,s,e,d,s,q,s,e,p,i,g,e,c,j,q,n,e,f,b,t,h,l,i,h,n,s,m,c,t,t,n,f,b,i,b,l,k,d,g,g,o,c,l,a,a,f,b,k,n,i,c,p,k,l,m,k,q,e,t,t,k,p,n,s,q,t,e,d,t,t,t,c,i,j,h,s,m,h,d,r,k,b,l,n,m,f,b,t,c5
+q,m,l,p,s,e,l,t,k,i,f,h,n,g,t,j,k,q,d,t,e,g,p,r,g,f,p,g,e,b,i,s,k,o,j,m,s,l,h,c,m,q,k,h,n,l,d,l,q,j,n,r,i,d,p,r,t,t,g,c,f,e,s,a,q,r,h,a,j,o,g,s,r,e,m,i,m,n,t,k,h,n,f,k,t,g,a,k,m,e,j,b,g,g,l,j,b,m,c,a,c4
+n,b,c,n,f,a,j,j,d,t,p,g,r,b,e,d,a,s,p,k,l,t,s,f,g,g,o,t,q,c,f,m,a,i,n,h,a,t,j,a,i,k,f,o,o,b,d,g,g,d,p,f,g,m,e,o,n,k,h,s,l,t,t,n,e,g,f,s,n,e,p,k,k,l,c,b,l,j,g,n,h,a,e,d,e,h,i,t,c,g,b,h,d,n,k,k,t,b,j,c,c2
+p,e,c,e,c,i,n,f,b,n,d,g,i,j,a,d,l,t,p,n,l,b,t,c,e,g,a,e,h,c,k,m,f,c,r,o,e,r,d,g,q,q,f,a,h,j,p,i,k,p,p,s,g,j,n,i,n,d,g,d,d,h,i,n,q,n,l,o,m,g,j,o,q,f,h,e,o,d,i,k,m,b,l,d,h,s,m,m,c,d,e,f,e,f,t,d,m,f,f,c,c2
+n,q,c,c,c,n,c,o,k,a,k,j,a,a,h,k,i,l,t,p,e,k,r,d,e,o,q,m,k,f,e,h,n,b,s,m,f,p,j,r,q,p,n,s,r,t,g,l,i,e,i,m,d,j,c,n,j,a,s,i,d,i,d,f,p,q,i,r,e,p,k,o,c,p,t,a,s,m,f,i,d,h,k,h,a,c,l,q,s,c,m,h,c,m,q,a,a,o,t,f,c3
+t,p,c,s,f,n,l,s,f,j,s,g,c,a,c,d,b,g,p,p,l,o,g,l,o,g,n,h,c,c,f,m,b,k,f,r,o,i,j,e,j,g,o,l,e,c,s,p,b,g,p,f,i,i,g,s,n,o,q,t,d,h,i,i,b,i,q,g,k,e,f,k,j,e,g,e,a,l,r,o,q,h,p,d,k,c,o,c,m,c,i,i,k,c,d,m,o,p,k,c,c2
+d,l,s,o,q,p,d,l,d,t,e,c,o,e,q,t,q,q,q,p,e,c,g,k,d,j,k,n,j,s,o,i,o,g,d,i,h,b,b,e,t,q,j,d,c,k,m,a,l,p,d,g,f,m,l,d,d,i,a,j,i,h,a,r,q,n,q,f,k,i,o,l,f,e,l,s,t,p,c,s,k,n,k,s,s,c,q,e,d,s,d,q,a,e,p,l,m,p,b,l,c5
+d,a,k,g,t,c,s,j,d,t,r,e,m,n,c,t,c,q,e,q,l,g,g,h,h,j,s,g,s,n,g,m,q,o,i,f,f,l,l,g,h,b,l,i,l,h,e,g,p,m,g,q,p,i,l,h,c,s,e,h,s,h,b,t,t,a,q,j,s,r,r,e,r,p,e,s,b,a,d,r,c,q,f,f,l,g,k,o,k,c,d,e,a,q,t,h,m,e,b,s,c5
+b,n,m,j,t,k,o,j,c,r,r,k,l,s,d,k,s,n,e,s,c,i,m,k,r,p,h,o,k,g,s,j,r,t,o,t,p,f,f,f,h,p,n,n,n,b,g,r,t,t,o,h,i,a,i,p,d,d,a,j,s,a,s,f,p,d,h,r,t,o,n,r,k,t,k,a,n,k,r,m,j,i,n,f,s,r,c,b,d,q,s,g,c,m,l,k,r,f,t,g,c1
+n,p,k,t,c,b,g,q,a,g,p,r,a,n,j,s,s,n,j,h,p,f,h,e,k,c,p,o,k,s,l,j,q,o,l,a,l,i,f,i,a,k,b,p,i,e,j,m,m,t,i,d,h,o,s,p,p,t,d,j,m,s,h,j,c,f,b,r,t,l,r,n,e,g,l,r,n,s,o,i,c,g,b,f,p,t,q,m,q,e,e,h,b,t,s,h,j,c,o,t,c1
+p,o,r,l,l,i,o,f,h,i,f,j,e,n,d,b,s,n,h,s,s,l,l,a,b,r,c,o,k,d,i,j,q,h,b,r,d,t,f,q,k,q,a,j,k,l,c,k,p,t,k,q,s,s,k,n,b,i,b,j,l,k,q,h,c,c,r,r,t,q,g,j,k,p,o,c,a,f,e,t,m,e,o,f,t,b,t,b,l,e,m,m,e,t,b,e,f,e,a,d,c1
+i,d,j,r,c,j,o,i,h,g,n,k,k,c,l,m,s,n,i,g,b,p,o,t,t,n,k,o,k,r,k,j,r,h,q,o,g,j,f,r,h,d,n,e,r,q,n,t,r,t,i,i,s,m,b,p,t,p,b,j,b,a,m,i,b,m,p,r,t,t,e,p,i,q,p,f,n,g,l,r,l,m,r,f,n,p,l,t,c,k,l,t,k,r,d,t,a,i,j,n,c1
+o,t,j,g,b,m,h,k,p,t,c,a,s,h,t,r,j,n,r,n,r,d,p,j,a,i,d,a,i,d,h,n,b,h,t,i,s,i,q,i,t,d,k,c,l,f,b,g,o,q,a,k,l,c,j,r,t,s,r,c,f,t,p,i,j,h,o,a,t,q,f,l,b,l,o,s,r,n,k,k,d,o,b,j,a,q,a,c,j,n,j,g,c,t,i,j,k,j,g,d,c4
+l,j,a,f,r,l,c,p,f,a,t,m,f,f,t,b,i,a,b,c,r,o,j,i,f,l,d,m,l,s,k,j,j,m,o,m,f,p,n,g,a,e,j,i,j,j,i,g,r,p,i,e,j,t,k,n,j,i,l,m,p,i,f,n,l,d,m,m,t,p,g,q,r,n,q,h,n,a,r,c,j,s,b,g,e,c,k,t,t,q,r,i,r,m,s,e,s,c,j,g,c3
+b,d,t,p,g,f,g,s,q,s,p,g,i,k,n,s,s,n,k,f,o,t,g,t,b,g,h,o,k,e,m,j,s,j,p,i,m,b,f,k,i,d,q,g,t,k,i,j,m,t,f,h,e,f,o,e,d,r,m,j,c,i,b,n,f,t,f,r,t,b,p,a,r,p,n,h,f,t,d,f,p,f,c,f,l,k,m,i,d,i,a,p,f,o,n,n,l,k,a,o,c1
+t,s,g,f,i,e,n,m,s,r,k,n,l,a,m,g,s,n,b,i,h,c,m,j,n,q,b,o,k,f,s,j,t,c,c,c,s,l,f,q,j,j,d,g,d,q,c,k,l,t,r,n,j,c,r,l,p,e,k,j,o,n,j,b,p,r,j,r,t,r,f,j,p,g,p,k,a,p,t,a,j,k,f,f,i,q,s,q,g,d,p,d,s,q,s,o,c,e,k,j,c1
+q,i,c,a,f,k,f,p,a,p,l,t,j,s,f,d,t,l,p,p,l,r,o,h,b,g,a,a,h,c,i,m,k,n,m,l,r,f,m,a,d,n,r,b,c,j,m,n,a,i,p,g,h,t,c,r,n,g,q,h,j,a,f,t,q,n,r,k,h,o,g,m,s,i,b,n,e,h,d,q,q,l,r,d,k,l,b,i,d,m,o,f,b,k,j,s,r,c,g,c,c2
+g,b,c,c,n,s,d,p,o,b,t,r,r,s,d,d,o,f,p,h,l,d,g,h,b,g,p,f,q,c,g,m,a,t,a,k,i,o,r,d,g,m,e,c,d,d,q,b,l,j,p,f,d,l,o,g,n,r,d,h,c,q,q,n,j,d,l,s,a,c,q,g,q,i,k,h,c,a,p,e,f,r,e,d,b,n,b,g,r,o,j,f,o,f,i,b,d,l,h,c,c2
+e,f,m,g,e,o,m,s,j,h,k,t,c,r,t,l,d,i,f,b,m,s,e,q,c,r,c,a,j,i,d,k,d,g,k,k,k,k,r,t,h,t,k,e,f,s,a,g,t,o,c,s,e,a,e,r,t,l,m,c,f,m,r,d,a,c,g,a,t,t,d,m,n,i,h,p,f,n,m,k,f,n,g,d,p,f,a,e,l,h,j,s,b,p,e,i,k,s,b,t,c4
+j,k,f,t,k,d,b,i,a,b,t,r,i,r,t,s,d,a,b,r,t,q,b,s,e,o,g,t,k,g,h,m,l,t,i,s,f,o,b,o,l,q,k,q,o,e,s,i,o,i,r,q,k,l,a,r,t,a,f,c,f,a,h,c,f,b,f,a,n,s,k,t,a,i,f,r,f,n,s,k,t,i,q,o,f,b,a,j,r,o,j,a,t,p,a,b,m,s,k,t,c4
+h,l,f,e,l,f,p,k,h,h,b,l,j,o,a,f,s,n,i,d,q,q,e,a,n,l,r,o,k,n,r,j,p,p,c,n,a,i,f,r,m,i,l,j,m,p,t,d,r,t,i,m,e,r,g,q,r,f,m,j,r,n,i,g,o,a,o,r,t,n,m,d,c,k,c,e,f,b,k,s,n,j,n,f,j,j,p,r,s,b,j,c,j,j,t,r,t,h,g,r,c1
+t,a,i,a,t,n,s,n,j,q,t,j,i,l,t,q,o,s,e,q,r,h,p,k,q,t,s,r,r,d,j,i,q,q,a,i,a,s,p,p,j,a,k,f,j,d,c,m,b,h,l,s,j,l,c,r,t,g,r,c,f,q,g,e,c,f,n,a,e,b,q,k,c,d,s,c,l,n,l,k,i,t,k,a,l,i,a,p,h,f,j,m,s,n,g,t,s,b,h,n,c4
+p,o,c,j,l,s,s,h,f,e,d,g,n,k,d,d,d,j,p,m,l,g,s,k,q,g,o,g,p,c,j,m,p,f,k,t,m,c,p,r,c,d,g,a,i,m,n,k,o,o,p,s,o,c,t,l,n,n,j,j,b,n,s,s,q,s,i,d,d,k,c,o,j,n,b,h,j,f,r,e,o,e,p,d,d,g,n,c,r,e,l,i,s,j,p,d,d,h,e,c,c2
+l,g,g,d,c,h,b,q,l,j,c,q,m,n,t,b,c,i,o,k,a,h,l,d,g,o,r,l,e,t,c,f,e,t,o,h,a,h,d,n,e,p,k,s,q,l,r,e,r,n,m,b,n,m,p,r,t,l,q,c,f,m,k,s,c,t,t,a,g,o,r,k,p,a,n,c,s,n,l,k,t,d,h,d,f,r,a,p,j,s,j,j,g,n,r,i,b,s,f,e,c4
+g,g,d,h,h,f,p,l,b,g,p,k,q,t,f,r,s,n,i,f,i,d,n,o,l,k,s,o,k,h,e,j,c,s,i,q,f,r,f,s,o,a,a,n,q,h,g,j,i,t,h,s,h,r,p,s,t,e,d,j,l,c,k,p,r,o,i,r,t,g,o,f,b,d,c,k,o,k,a,j,f,a,m,f,d,t,h,q,r,m,f,g,p,p,m,l,g,e,f,g,c1
+p,a,p,k,a,f,c,j,s,a,h,k,s,q,j,a,i,r,l,n,o,d,r,d,e,l,p,p,b,r,k,b,c,t,d,m,f,p,k,b,q,f,c,o,r,a,e,f,g,l,i,b,d,i,n,n,b,q,k,p,h,a,c,i,c,d,t,t,q,p,a,f,g,q,i,n,s,c,o,p,d,d,e,p,t,c,m,t,o,l,p,o,r,m,r,e,j,i,s,k,c3
+j,k,h,r,g,l,f,t,d,d,g,p,f,f,n,m,s,n,g,t,n,h,k,k,i,o,m,o,k,s,o,j,s,q,g,i,b,t,f,r,t,p,k,o,n,r,n,d,n,t,c,p,f,e,q,h,e,g,f,j,t,g,t,o,o,f,n,r,t,o,n,a,t,c,j,l,j,f,a,t,i,b,f,f,b,a,b,s,b,o,f,o,m,q,t,c,b,h,i,h,c1
+m,l,c,a,k,k,g,c,e,c,t,b,t,a,a,d,c,l,p,p,l,t,j,h,g,g,r,k,l,c,b,m,l,l,h,t,s,o,r,f,f,n,p,o,g,f,f,f,d,c,p,k,k,m,j,s,n,b,t,o,d,k,m,l,f,r,q,l,m,e,b,r,n,l,e,d,j,s,p,o,f,s,j,d,q,e,j,b,r,n,l,m,b,p,f,t,g,o,n,c,c2
+k,p,t,h,f,p,k,i,d,r,b,c,h,q,t,i,j,c,m,a,p,o,s,b,d,f,e,m,f,s,q,e,d,a,m,a,l,p,i,j,s,r,k,e,l,q,q,a,i,b,o,p,o,g,j,r,t,j,e,c,f,l,l,c,o,q,c,a,i,p,s,o,l,g,f,p,t,n,n,k,t,s,d,s,q,a,a,n,d,b,j,e,l,s,i,j,g,b,o,d,c4
+i,j,c,d,h,a,e,e,q,g,c,i,a,e,t,b,d,e,t,o,o,p,j,f,d,j,l,j,q,s,l,g,h,e,k,b,d,p,i,a,p,f,k,d,r,q,e,k,b,c,j,i,h,s,h,r,t,l,e,c,f,r,t,c,m,o,p,a,r,q,m,r,n,n,t,l,m,n,i,k,k,t,s,t,q,j,a,h,e,n,j,b,g,f,j,n,n,j,k,i,c4
+d,b,h,p,i,g,g,c,d,t,d,e,a,m,m,d,i,q,i,a,g,h,g,p,m,j,e,s,o,t,n,j,t,i,f,p,t,b,p,m,k,k,n,r,a,j,g,e,b,j,a,n,g,t,l,l,t,s,s,f,c,b,l,a,o,p,f,b,t,d,n,h,r,g,a,s,j,e,g,j,a,n,c,d,e,n,r,a,i,f,d,g,l,a,a,p,m,j,b,l,c5
+d,s,t,o,b,a,c,k,q,a,s,t,q,l,c,s,i,d,h,b,o,i,s,q,a,k,f,o,s,b,e,e,s,s,l,m,f,p,r,j,p,a,b,l,p,a,i,n,j,m,i,a,r,b,l,n,k,n,e,q,t,m,l,m,c,r,o,p,e,p,o,o,e,i,c,t,h,o,d,e,g,g,r,d,q,c,k,o,g,i,e,n,h,m,q,c,d,m,c,l,c3
+i,p,c,l,f,i,l,j,m,b,q,p,d,k,o,d,k,s,p,b,l,l,c,t,d,g,j,e,e,c,q,m,s,s,s,n,o,t,i,a,k,o,k,t,a,l,f,e,j,p,p,n,e,c,o,j,n,r,t,p,p,a,m,c,h,b,m,s,e,o,e,b,a,o,o,f,b,h,i,l,o,q,m,d,e,o,l,q,d,e,p,a,g,n,t,k,e,d,j,c,c2
+s,f,d,f,e,p,c,o,s,a,o,o,s,g,e,n,i,q,a,f,q,t,g,k,i,t,e,k,n,f,r,n,l,a,e,m,f,p,o,n,i,s,g,l,i,i,m,p,a,p,i,l,q,d,h,n,g,i,q,r,l,q,r,n,c,d,p,q,m,p,d,j,c,o,j,k,c,q,j,e,j,r,d,l,f,c,s,q,r,m,t,q,k,m,r,m,s,o,c,q,c3
+j,i,m,b,k,m,g,t,l,m,e,b,r,j,t,g,d,m,l,l,o,d,i,r,j,g,a,f,k,r,d,o,k,m,a,o,o,p,d,g,d,j,k,m,a,e,t,a,e,j,o,a,j,l,q,r,t,s,g,c,f,i,s,c,d,i,f,a,m,n,f,f,i,m,d,r,d,n,a,k,a,c,a,j,d,c,a,q,m,j,j,t,n,a,s,i,k,n,n,g,c4
+n,t,l,a,j,s,c,j,e,a,c,m,k,l,r,i,i,q,h,n,g,p,c,f,d,d,j,r,m,t,n,h,n,j,b,m,f,p,p,c,p,s,e,a,i,e,k,j,q,e,i,e,p,b,k,n,c,b,d,a,t,q,c,q,l,i,i,t,l,p,i,s,o,r,q,p,t,s,t,b,k,j,c,f,r,c,k,k,m,p,r,a,e,m,o,g,f,i,t,o,c3
+f,p,s,n,g,e,s,s,h,t,c,n,r,h,t,o,m,c,k,h,r,f,f,k,f,a,a,b,a,c,p,f,p,f,a,q,q,t,d,c,h,s,k,j,s,l,o,n,b,g,r,a,q,i,a,r,t,q,b,c,f,g,k,e,r,j,a,a,b,h,f,s,o,q,r,t,g,n,j,k,t,n,i,n,d,o,a,s,s,b,j,d,b,f,h,g,r,h,b,n,c4
+m,k,c,e,e,h,q,r,m,p,g,s,r,a,m,d,s,n,p,f,l,f,f,s,m,g,k,r,k,c,f,m,k,k,r,t,i,i,m,n,p,j,r,n,s,p,k,i,c,r,p,c,k,a,f,g,n,h,s,l,f,t,d,m,l,d,r,d,c,i,h,q,c,h,g,m,r,c,t,t,q,h,o,d,n,h,f,e,n,b,d,a,d,m,c,h,b,g,f,c,c2
+q,t,c,f,g,k,j,j,s,j,p,n,q,d,c,d,q,t,p,q,l,s,g,a,s,g,g,f,d,c,b,m,f,i,o,a,g,i,a,a,r,m,m,d,b,r,e,g,m,d,p,c,h,g,h,j,n,c,h,c,l,n,c,f,t,i,m,a,n,b,c,i,d,a,t,i,l,j,g,b,d,n,t,d,j,a,f,r,e,m,h,g,c,p,b,e,r,c,p,c,c2
+d,c,r,s,t,o,f,b,d,t,j,s,r,d,n,r,h,q,i,i,d,o,g,a,d,j,e,l,b,s,r,c,l,o,e,f,o,h,h,d,p,b,l,s,a,f,f,a,i,n,q,g,f,q,l,c,b,n,g,t,r,s,m,k,a,h,n,t,m,o,o,t,j,r,e,s,i,a,c,p,c,n,m,l,g,a,i,k,t,n,d,o,j,j,l,h,m,j,b,g,c5
+d,s,e,b,i,a,r,q,d,t,j,b,t,m,b,i,i,q,n,a,l,g,g,g,b,j,l,m,g,d,h,e,a,l,r,q,d,b,c,b,i,a,b,q,d,o,l,i,f,e,s,k,f,g,l,m,b,o,c,l,d,f,m,a,e,l,m,h,s,a,c,b,n,q,c,s,e,t,e,j,i,p,n,c,l,p,k,c,b,e,d,c,q,d,n,c,m,l,b,j,c5
+n,o,l,r,k,l,c,i,j,a,q,s,d,s,m,i,i,l,s,i,f,g,d,g,c,a,s,p,s,q,j,h,t,j,j,m,f,p,o,j,a,e,b,c,i,p,j,b,h,d,i,p,m,n,m,n,r,p,s,r,t,l,g,a,e,n,b,i,f,p,n,n,t,r,c,m,g,t,m,r,q,a,m,f,l,c,e,g,i,g,f,e,o,m,i,j,f,j,d,o,c3
+f,c,m,a,g,l,h,k,t,q,c,d,m,c,t,k,n,q,p,k,f,g,a,a,p,j,f,f,p,h,i,e,n,k,d,n,j,o,n,f,f,f,k,a,k,l,o,t,r,g,a,j,m,g,p,r,t,q,k,c,f,j,e,j,q,i,i,a,s,g,s,i,p,g,t,t,q,n,i,k,a,j,d,n,o,n,a,l,j,l,j,b,n,c,n,g,f,t,m,l,c4
+r,d,c,k,m,p,p,k,o,e,g,o,r,r,n,d,q,o,p,t,l,d,a,p,j,g,i,j,q,c,f,m,l,q,g,n,s,h,j,f,j,c,i,c,j,i,s,c,r,g,p,h,o,b,m,k,n,p,e,t,r,e,r,l,q,e,n,r,h,i,c,o,r,s,g,j,t,f,k,i,g,o,m,d,n,a,h,o,m,n,t,o,t,p,o,b,m,p,j,c,c2
+d,a,e,e,i,a,m,l,d,t,d,d,k,p,g,m,m,q,s,f,p,j,g,l,t,j,t,p,m,h,q,b,b,r,a,b,e,r,s,h,p,r,l,e,j,p,j,m,k,r,o,a,r,h,l,e,b,q,c,l,d,h,j,b,b,q,c,r,f,e,q,n,k,e,h,s,g,e,h,j,h,a,g,l,t,h,n,i,a,n,d,g,n,j,o,q,m,o,b,d,c5
+e,j,c,q,j,l,c,p,j,p,n,h,k,i,m,d,q,g,p,e,l,g,h,g,f,g,o,p,d,c,o,m,j,o,p,o,j,o,n,f,h,a,n,p,l,h,a,o,r,i,p,g,r,q,n,a,n,k,i,s,g,b,m,r,q,i,s,r,c,e,a,r,n,t,j,f,e,l,h,t,s,p,g,d,g,t,f,j,r,j,i,g,a,b,g,n,t,s,a,c,c2
+g,d,k,n,n,b,i,q,p,o,d,k,l,b,k,l,s,n,s,m,n,m,b,c,p,t,a,o,k,e,t,j,t,i,c,k,j,k,f,l,f,o,o,t,i,b,t,q,e,t,t,s,i,f,m,d,m,a,j,j,a,d,m,c,s,j,i,r,t,a,e,r,d,o,r,d,d,d,k,h,r,a,j,f,i,t,q,p,r,q,m,m,n,j,b,j,d,j,c,n,c1
+l,q,i,d,a,g,c,i,l,a,d,g,g,p,k,s,i,i,h,l,a,q,t,j,q,a,g,m,o,i,o,c,t,n,t,m,f,p,m,s,m,l,c,l,n,h,j,s,d,m,i,j,a,n,g,n,o,d,m,m,k,m,d,g,q,m,n,t,n,p,f,n,f,m,t,f,s,a,r,e,d,d,h,r,j,c,p,h,c,q,p,p,b,m,f,n,d,m,g,h,c3
+e,e,j,j,h,k,i,q,a,d,q,s,q,s,n,b,s,n,n,n,b,e,p,n,p,o,m,o,k,f,f,j,c,s,b,p,h,i,f,p,d,f,l,q,g,j,e,d,k,t,s,e,e,h,r,b,d,a,l,j,f,d,f,i,c,h,a,r,t,e,l,p,i,s,g,e,b,b,m,e,j,k,a,f,c,d,c,s,q,l,k,r,f,d,e,d,q,t,m,k,c1
+h,f,k,a,g,g,k,o,b,f,t,m,a,q,n,d,s,n,j,s,j,n,n,f,l,i,o,o,k,b,g,j,n,a,d,r,j,i,f,o,p,k,f,c,h,t,q,i,i,t,k,m,i,p,h,f,q,f,m,j,d,t,b,j,s,s,f,r,t,o,b,i,q,p,n,k,l,q,p,i,i,r,s,f,l,t,p,q,j,r,j,m,i,m,d,r,b,j,n,i,c1
+r,f,c,t,h,n,s,g,m,o,a,o,d,a,o,d,r,e,p,m,l,s,r,h,r,g,c,k,g,c,r,m,g,f,o,t,e,m,i,p,a,d,q,b,i,d,r,k,n,t,p,a,i,r,f,o,n,j,d,k,d,q,f,b,n,f,f,p,d,a,s,d,g,r,t,t,j,b,l,p,a,n,g,d,o,a,k,s,h,j,j,c,j,t,r,m,b,g,n,c,c2
+t,d,i,o,g,g,c,b,d,a,o,s,m,c,f,e,i,a,h,a,o,b,t,k,i,e,a,k,g,e,t,d,k,m,k,m,f,p,b,i,a,n,r,n,s,k,t,s,a,l,i,k,g,m,f,n,c,o,f,g,b,r,p,l,t,a,t,f,e,p,p,g,f,r,i,r,c,t,p,c,d,b,p,n,a,c,a,s,h,l,h,g,l,m,n,d,b,j,a,h,c3
+n,q,c,c,a,k,c,o,i,a,g,c,n,m,j,s,i,g,i,j,r,t,q,l,j,g,c,t,t,r,a,e,r,h,o,m,f,p,i,f,p,j,s,s,d,j,e,o,s,s,i,a,a,e,f,n,h,e,c,t,t,d,m,o,o,a,e,g,n,p,r,n,c,g,b,a,s,q,r,o,i,n,p,j,k,c,g,l,l,a,o,r,o,m,p,n,a,k,b,h,c3
+b,f,c,c,e,g,l,e,b,j,c,n,o,k,s,d,o,t,p,n,l,e,a,g,o,g,e,n,j,c,s,m,i,t,j,i,f,f,j,e,b,c,j,d,j,o,i,k,s,h,p,i,g,d,d,h,n,s,a,a,l,q,h,a,j,b,o,s,t,d,f,d,f,i,h,t,o,c,n,b,m,d,t,d,g,a,j,i,s,d,n,s,q,f,e,t,k,c,s,c,c2
+r,t,n,k,t,l,o,b,r,m,p,a,m,r,s,c,s,n,k,o,l,j,b,h,h,j,c,o,k,b,f,j,t,h,c,o,i,g,f,l,c,l,n,p,s,o,i,b,r,t,c,m,a,a,q,h,d,h,g,j,c,d,r,l,q,o,g,r,t,l,e,n,h,g,g,d,a,c,d,e,h,c,p,f,i,d,e,s,n,l,e,n,i,b,k,l,d,c,p,g,c1
+d,h,g,d,g,m,r,n,d,t,p,k,q,b,q,f,j,q,s,h,d,j,g,k,a,j,n,l,c,g,q,m,f,d,e,c,f,k,t,f,o,q,s,s,f,h,o,q,f,t,h,r,t,d,l,e,i,k,d,b,h,d,i,s,d,k,n,p,e,r,r,m,l,m,e,s,s,m,j,k,j,o,b,l,f,r,q,c,l,q,d,q,r,s,f,i,m,l,b,b,c5
+k,n,k,f,o,f,i,r,j,e,c,a,m,t,r,f,s,n,n,r,d,r,o,a,s,p,c,o,k,h,h,j,e,n,j,m,s,t,f,m,j,m,c,i,m,c,m,e,h,t,j,i,r,i,j,b,o,g,h,j,o,k,c,i,t,r,j,r,t,h,l,h,l,i,h,q,k,s,h,m,r,h,e,f,i,p,e,h,t,k,t,g,t,n,a,t,p,t,o,o,c1
+t,e,b,s,r,c,c,j,h,a,l,s,b,s,s,s,i,q,n,j,k,t,p,t,s,e,n,a,o,e,n,o,j,n,n,m,f,p,t,f,c,k,r,m,c,f,e,t,f,r,i,i,o,g,s,n,e,s,k,o,a,d,j,o,f,h,h,q,o,p,r,d,d,d,a,p,c,i,a,k,g,r,b,m,q,c,k,l,o,c,c,l,h,m,b,i,e,i,s,k,c3
+b,b,c,i,n,k,p,q,k,t,m,h,n,f,d,d,b,s,p,m,l,m,q,o,s,g,b,o,n,c,c,m,h,f,f,j,s,j,c,m,g,h,c,b,k,q,j,s,r,o,p,q,a,a,e,i,n,e,n,h,d,p,h,f,i,o,l,e,f,p,j,n,d,b,h,t,p,d,s,h,a,g,s,d,p,c,p,l,k,p,j,l,i,c,b,c,r,f,f,c,c2
+r,n,c,s,a,s,k,d,q,r,l,s,b,a,r,d,j,q,p,s,l,h,j,m,p,g,o,m,e,c,k,m,n,t,b,b,n,b,k,m,p,q,n,g,r,b,j,i,l,r,p,m,t,n,g,b,n,n,s,g,a,m,f,p,p,l,q,m,l,i,n,j,i,j,i,b,q,l,o,o,o,d,n,d,g,p,m,m,m,i,e,g,p,p,t,l,k,r,m,c,c2
+i,d,n,f,p,j,c,h,l,a,i,f,s,b,e,l,i,q,b,i,k,l,p,l,b,b,k,j,o,n,s,b,l,a,g,m,f,p,d,i,l,f,n,h,m,s,k,l,e,d,i,s,m,i,b,n,i,g,j,k,m,h,t,c,d,i,g,a,p,p,g,f,i,n,p,g,k,p,h,p,p,j,k,r,e,c,c,e,m,a,n,b,s,m,p,n,t,o,d,q,c3
+d,e,b,j,t,q,l,g,d,t,m,g,i,a,q,a,e,q,d,p,r,q,g,l,a,j,b,t,j,n,s,p,r,d,g,a,o,n,k,f,o,m,o,c,j,k,f,f,n,d,c,r,r,k,l,i,b,h,f,f,e,i,n,d,a,d,r,e,c,t,q,l,d,j,f,s,f,e,a,a,l,q,h,o,r,r,l,l,n,a,d,d,k,s,a,c,m,c,b,t,c5
+d,t,c,c,i,c,k,r,d,t,l,h,j,p,l,q,g,q,l,s,o,h,g,n,l,j,g,t,e,k,o,r,e,i,m,b,h,c,g,k,t,a,n,n,t,j,o,h,q,k,q,r,p,f,l,g,p,l,f,i,k,b,c,i,g,o,c,g,s,m,k,c,k,n,k,s,a,d,j,c,h,t,e,j,t,k,t,q,p,c,d,f,m,b,l,r,m,m,b,o,c5
+d,a,r,p,s,t,t,m,d,t,n,h,q,i,i,t,f,q,a,l,a,b,g,b,a,j,m,d,p,c,c,b,m,h,m,a,p,o,s,t,g,g,h,r,j,g,c,e,a,b,b,l,b,r,l,t,e,f,t,q,r,h,s,p,s,o,q,b,j,c,o,b,k,r,d,s,r,g,l,m,t,g,h,q,d,i,l,a,f,o,d,d,d,b,s,k,m,e,b,t,c5
+t,h,t,l,k,h,n,p,s,p,k,c,p,r,t,p,k,d,p,m,k,j,i,t,o,q,f,r,e,f,p,n,e,t,l,j,e,f,p,h,g,s,k,f,j,h,s,p,i,d,i,b,l,o,p,r,t,c,i,c,f,r,f,q,h,q,t,a,a,k,l,h,l,p,c,q,g,n,e,k,f,p,b,q,h,l,a,k,h,d,j,h,c,s,g,p,l,a,p,r,c4
+d,o,a,i,h,p,f,h,d,t,a,m,n,b,l,n,d,q,h,f,q,h,g,q,k,j,m,m,s,t,d,d,g,e,g,i,l,b,h,p,p,n,p,m,f,m,j,t,b,i,h,i,e,q,l,i,o,f,k,r,n,a,p,c,q,g,m,t,s,m,e,a,q,g,l,s,f,t,i,s,i,r,f,t,c,m,f,t,s,k,d,a,i,a,q,g,m,h,b,t,c5
+f,n,c,d,g,p,d,m,d,i,r,d,g,q,o,d,f,l,p,l,l,i,g,c,j,g,j,q,t,c,r,m,g,q,d,h,j,p,k,f,r,d,s,t,i,c,m,i,h,r,p,b,k,d,d,f,n,a,q,c,t,e,q,h,s,t,j,g,k,d,k,f,o,i,n,s,l,c,f,m,j,q,k,d,b,s,a,b,q,l,l,b,e,c,f,j,n,g,t,c,c2
+t,j,d,q,a,c,f,i,l,f,a,b,q,p,d,m,s,n,k,b,d,i,c,c,o,s,f,o,k,b,b,j,d,o,b,g,b,b,f,i,n,a,p,h,e,m,k,s,h,t,g,s,s,j,l,i,c,l,l,j,h,j,g,a,f,p,g,r,t,t,q,k,i,n,s,r,c,k,s,f,c,s,b,f,a,k,j,o,f,c,e,b,o,a,p,f,j,k,i,a,c1
+k,o,k,q,i,t,c,e,n,a,a,o,k,p,i,f,i,m,h,b,m,i,a,n,q,l,t,h,c,m,e,g,l,i,g,m,f,p,i,e,s,q,r,n,o,q,b,l,m,c,i,e,c,e,e,n,d,c,k,m,j,k,j,o,l,q,e,p,r,p,k,n,q,r,i,i,t,h,b,s,t,l,q,b,a,c,g,e,n,n,t,o,s,m,s,j,c,s,f,p,c3
+k,j,d,n,e,q,h,h,t,l,n,h,e,n,t,e,n,h,j,p,q,n,i,j,m,k,q,d,e,o,k,q,j,e,t,m,n,g,l,f,k,g,k,l,h,c,f,m,k,s,n,t,m,t,q,r,t,n,f,c,f,l,q,s,t,l,a,a,q,q,t,n,m,k,d,c,k,n,p,k,j,q,n,d,e,t,a,d,p,q,j,h,s,e,r,d,d,n,h,c,c4
+a,g,c,s,c,q,a,a,d,l,t,r,a,i,a,d,n,p,p,i,l,h,m,c,h,g,q,m,j,c,i,m,a,h,p,h,b,j,t,h,m,i,m,l,d,t,t,a,f,g,p,i,s,h,f,i,n,n,i,o,m,t,t,t,t,q,c,k,c,n,f,n,t,i,l,a,s,t,i,n,b,q,d,d,l,n,g,b,j,s,f,t,i,i,e,r,f,p,i,c,c2
+c,c,t,d,s,r,c,o,m,a,t,o,l,c,l,m,i,e,p,e,m,c,d,a,q,j,m,g,o,h,e,g,m,n,f,m,f,p,r,p,c,g,g,k,l,k,r,b,f,b,i,i,d,h,q,n,l,g,l,l,n,o,k,j,f,r,e,k,l,p,j,i,i,l,s,a,g,m,r,m,p,a,c,c,p,c,q,c,f,a,k,h,s,m,q,l,f,o,q,s,c3
+n,p,e,b,m,h,q,m,e,l,m,c,h,s,p,m,s,n,d,r,d,h,g,b,c,e,n,o,k,k,l,j,r,j,a,k,p,k,f,i,d,f,o,m,g,k,a,l,k,t,e,h,q,q,t,n,a,o,b,j,l,n,r,k,p,l,q,r,t,d,c,h,h,m,f,l,f,m,k,e,k,e,e,f,f,b,g,h,n,f,m,k,h,s,o,r,m,j,m,d,c1
+b,b,e,p,q,g,s,q,l,f,d,t,n,d,h,r,s,n,i,p,n,b,r,q,g,s,m,o,k,r,n,j,n,c,f,q,c,h,f,b,n,k,b,k,k,i,f,h,p,t,b,p,e,o,l,l,t,g,j,j,h,c,a,o,l,f,i,r,t,s,t,k,p,q,q,n,e,t,t,b,a,h,d,f,f,n,e,s,i,p,l,f,k,e,s,g,r,m,e,s,c1
+p,p,t,p,a,n,s,a,o,f,n,h,k,l,f,n,s,n,r,q,c,r,l,g,k,g,t,o,k,l,o,j,t,f,m,s,m,d,f,o,d,q,l,l,c,h,h,j,m,t,g,g,m,q,f,p,o,j,s,j,h,f,c,o,s,l,g,r,t,m,i,t,e,n,d,d,n,p,k,f,m,s,l,f,r,a,p,o,p,f,r,f,r,n,f,p,i,s,q,k,c1
+d,n,a,s,j,i,e,g,d,t,o,k,h,o,n,l,j,q,b,b,l,h,g,r,a,j,p,o,r,s,c,l,m,t,d,a,i,j,n,t,m,l,m,g,e,e,p,k,a,s,d,k,p,r,l,l,e,i,q,h,a,c,n,f,i,d,p,e,t,r,m,b,t,l,l,s,h,s,t,j,c,l,r,i,m,j,n,k,g,c,d,l,k,m,p,s,m,j,b,g,c5
+t,l,n,g,l,s,c,p,f,a,r,e,g,l,d,k,i,g,a,i,a,a,t,p,t,q,h,p,e,r,o,e,c,a,h,m,f,p,i,a,t,i,o,q,l,r,b,i,m,a,i,a,m,n,d,n,g,i,t,r,k,a,a,c,s,c,d,l,r,p,s,f,k,d,c,i,k,t,o,a,a,a,j,l,e,c,a,q,i,q,p,n,a,m,p,o,a,d,n,m,c3
+e,g,c,j,f,b,i,s,j,f,i,m,n,m,o,d,g,q,p,q,l,p,p,e,s,g,q,p,j,c,k,m,d,q,h,i,s,r,o,p,o,q,a,d,k,p,c,d,c,i,p,g,s,t,m,r,n,d,a,o,t,f,m,n,a,i,a,n,g,g,f,k,s,l,s,l,t,k,g,l,q,o,s,d,n,r,b,s,l,g,e,d,t,k,o,b,a,i,e,c,c2
+k,b,b,d,n,l,c,l,c,a,p,b,p,m,o,r,i,h,d,t,p,m,g,q,k,e,n,m,f,d,l,k,a,t,g,m,f,p,l,r,r,r,q,k,o,m,s,i,h,a,i,l,q,a,p,n,f,g,i,a,g,f,s,o,i,f,o,b,m,p,l,q,h,k,t,s,g,f,h,h,f,d,i,q,l,c,g,b,d,t,a,d,q,m,e,n,j,q,j,t,c3
+b,j,i,m,s,s,c,i,e,a,p,t,q,o,o,i,i,r,s,i,b,r,c,d,n,a,s,t,c,s,l,b,h,n,h,m,f,p,e,l,a,o,t,c,l,r,p,f,p,j,i,h,g,i,d,n,d,k,a,f,g,g,h,o,i,m,i,m,f,p,k,h,a,i,o,o,p,f,n,s,l,s,d,n,e,c,l,f,q,e,l,o,k,m,s,q,s,h,p,i,c3
+c,m,l,g,n,a,c,s,m,a,o,t,f,g,a,r,i,q,r,g,p,p,c,i,a,b,a,m,k,l,s,r,d,j,t,m,f,p,a,b,d,h,e,o,e,f,i,b,f,e,i,s,t,c,m,n,h,s,e,h,t,b,s,o,b,n,g,n,b,p,f,a,d,s,h,t,b,n,t,f,e,q,m,s,e,c,r,l,p,r,p,q,q,m,j,f,e,p,k,h,c3
+n,g,c,o,q,t,m,r,k,k,m,s,s,r,o,d,o,n,p,k,l,i,f,l,b,g,b,d,k,c,m,m,g,h,t,h,k,k,b,h,j,j,g,n,o,e,k,l,c,o,p,g,q,t,i,c,n,d,s,r,r,n,f,p,n,m,j,g,c,b,f,i,e,d,j,c,o,l,d,q,q,n,n,d,k,o,h,r,t,k,b,b,k,f,e,r,e,a,l,c,c2
+j,d,c,m,g,a,o,k,j,i,g,f,n,j,l,d,d,f,p,g,l,q,f,g,b,g,e,b,k,c,f,m,p,a,h,e,d,j,f,p,s,o,c,g,f,t,t,s,o,b,p,n,r,n,l,e,n,j,m,p,n,o,k,a,n,d,m,g,b,k,b,m,h,h,n,s,j,k,p,o,f,l,g,d,r,i,j,m,r,n,k,a,i,o,a,a,i,g,t,c,c2
+s,t,g,d,g,s,c,d,e,a,m,p,j,b,h,a,i,g,p,t,e,s,q,d,l,g,l,m,h,i,a,r,i,d,t,m,f,p,e,g,m,i,g,e,l,a,t,j,i,r,i,a,r,g,e,n,r,t,h,m,q,a,r,m,s,j,r,r,n,p,c,a,l,q,b,d,h,q,d,f,f,m,h,o,a,c,m,f,p,k,p,c,g,m,i,h,p,c,q,s,c3
+n,a,q,j,i,g,d,a,g,t,m,h,b,s,m,h,s,n,e,a,o,k,t,n,r,o,g,o,k,t,a,j,s,s,d,e,t,s,f,p,r,p,c,h,r,s,i,i,o,t,g,p,q,f,k,g,d,c,r,j,j,b,b,d,h,m,e,r,t,r,o,i,h,c,c,s,g,a,l,c,k,q,d,f,n,l,s,l,o,l,h,e,g,b,q,d,g,s,s,m,c1
+n,h,j,r,p,s,p,t,j,i,h,m,c,a,t,n,s,n,n,o,g,s,a,s,c,f,g,o,k,i,r,j,r,o,i,d,q,d,f,p,d,o,p,n,l,g,d,m,n,t,p,a,k,e,j,g,r,t,n,j,c,b,b,e,m,b,p,r,t,a,j,o,l,r,l,j,n,n,i,i,c,e,j,f,i,d,j,r,r,f,j,p,e,t,c,f,g,j,i,p,c1
+d,b,c,q,k,f,f,n,d,t,f,o,a,s,g,r,l,q,d,d,h,l,g,c,a,j,m,i,k,d,n,t,e,f,c,e,n,l,i,d,t,c,c,d,t,r,l,a,l,a,j,k,k,p,l,f,m,q,b,a,s,r,h,m,r,e,s,f,o,p,b,c,d,o,a,s,c,t,a,o,p,e,l,a,e,n,q,h,d,m,d,f,i,k,k,g,m,j,b,b,c5
+d,g,c,h,g,r,t,g,l,q,e,b,q,j,e,d,k,f,p,a,l,b,h,t,o,g,p,e,l,c,s,m,c,p,p,o,o,l,g,c,j,k,q,b,f,j,k,a,b,s,p,s,d,h,g,q,n,h,c,o,q,c,s,t,b,a,g,n,a,h,r,g,k,o,q,j,t,s,c,c,h,r,l,d,j,k,b,e,m,f,q,p,q,e,o,n,l,m,i,c,c2
+s,l,g,c,s,f,c,e,o,a,d,c,f,a,j,k,i,n,k,p,h,g,p,r,s,b,d,r,p,d,o,l,t,c,l,m,f,p,e,g,q,e,j,i,k,o,q,o,r,e,i,f,b,b,h,n,g,n,s,i,c,a,d,s,a,n,r,t,b,p,h,m,n,r,e,b,b,f,d,r,e,p,c,l,e,c,g,h,e,b,m,o,o,m,g,f,s,o,o,m,c3
+q,l,s,h,n,r,c,l,m,a,h,g,e,c,s,r,i,k,j,q,b,d,b,n,r,m,g,k,i,b,m,m,s,t,p,m,f,p,e,n,c,t,i,e,m,e,r,d,s,t,i,m,h,t,c,n,a,b,r,a,p,b,o,r,g,h,m,q,d,p,m,c,c,b,m,k,l,s,h,q,i,i,t,h,t,c,k,b,r,c,i,a,c,m,a,i,b,o,l,k,c3
+k,b,c,t,q,g,j,c,t,b,k,s,n,t,r,d,t,r,p,b,l,n,t,j,e,g,h,d,n,c,t,m,r,c,r,j,b,t,t,d,c,r,i,f,j,t,q,d,b,s,p,b,c,h,f,o,n,b,i,f,l,f,f,c,o,r,d,c,g,f,f,p,j,i,o,b,p,c,a,o,f,t,j,d,s,s,s,s,e,o,i,q,d,h,l,c,k,f,p,c,c2
+q,o,c,t,e,l,q,j,p,k,s,r,b,a,n,d,o,m,p,l,l,j,f,q,q,g,s,s,s,c,a,m,l,a,q,c,p,j,i,b,b,d,k,d,m,l,r,d,c,a,p,f,h,c,m,s,n,t,n,s,h,k,p,f,f,f,k,c,h,o,a,j,f,q,o,b,g,f,m,h,a,i,h,d,p,b,e,h,a,e,g,p,o,i,f,l,t,g,t,c,c2
+d,h,p,t,g,g,j,p,d,t,q,d,o,p,j,h,b,q,h,d,n,i,g,b,g,j,d,s,q,r,b,b,p,p,t,f,i,f,r,c,p,j,a,i,t,a,b,t,j,n,l,m,o,m,l,e,o,o,g,m,e,h,p,q,m,l,b,o,t,e,j,t,t,c,e,s,q,b,d,r,r,d,s,r,p,e,m,l,d,r,d,r,d,d,t,q,m,a,b,i,c5
+q,b,t,s,c,l,d,c,t,l,c,f,h,n,m,h,s,n,c,h,p,c,t,l,g,r,m,o,k,j,a,j,m,a,e,l,a,k,f,k,d,n,p,e,f,d,l,r,d,t,e,i,t,g,t,b,m,t,d,j,g,e,l,k,h,r,j,r,t,q,o,g,q,b,r,c,k,k,p,d,g,h,c,f,k,i,a,a,e,p,h,p,g,p,f,s,j,f,r,f,c1
+c,o,c,t,n,s,m,q,d,a,n,l,i,k,s,d,l,j,p,t,l,h,k,p,o,g,j,d,h,c,r,m,f,a,g,n,i,k,s,k,k,g,b,t,h,b,i,d,f,a,p,b,b,m,b,l,n,h,m,b,t,t,q,p,s,k,d,m,j,e,h,j,k,k,m,b,n,i,q,a,s,k,o,d,j,s,f,h,c,o,r,p,d,j,c,p,j,i,a,c,c2
+p,h,g,f,e,l,f,o,l,k,m,m,a,m,t,c,s,h,r,q,d,h,i,l,n,s,n,b,c,a,o,d,g,m,i,e,b,o,a,k,d,g,k,l,r,s,m,o,q,p,q,p,e,m,c,r,t,s,h,c,f,m,l,h,m,d,n,a,d,g,k,d,o,m,s,q,a,n,h,k,d,s,c,d,c,e,a,s,b,t,j,j,p,g,t,b,e,n,k,f,c4
+d,k,e,q,j,j,h,i,d,t,k,r,c,m,r,c,h,q,q,g,s,g,g,c,g,j,h,c,f,c,r,k,i,c,c,o,j,r,t,b,d,l,g,a,a,i,f,o,p,o,h,o,d,c,l,t,f,n,b,p,h,l,g,c,m,r,b,o,b,d,i,q,r,j,d,s,a,l,m,r,p,f,b,o,g,m,r,d,c,d,d,k,m,g,o,m,m,q,b,m,c5
+d,s,e,j,l,d,e,a,d,t,i,h,j,n,e,j,c,q,g,e,s,i,g,t,c,j,h,p,t,d,o,s,r,m,h,d,f,d,f,a,s,n,g,g,d,f,c,l,h,h,j,e,j,t,l,g,c,q,d,p,c,k,i,t,b,l,f,t,f,c,a,n,i,g,n,s,o,l,d,e,d,g,b,j,m,q,k,t,a,d,d,h,j,g,r,g,m,f,b,t,c5
+a,a,o,o,q,e,f,k,j,j,n,e,j,m,t,t,c,r,r,e,h,i,p,h,f,n,i,f,k,d,s,r,e,o,k,d,c,d,c,t,c,e,k,p,p,t,t,c,o,k,q,e,b,m,h,r,t,j,f,c,f,s,j,s,s,b,l,a,q,c,h,i,f,j,m,n,b,n,q,k,h,p,k,m,j,g,a,r,g,i,j,e,e,h,m,o,q,k,f,o,c4
+p,d,f,m,g,r,k,a,d,d,p,i,a,p,t,d,b,t,q,o,k,d,f,c,s,t,s,p,q,k,d,i,j,i,j,i,g,s,a,f,j,d,k,g,m,o,q,o,c,d,j,j,c,l,r,r,t,o,k,c,f,g,e,m,p,i,h,a,o,f,s,q,b,e,s,s,b,n,q,k,c,b,g,l,n,a,a,r,q,q,j,k,k,o,e,d,b,e,l,b,c4
+h,t,d,n,e,e,c,n,r,a,c,e,b,m,a,n,i,r,f,n,m,c,p,g,s,t,t,b,f,g,j,b,c,k,a,m,f,p,h,h,g,b,r,c,n,p,c,b,a,p,i,r,q,l,h,n,s,q,m,p,n,h,b,f,l,p,i,d,c,p,k,p,j,f,t,a,k,g,d,k,g,h,l,t,l,c,f,n,i,b,r,k,l,m,a,c,h,p,q,h,c3
+j,f,r,e,k,e,k,l,n,i,j,g,m,o,t,t,j,c,d,d,c,g,p,h,f,t,d,q,r,p,n,q,o,a,m,t,r,q,r,t,a,h,k,b,a,r,d,r,e,p,m,c,f,i,i,r,t,t,s,c,f,o,b,a,s,d,o,a,p,l,o,q,e,a,i,j,o,n,j,k,g,g,n,n,n,l,a,q,i,s,j,l,n,b,e,m,i,q,b,d,c4
+k,b,c,j,h,f,h,l,t,l,h,l,b,p,s,d,s,o,p,b,l,t,q,r,a,g,f,k,p,c,k,m,j,e,p,q,s,k,f,t,t,l,l,g,t,r,r,a,c,a,p,k,r,l,f,m,n,j,i,g,d,c,n,t,a,d,n,n,q,f,t,f,j,c,d,t,d,r,g,d,f,h,d,d,g,s,b,b,p,f,s,c,i,e,i,h,b,n,e,c,c2
+j,a,c,t,f,i,a,g,g,c,i,e,f,h,c,d,p,g,p,o,l,r,j,m,m,g,l,o,d,c,b,m,o,c,f,i,m,h,b,q,i,q,a,p,d,h,p,b,q,q,p,l,o,f,m,h,n,p,o,f,k,p,b,p,j,i,s,s,q,a,b,s,m,b,f,d,p,h,b,r,c,l,g,d,l,n,t,l,m,f,f,s,g,l,c,h,c,f,s,c,c2
+d,l,f,l,j,i,c,i,d,t,t,g,m,a,o,m,f,q,i,e,m,i,g,m,e,j,b,c,k,r,t,h,t,c,c,q,f,m,g,p,n,b,l,s,g,k,t,r,l,d,r,m,s,f,l,m,o,c,n,j,c,q,m,c,h,d,h,e,c,h,d,e,j,t,d,s,l,p,g,i,h,h,s,l,e,k,h,s,b,e,d,e,n,s,q,s,m,l,b,g,c5
+f,g,n,n,m,c,n,j,p,l,g,h,d,o,t,h,k,i,a,i,i,q,l,r,j,a,d,j,e,s,p,j,q,n,r,o,a,q,a,c,t,h,k,p,e,m,q,r,n,k,p,r,l,g,q,r,t,f,q,c,f,l,i,e,j,m,o,a,f,m,a,b,m,d,j,t,h,n,f,k,q,k,a,a,r,p,a,n,r,l,j,q,k,q,q,j,p,d,k,s,c4
+d,h,m,a,j,i,p,r,d,t,m,t,o,f,b,f,d,q,j,e,i,k,g,j,n,j,g,g,t,e,b,a,h,m,m,p,h,j,i,b,j,c,p,a,d,m,j,f,a,k,b,i,o,s,l,b,q,f,j,c,f,p,k,i,s,t,p,i,l,k,k,m,p,t,e,s,h,r,d,n,o,s,i,j,q,o,h,s,l,t,d,r,t,t,s,q,m,g,b,q,c5
+e,t,f,h,c,o,l,r,r,n,i,k,r,k,h,o,s,n,c,j,f,k,f,h,f,g,o,o,k,q,p,j,h,b,k,o,s,p,f,t,n,a,b,l,f,n,k,d,o,t,k,a,k,g,n,o,q,p,b,j,t,a,o,h,k,i,h,r,t,o,l,h,r,r,g,j,f,g,f,s,f,m,p,f,d,n,o,k,i,h,a,f,j,b,d,i,b,s,r,r,c1
+c,o,f,j,o,c,l,r,p,k,k,h,j,b,t,s,h,l,b,t,h,s,h,m,k,n,a,l,d,k,i,o,d,g,a,o,h,c,l,e,e,d,k,j,q,h,t,n,h,c,c,j,b,o,o,r,t,o,d,c,f,f,c,n,t,m,r,a,m,q,f,r,d,a,t,m,q,n,p,k,f,d,h,t,t,b,a,l,l,r,j,f,d,m,l,i,c,h,q,n,c4
+t,c,n,t,l,t,q,s,o,c,t,i,o,e,t,m,d,g,e,a,l,i,t,l,t,b,t,h,o,h,b,k,q,n,i,k,g,p,b,j,c,t,k,f,n,e,h,j,c,e,n,n,n,p,g,r,t,l,l,c,f,p,a,f,s,l,f,a,p,p,n,g,d,j,h,p,d,n,p,k,a,a,h,c,j,r,a,i,c,s,j,d,n,g,i,h,p,b,p,k,c4
+h,f,l,g,q,d,b,g,o,r,m,d,p,a,c,d,s,n,t,p,p,m,n,n,a,d,o,o,k,g,o,j,c,r,o,c,g,l,f,a,e,f,n,h,b,s,a,m,o,t,s,s,o,t,a,e,r,h,r,j,g,j,l,r,m,s,t,r,t,h,k,j,r,j,k,j,o,n,d,l,t,f,p,f,d,f,q,e,s,s,d,n,s,r,c,k,m,f,t,j,c1
+d,r,s,n,e,e,o,t,d,t,f,d,l,d,i,r,f,q,s,m,c,d,g,r,d,j,l,r,l,k,k,m,j,m,k,d,c,f,t,k,g,e,p,m,e,f,o,n,g,e,q,i,m,g,l,d,o,o,t,t,b,m,e,p,l,b,c,a,a,n,h,a,n,f,b,s,i,b,e,c,i,m,e,i,q,b,l,s,o,o,d,h,r,f,i,o,m,g,b,s,c5
+l,b,l,q,n,j,c,l,b,a,d,r,h,f,e,p,i,b,f,i,c,t,q,s,k,p,g,g,j,i,k,d,f,s,s,m,f,p,k,p,e,j,m,m,t,e,t,m,q,a,i,k,c,j,c,n,a,p,c,a,q,a,b,s,n,m,q,e,a,p,h,l,o,j,i,g,f,a,s,j,f,g,a,n,p,c,b,s,m,d,q,m,o,m,o,c,m,c,l,j,c3
+n,e,h,j,r,d,d,n,q,c,l,e,k,e,o,k,s,n,d,a,i,a,r,q,b,l,c,o,k,g,q,j,q,g,s,h,f,t,f,b,m,j,g,r,m,d,p,p,s,t,i,g,j,j,p,s,g,s,p,j,i,a,a,m,h,d,l,r,t,l,t,j,j,d,j,g,q,m,f,d,r,l,m,f,h,s,n,f,t,g,q,g,p,s,t,c,a,p,s,a,c1
+d,q,p,l,k,n,n,j,m,d,o,n,r,h,p,o,s,n,c,e,j,h,g,a,f,g,h,o,k,l,m,j,t,i,h,f,h,l,f,n,h,o,o,g,g,q,t,a,c,t,e,b,d,p,a,c,h,r,j,j,n,o,n,j,c,b,h,r,t,r,m,l,e,a,k,e,m,d,r,j,m,f,n,f,m,d,d,b,i,l,l,n,o,l,n,i,h,e,t,i,c1
+f,e,j,m,c,c,b,o,c,i,b,t,r,c,q,t,s,n,t,k,h,r,d,h,f,l,m,o,k,q,t,j,b,k,a,s,s,j,f,t,f,e,r,m,n,s,p,h,o,t,l,g,c,n,n,p,i,i,q,j,j,b,s,s,c,b,b,r,t,l,n,b,e,e,a,g,n,q,n,o,t,j,c,f,e,c,c,f,n,o,r,s,r,d,a,h,o,g,h,l,c1
+i,m,o,n,l,t,m,d,q,s,o,i,s,p,k,d,s,n,q,j,f,h,d,s,q,r,t,o,k,r,l,j,k,f,e,t,k,o,f,c,g,p,m,f,n,a,k,c,h,t,k,h,l,g,o,a,r,p,e,j,a,o,k,d,p,c,t,r,t,j,r,s,q,e,j,r,d,a,a,j,c,i,t,f,c,f,s,l,l,t,d,i,a,g,c,c,t,p,p,b,c1
+q,n,f,e,k,s,l,b,m,n,g,r,r,n,t,f,q,s,l,h,r,f,r,f,m,p,d,p,c,q,l,b,g,q,k,k,g,j,a,c,l,a,k,k,i,k,c,q,l,p,g,f,c,g,a,r,t,t,a,c,f,h,m,h,g,n,i,a,g,p,t,i,n,h,h,c,t,n,o,k,f,p,i,h,o,k,a,j,r,s,j,l,n,b,g,l,q,p,b,g,c4
+b,l,c,p,i,g,f,g,n,s,l,a,p,t,p,d,e,m,p,r,l,n,m,i,o,g,t,m,m,c,d,m,i,k,t,p,k,l,r,q,g,a,m,f,k,t,i,g,l,j,p,n,n,d,e,e,n,c,p,e,j,c,j,o,b,r,c,n,l,t,l,s,h,f,j,n,o,c,j,c,b,r,o,d,j,j,o,j,m,c,d,n,d,r,n,f,d,r,j,c,c2
+e,l,g,s,e,t,c,h,s,a,c,m,i,b,k,m,i,k,e,a,p,a,e,j,f,m,t,n,j,b,m,k,l,c,h,m,f,p,t,e,s,h,e,l,l,p,c,f,d,n,i,l,n,k,g,n,b,g,d,b,d,e,s,j,r,d,f,b,i,p,m,t,p,q,n,t,p,r,r,i,n,o,o,j,k,c,b,r,d,h,i,d,s,m,c,r,t,i,t,n,c3
+l,b,c,l,c,a,b,l,m,c,f,k,f,b,d,d,i,d,p,h,l,l,p,g,r,g,t,f,k,c,d,m,h,o,b,e,n,a,i,q,k,d,c,d,n,j,r,r,p,n,p,c,i,k,n,s,n,k,o,k,i,c,g,o,i,j,p,l,q,b,k,l,n,k,b,h,c,a,q,k,a,m,o,d,t,c,c,e,f,r,p,g,q,k,a,j,b,s,f,c,c2
+g,j,t,r,d,c,h,c,d,l,k,d,q,h,t,b,g,m,s,n,k,e,r,q,p,o,c,i,s,g,l,r,d,d,r,k,r,e,f,k,j,j,k,e,r,q,s,j,g,q,t,m,p,d,f,r,t,j,f,c,f,r,c,n,n,j,o,a,b,k,d,o,p,h,s,i,b,n,d,k,d,h,t,e,e,o,a,r,a,t,j,r,f,o,d,i,l,p,q,b,c4
+d,n,i,a,h,c,b,l,d,t,l,h,l,o,i,o,b,q,t,p,o,n,g,h,h,j,b,h,c,h,k,r,d,i,r,j,c,g,s,s,k,m,l,i,h,b,s,c,i,o,c,s,p,s,l,l,q,h,s,o,s,g,f,e,a,e,l,m,n,k,d,q,r,t,i,s,c,q,f,d,s,r,p,a,p,q,o,s,p,s,d,j,f,m,s,f,m,a,b,q,c5
+s,p,r,g,n,s,d,l,q,m,o,g,o,t,t,e,d,t,d,k,n,i,n,j,m,g,k,n,b,s,o,q,k,t,m,k,q,m,l,p,t,m,k,c,r,r,n,r,t,l,a,f,q,b,d,r,t,o,l,c,f,l,t,f,d,q,t,a,j,k,q,h,s,l,a,e,k,n,q,k,q,l,l,a,e,a,a,l,a,s,j,p,m,i,q,e,k,d,d,r,c4
+j,i,d,f,r,n,h,o,m,q,a,q,k,f,t,o,e,l,k,e,k,m,d,h,e,j,k,l,f,i,f,l,l,d,l,f,r,b,f,p,i,o,k,r,h,m,m,f,t,m,d,f,c,m,r,r,t,f,j,c,f,s,m,d,d,t,e,a,m,t,k,o,s,t,f,n,d,n,b,k,o,l,m,j,e,i,a,a,c,b,j,f,t,q,h,k,r,h,j,e,c4
+d,e,t,b,k,m,a,r,d,t,j,i,a,t,r,t,m,q,s,m,o,b,g,r,p,j,l,f,o,c,p,c,r,k,m,m,q,p,p,r,r,k,b,s,p,l,r,o,g,c,d,s,b,n,l,b,g,s,j,n,c,k,q,t,i,b,t,s,t,t,k,e,n,b,c,s,p,k,b,d,b,i,g,h,r,i,e,m,n,a,d,c,n,f,c,b,m,n,b,n,c5
+d,d,f,j,q,d,j,g,d,t,s,f,k,m,i,t,h,q,p,n,o,p,g,r,h,j,o,h,k,q,t,i,p,q,e,f,k,n,k,l,o,n,b,d,t,n,k,e,i,f,k,l,a,b,l,b,j,q,c,j,d,j,t,t,k,e,f,d,f,r,m,o,b,i,s,s,n,s,k,p,c,n,n,b,j,q,a,o,r,k,d,q,g,o,n,k,m,b,b,o,c5
+g,f,r,h,l,d,c,d,f,a,j,t,g,r,j,s,i,i,j,n,n,o,s,s,m,r,h,f,p,e,a,a,q,j,j,m,f,p,q,a,t,f,f,p,h,d,r,s,b,p,i,s,p,o,r,n,s,a,p,g,o,k,p,i,j,b,a,p,t,p,q,a,f,a,o,c,s,o,r,r,b,a,f,k,r,c,p,e,g,e,b,k,c,m,e,f,i,p,q,m,c3
+i,f,c,r,q,m,s,c,s,m,f,s,d,c,f,d,b,g,p,s,l,k,o,s,k,g,p,a,i,c,d,m,b,o,f,j,n,n,b,c,h,h,m,d,n,n,q,b,p,d,p,t,g,m,b,d,n,f,d,k,h,m,r,h,p,i,p,c,m,j,k,i,l,a,i,j,f,c,c,q,e,i,d,d,b,f,t,i,t,r,g,r,b,o,f,h,c,b,b,c,c2
+a,f,h,e,g,d,q,s,f,e,p,m,o,c,l,n,s,n,h,m,g,j,p,p,r,j,o,o,k,g,c,j,j,c,c,k,k,h,f,a,n,f,b,h,a,e,p,e,q,t,j,m,h,d,q,i,i,b,r,j,l,r,c,c,d,s,k,r,t,i,b,h,k,n,o,g,f,h,q,o,f,o,l,f,j,m,k,g,k,t,a,a,n,e,n,b,s,q,n,o,c1
+o,m,d,i,g,l,c,e,i,a,m,q,k,b,k,i,i,q,s,r,p,q,i,i,i,o,b,q,j,p,g,f,f,c,d,m,f,p,l,l,n,i,b,b,n,n,t,h,p,m,i,j,f,b,l,n,g,a,h,g,o,m,n,r,c,j,l,f,i,p,h,q,m,r,b,k,n,o,l,h,j,c,n,j,e,c,t,i,k,i,p,k,f,m,p,e,r,n,p,c,c3
+h,a,j,q,t,f,q,c,l,p,i,g,r,t,t,g,d,d,s,j,s,j,a,s,d,f,f,o,j,q,a,d,n,p,g,m,d,c,c,m,o,b,k,a,o,f,a,d,s,i,n,t,p,l,j,r,t,r,j,c,f,q,p,i,n,f,i,a,k,n,r,e,o,i,a,d,d,n,n,k,l,g,j,c,p,m,a,l,a,j,j,q,i,r,g,a,l,t,l,m,c4
+r,e,a,h,r,c,c,h,c,a,e,h,m,c,e,a,i,t,s,o,s,b,e,j,q,d,k,e,g,i,h,a,l,e,k,m,f,p,p,q,i,s,d,t,q,l,m,q,f,c,i,n,c,j,h,n,o,b,c,i,o,s,o,q,s,c,k,t,t,p,k,p,b,b,f,a,h,h,m,c,e,t,b,a,p,c,q,d,k,f,e,s,c,m,p,s,a,o,f,r,c3
+r,f,c,l,s,o,l,d,o,r,p,b,h,p,a,d,l,q,p,t,l,q,r,r,b,g,e,p,m,c,c,m,c,l,c,c,q,g,p,r,h,a,q,q,c,f,t,m,j,f,p,m,n,p,h,h,n,n,a,p,a,i,h,j,f,h,s,p,r,e,s,c,q,i,f,r,q,m,a,r,r,i,f,d,r,l,g,m,i,e,i,m,l,q,t,c,j,f,a,c,c2
+q,d,q,j,b,m,c,r,k,a,p,q,c,t,t,j,i,i,n,s,s,s,s,b,m,f,n,m,o,s,n,k,p,f,t,m,f,p,s,o,a,i,k,k,h,h,r,g,n,j,i,e,p,f,h,n,h,b,m,r,n,i,j,h,c,i,b,c,n,p,o,a,b,f,b,i,r,o,a,r,j,e,p,f,a,c,m,d,p,b,f,a,c,m,c,p,q,h,f,c,c3
+e,a,j,d,o,k,c,o,d,a,b,q,n,p,d,l,i,i,m,m,s,k,c,q,r,o,k,b,o,b,p,p,k,o,i,m,f,p,b,g,o,q,r,g,j,d,t,r,d,f,i,f,d,d,t,n,s,h,a,i,m,j,s,h,q,c,s,e,h,p,g,k,c,t,l,n,a,c,i,i,p,s,a,c,h,c,n,e,c,f,l,g,t,m,d,h,d,l,f,c,c3
+j,a,g,c,k,n,c,b,o,a,s,k,c,f,a,i,i,g,j,e,s,k,b,t,p,q,q,k,t,c,h,p,e,d,p,m,f,p,a,e,h,k,i,b,r,t,p,m,s,o,i,b,g,q,p,n,a,a,m,i,q,f,a,q,n,s,q,e,a,p,p,g,d,l,a,d,s,c,k,c,l,q,r,e,q,c,o,f,o,k,n,k,o,m,c,k,h,m,t,e,c3
+c,i,c,s,b,a,m,m,i,l,g,a,l,c,e,d,p,s,p,h,l,o,j,l,q,g,c,h,m,c,s,m,g,h,i,g,d,j,b,m,i,b,a,e,t,m,e,i,o,i,p,i,a,h,i,c,n,b,c,k,c,p,r,l,c,g,q,a,a,d,o,h,t,f,f,t,s,c,h,c,b,f,h,d,j,f,e,o,h,s,a,p,g,c,g,f,l,s,l,c,c2
+i,o,c,n,q,e,c,h,k,b,a,c,a,j,e,d,f,p,p,j,l,p,n,n,i,g,k,p,g,c,o,m,o,b,q,i,j,t,l,p,j,a,j,e,o,j,c,n,t,o,p,g,m,j,b,i,n,s,l,m,k,t,f,b,q,g,o,a,p,c,c,n,e,q,a,a,c,h,p,g,j,l,e,d,o,e,n,q,e,j,p,m,o,o,m,e,k,h,l,c,c2
+d,r,b,i,l,t,a,d,d,t,b,p,n,d,f,p,c,q,d,j,n,c,g,b,e,j,e,m,n,g,n,r,d,i,j,t,s,d,o,s,k,b,r,e,b,s,p,k,r,h,i,t,f,b,l,p,g,m,f,c,r,c,i,l,t,o,d,k,j,j,p,q,i,f,p,s,t,n,m,i,l,b,o,h,i,e,i,b,e,q,d,f,a,a,b,p,m,i,b,m,c5
+d,t,b,n,o,l,r,c,d,t,p,g,a,d,p,e,d,q,q,b,j,p,g,f,f,j,t,o,b,a,n,e,b,e,c,i,q,h,d,f,l,k,o,g,k,c,i,b,i,g,t,a,j,l,l,i,a,s,j,b,q,k,j,g,d,a,q,l,q,d,s,o,g,r,f,s,l,q,q,r,q,p,o,q,e,k,m,d,m,g,d,q,g,j,c,i,m,m,b,b,c5
+d,q,f,s,k,t,p,k,d,t,e,g,l,e,e,o,q,q,p,o,j,g,g,k,e,j,l,j,r,i,f,h,p,n,j,p,c,d,c,n,t,j,p,i,h,s,b,g,b,c,i,k,p,r,l,h,q,k,s,i,j,a,a,s,d,s,j,t,h,d,a,l,f,o,h,s,t,k,a,c,d,o,h,i,e,r,n,n,d,l,d,k,p,b,k,t,m,s,b,n,c5
+s,g,c,n,s,f,e,d,a,f,o,q,t,a,f,d,k,n,p,j,l,c,k,g,o,g,d,k,g,c,k,m,r,f,l,d,m,c,n,f,i,d,j,s,p,m,c,l,o,m,p,c,q,s,r,i,n,b,e,j,r,t,p,l,k,o,c,r,m,k,n,r,r,s,h,p,p,t,t,a,e,l,t,d,o,o,m,o,f,h,n,k,h,g,e,f,n,i,h,c,c2
+c,o,n,a,k,f,g,k,b,l,t,e,s,e,g,t,s,n,n,g,g,g,p,o,b,f,a,o,k,f,m,j,s,l,k,r,a,r,f,l,h,t,j,f,t,t,g,e,m,t,r,t,a,g,f,i,g,t,i,j,l,n,n,f,g,l,j,r,t,d,i,t,r,o,s,g,e,i,c,l,o,k,d,f,t,e,q,c,g,l,m,h,g,a,h,b,l,e,g,c,c1
+d,a,k,e,t,k,h,q,d,t,l,g,g,c,a,s,k,q,s,o,n,n,g,e,a,j,k,m,g,o,k,c,j,e,t,b,j,h,q,i,k,f,m,s,p,f,g,p,p,g,j,d,r,o,l,k,c,c,q,f,k,f,s,c,a,c,l,k,c,f,k,g,o,i,r,s,b,f,t,r,c,j,q,d,f,e,n,h,p,i,d,n,b,q,b,g,m,g,b,k,c5
+n,m,d,l,c,o,p,c,h,q,l,p,r,i,r,j,s,n,c,e,r,p,a,r,a,m,l,o,k,k,q,j,a,h,r,g,t,g,f,k,t,g,h,q,r,m,d,n,k,t,h,r,r,f,f,l,r,p,b,j,p,k,h,h,a,c,f,r,t,o,o,i,q,d,d,o,o,i,k,q,h,s,f,f,h,g,q,b,q,o,k,l,r,i,q,g,q,h,o,r,c1
+r,i,d,h,o,n,c,b,k,a,i,d,a,q,m,n,i,f,c,c,p,j,t,f,r,l,b,b,p,o,d,g,d,r,f,m,f,p,i,s,s,n,m,q,l,j,g,g,m,m,i,r,t,f,a,n,a,j,p,a,i,h,c,b,g,m,q,c,n,p,c,p,s,i,d,d,r,d,o,o,e,d,n,t,b,c,d,p,b,k,s,g,f,m,k,q,b,d,q,f,c3
+m,c,r,r,m,k,j,c,g,b,f,f,k,c,t,i,b,s,b,l,h,p,i,l,b,a,d,t,o,l,c,i,p,b,r,s,m,n,a,c,d,k,k,m,k,o,j,n,l,k,q,t,e,k,s,r,t,o,q,c,f,e,o,c,q,c,g,a,b,c,k,f,h,k,d,s,l,n,m,k,g,g,q,t,q,k,a,n,b,s,j,c,s,c,i,q,h,b,q,f,c4
+s,s,c,l,k,e,e,q,q,t,i,f,d,b,g,d,s,p,p,j,l,k,d,q,d,g,a,n,h,c,g,m,i,c,f,h,a,o,k,l,c,q,a,o,n,c,m,e,a,s,p,f,d,n,b,j,n,c,s,t,m,n,j,f,l,k,c,a,f,c,b,d,a,f,g,t,g,m,q,m,b,t,b,d,g,c,q,l,t,k,a,h,e,j,r,r,l,o,i,c,c2
+g,p,k,d,k,d,c,k,t,a,a,b,b,g,j,b,i,m,a,i,f,d,p,c,t,i,b,h,t,c,m,e,a,k,t,m,f,p,b,b,d,p,c,g,l,p,b,s,o,l,i,s,r,t,a,n,s,m,t,j,g,f,i,c,g,g,l,l,j,p,k,c,n,b,r,k,a,d,b,t,l,m,i,j,e,c,d,l,i,r,f,q,d,m,a,j,p,t,j,q,c3
+c,c,c,s,o,j,c,d,o,d,i,b,e,o,e,d,b,n,p,h,l,k,c,t,l,g,m,c,f,c,i,m,r,d,l,d,g,m,p,g,o,o,l,f,i,k,m,p,d,o,p,e,k,g,e,h,n,l,t,t,c,j,g,i,s,a,o,j,k,s,e,c,d,o,r,a,l,o,o,e,g,m,r,d,s,c,e,o,e,s,h,s,i,n,i,h,g,d,j,c,c2
+e,t,l,e,k,h,b,c,p,g,o,o,q,h,a,b,s,n,e,c,h,q,l,c,d,r,b,o,k,o,i,j,r,k,c,l,k,d,f,h,n,m,e,t,p,e,b,d,a,t,q,a,s,f,q,j,o,l,c,j,a,f,s,t,l,q,p,r,t,c,q,f,k,g,m,b,p,r,p,h,h,n,d,f,n,g,q,t,n,t,i,i,m,h,l,c,i,d,e,p,c1
+d,c,g,a,t,r,t,i,d,t,m,t,a,f,j,n,c,q,h,n,m,t,g,r,f,j,r,b,c,i,a,j,o,q,d,r,m,l,n,a,c,l,n,c,i,a,g,a,l,j,s,r,i,n,l,e,k,i,p,d,p,c,t,d,l,c,r,d,e,s,g,s,f,c,d,s,s,d,j,d,h,i,f,b,m,l,s,r,a,l,d,a,f,b,i,n,m,h,b,g,c5
+c,s,d,c,n,q,c,l,p,a,d,q,b,f,r,o,i,n,p,g,k,b,g,k,e,i,o,c,k,r,d,o,c,l,q,m,f,p,b,b,t,o,n,b,o,h,p,l,q,f,i,g,p,o,s,n,r,j,r,c,e,l,m,r,d,a,m,t,p,p,f,t,h,o,k,o,r,b,h,l,o,e,q,q,f,c,d,n,k,q,o,r,n,m,n,h,p,d,k,f,c3
+l,f,t,p,r,b,c,l,n,a,k,p,s,l,i,t,i,r,e,o,p,h,f,s,m,c,f,q,s,r,i,p,f,i,g,m,f,p,d,s,k,d,o,n,a,e,i,m,f,j,i,n,d,o,h,n,g,e,p,d,f,k,h,o,o,i,o,t,p,p,a,s,p,s,a,p,d,d,d,k,t,c,b,j,b,c,h,m,h,e,n,f,i,m,r,t,m,j,l,j,c3
+l,r,c,c,b,t,s,i,i,t,b,a,t,m,t,d,e,t,p,f,l,s,m,f,d,g,t,p,m,c,s,m,k,n,o,r,q,t,j,f,s,a,c,p,a,b,a,f,n,e,p,b,p,b,g,e,n,k,j,l,r,h,l,p,p,q,g,k,a,b,p,i,q,s,i,r,i,f,j,e,l,n,c,d,k,c,a,r,l,i,c,h,k,o,c,l,l,q,e,c,c2
+d,n,s,c,b,t,r,t,d,t,d,l,d,h,f,l,o,q,n,b,j,b,g,p,q,j,p,m,n,e,j,l,j,l,n,l,f,q,t,t,e,r,l,q,b,h,d,r,s,l,r,b,q,l,l,c,o,o,b,s,d,k,m,t,p,t,f,n,g,j,m,l,g,d,a,s,b,h,s,r,j,h,f,e,p,b,c,m,g,r,d,j,e,l,o,o,m,s,b,s,c5
+d,a,s,r,b,b,h,i,d,t,s,o,t,l,s,k,k,q,i,b,h,g,g,r,l,j,a,a,r,l,m,p,s,p,a,h,i,f,r,p,t,s,n,t,p,k,s,l,d,k,a,f,k,t,l,f,o,f,l,b,q,t,e,o,d,i,b,k,m,g,e,t,g,h,p,s,b,e,q,j,q,s,c,p,l,i,j,e,o,i,d,n,l,k,b,c,m,t,b,h,c5
+d,c,c,b,a,a,e,a,j,h,c,h,q,a,b,d,d,k,p,d,l,f,n,s,p,g,e,p,k,c,j,m,o,q,s,m,s,f,m,k,t,h,a,g,a,p,g,f,s,j,p,o,p,l,c,j,n,d,n,s,m,q,o,a,g,i,l,k,s,r,i,g,p,d,k,q,a,i,k,r,d,l,c,d,j,e,n,h,r,t,r,p,t,f,i,s,o,b,e,c,c2
+f,d,c,m,j,k,f,q,c,q,i,h,e,h,t,b,k,s,p,q,h,p,n,j,i,l,e,p,q,l,j,p,p,s,n,e,d,c,t,n,h,l,k,d,b,o,h,d,b,m,q,n,o,c,f,r,t,o,h,c,f,h,d,i,e,e,c,a,g,d,t,e,s,o,k,o,e,n,e,k,m,s,g,p,h,p,a,k,l,b,j,n,p,r,b,l,i,e,n,c,c4
+b,t,c,c,t,r,s,j,l,m,s,i,r,r,h,d,e,t,p,n,l,f,m,r,q,g,t,p,b,c,d,m,o,h,t,h,h,j,o,f,t,j,r,g,b,f,i,l,a,e,p,p,q,f,p,g,n,g,m,d,b,q,c,e,a,c,g,t,h,l,s,m,k,t,n,h,h,h,q,i,i,m,g,d,j,k,c,i,g,b,j,n,h,s,t,b,p,i,c,c,c2
+e,h,c,h,i,q,j,p,p,j,p,p,j,n,j,d,p,s,p,o,l,n,s,s,e,g,i,k,d,c,n,m,b,e,l,n,t,h,b,r,j,f,b,g,t,o,t,g,o,h,p,h,g,s,h,f,n,q,q,q,l,f,f,e,l,b,s,f,d,j,m,q,r,f,e,m,c,o,p,m,p,d,j,d,t,k,b,m,r,d,k,m,q,s,b,t,a,a,t,c,c2
+d,k,m,q,h,f,c,o,d,t,n,o,k,o,l,o,p,q,r,l,n,m,g,q,j,j,b,k,k,h,p,e,c,c,r,d,g,d,c,t,g,e,d,d,j,p,f,c,h,e,g,l,e,e,l,p,c,a,j,e,n,d,i,q,h,k,d,s,j,h,h,m,q,q,d,s,t,q,q,d,e,s,m,j,b,b,n,h,h,l,d,j,l,t,i,i,m,n,b,g,c5
+p,b,c,q,t,k,p,k,t,b,q,a,r,g,d,d,h,e,p,c,l,q,r,q,s,g,h,g,h,c,o,m,m,i,c,l,p,e,d,q,l,r,m,m,g,l,b,b,a,f,p,q,o,p,k,j,n,g,c,q,h,n,c,f,l,r,g,k,i,k,q,l,n,g,b,d,k,t,m,d,k,o,l,d,f,t,e,s,q,c,h,t,k,p,c,m,c,l,o,c,c2
+d,e,f,m,o,e,g,r,d,t,d,g,q,s,d,m,q,q,f,l,o,c,g,j,s,j,d,g,a,r,c,a,c,r,k,q,r,r,o,m,m,s,g,p,a,d,r,e,k,h,b,d,i,t,l,h,r,p,d,g,h,t,a,p,i,d,j,d,q,e,n,t,g,b,n,s,f,o,g,f,m,k,l,g,m,q,i,r,m,n,d,i,d,c,o,k,m,k,b,k,c5
+b,f,c,r,o,j,r,o,q,d,p,h,h,h,m,d,q,e,p,g,l,l,i,q,c,g,d,b,l,c,t,m,t,m,q,j,c,g,m,c,b,h,f,s,t,e,k,t,f,n,p,s,k,t,n,s,n,g,b,d,b,g,k,c,e,i,j,h,j,j,f,s,q,j,f,g,p,f,e,e,c,m,b,d,n,l,k,c,p,q,l,s,m,k,i,o,b,i,h,c,c2
+d,a,e,n,e,d,f,a,i,i,j,d,h,k,t,i,i,o,o,l,p,n,d,q,e,b,h,m,p,d,i,d,k,f,q,b,b,k,m,l,m,h,k,o,b,s,t,k,n,l,c,d,d,p,m,r,t,t,t,c,f,e,d,o,n,c,q,a,b,q,k,t,c,s,p,s,f,n,o,k,q,m,n,m,f,q,a,t,k,o,j,k,e,j,d,k,i,g,m,d,c4
+d,n,d,r,m,g,k,s,d,t,s,d,r,l,q,r,a,q,m,s,s,e,g,s,t,j,b,l,i,j,a,o,a,e,h,q,g,o,e,o,p,g,r,k,b,f,b,t,r,d,a,h,q,h,l,k,c,b,o,k,p,p,m,j,g,n,q,d,j,a,q,f,g,s,k,s,h,s,j,k,s,i,p,c,d,q,g,g,l,c,d,i,a,p,t,h,m,b,b,d,c5
+l,p,c,i,p,q,e,p,d,i,t,d,l,s,o,d,j,f,p,a,l,i,i,r,g,g,j,i,i,c,j,m,c,l,e,o,g,l,k,m,i,q,b,n,e,i,b,t,f,r,p,d,j,l,m,i,n,e,k,p,n,a,p,n,b,t,t,q,o,g,e,t,m,k,m,s,i,o,j,j,h,c,s,d,o,o,b,k,a,s,p,l,k,r,s,c,f,n,l,c,c2
+d,g,p,s,k,j,p,m,d,t,p,i,d,h,p,i,a,q,q,r,f,n,g,n,i,j,s,o,e,d,i,a,q,d,b,l,r,c,n,b,l,f,j,q,t,e,m,k,h,q,f,f,c,e,l,r,h,q,e,f,b,c,n,a,p,o,q,h,r,d,p,p,i,p,k,s,d,o,m,c,j,e,j,b,p,o,l,n,k,n,d,j,m,p,m,j,m,e,b,i,c5
+f,p,c,k,d,f,h,b,c,h,b,l,h,r,a,d,o,a,p,t,l,k,m,e,t,g,s,n,i,c,t,m,k,p,d,a,n,m,b,n,o,h,i,k,s,j,h,q,b,m,p,q,g,m,p,p,n,i,f,g,h,o,o,q,i,f,h,c,h,l,s,q,f,k,f,j,g,q,p,f,o,i,r,d,b,s,a,a,m,m,b,p,n,n,g,j,o,b,c,c,c2
+h,p,f,t,p,p,c,e,h,a,k,r,s,c,j,m,i,g,l,d,e,l,e,q,p,l,h,p,g,m,p,p,b,g,g,m,f,p,p,h,j,e,m,p,q,m,h,a,o,d,i,b,f,h,d,n,d,t,j,k,m,m,t,e,e,j,r,l,r,p,n,a,m,j,p,m,s,b,d,s,h,f,g,j,p,c,l,r,m,r,e,r,n,m,q,b,p,o,g,s,c3
+k,j,c,d,i,a,j,d,r,p,f,e,h,f,r,d,m,m,p,l,l,m,j,g,f,g,i,n,a,c,j,m,q,i,r,l,r,h,s,g,h,f,g,g,a,h,b,l,g,t,p,q,r,a,s,j,n,c,k,f,d,b,i,r,e,t,r,t,p,k,m,g,a,r,j,e,a,o,h,o,h,f,b,d,c,c,b,j,g,l,b,t,t,s,k,e,p,a,r,c,c2
+j,r,e,g,t,b,c,l,a,a,t,o,n,c,m,k,i,o,n,h,b,p,l,f,j,r,l,c,e,t,q,h,g,h,r,m,f,p,g,d,o,p,n,k,q,g,n,p,e,a,i,m,d,j,q,n,m,i,t,t,g,e,i,r,j,e,p,j,l,p,p,k,o,b,c,a,q,n,c,i,m,g,h,s,q,c,g,o,q,q,m,k,q,m,f,k,e,k,m,k,c3
+e,p,q,a,o,e,s,t,q,k,q,o,k,q,d,d,s,n,a,m,k,l,a,g,q,k,r,o,k,r,m,j,d,n,f,q,h,d,f,j,m,q,j,f,h,a,q,j,p,t,i,a,q,s,a,n,n,q,r,j,n,d,d,i,n,j,c,r,t,b,b,o,p,r,t,o,h,f,p,p,f,d,r,f,r,r,o,f,f,b,a,m,b,m,e,o,a,g,m,k,c1
+g,d,c,i,l,c,c,n,b,a,n,i,b,s,k,o,i,q,q,n,k,d,f,j,t,s,c,s,a,l,r,n,j,f,m,m,f,p,g,j,g,a,a,k,s,n,t,c,d,l,i,j,k,q,d,n,s,h,c,d,r,i,a,a,q,k,r,k,d,p,k,l,e,p,m,g,h,k,n,b,h,f,c,g,n,c,o,l,i,h,j,j,j,m,a,d,h,r,o,h,c3
+d,i,n,m,p,q,g,o,g,m,h,e,r,f,t,k,r,m,t,c,a,o,a,i,l,t,g,a,p,f,d,q,q,a,s,s,k,t,m,b,f,h,k,g,o,f,q,k,e,c,e,i,o,m,p,r,t,c,n,c,f,a,k,o,b,f,d,a,l,s,k,i,t,r,q,i,k,n,c,k,o,k,q,k,c,n,a,o,f,r,j,t,b,l,f,b,b,l,t,q,c4
+f,a,c,a,m,m,j,n,l,h,c,s,k,t,h,d,i,s,p,n,l,f,p,h,p,g,a,c,s,c,c,m,r,b,r,j,e,k,g,a,g,t,b,h,j,h,s,p,t,t,p,d,t,k,g,r,n,d,n,f,a,f,r,o,n,c,n,h,q,b,m,c,o,o,l,a,k,p,c,n,j,l,c,d,b,t,c,t,h,i,j,p,a,m,d,o,s,h,f,c,c2
+d,h,m,f,g,n,f,p,h,l,d,c,d,c,t,b,s,m,q,h,k,l,o,e,j,f,j,b,m,k,a,p,k,c,p,e,l,t,i,b,k,q,k,h,r,a,r,k,o,e,o,s,r,t,l,r,t,b,t,c,f,c,l,p,h,m,r,a,p,h,k,n,k,a,o,m,h,n,n,k,m,l,a,b,k,j,a,k,f,i,j,d,k,k,o,r,o,t,d,l,c4
+d,k,t,r,o,a,d,l,d,t,l,k,f,t,q,n,l,q,s,i,l,o,g,d,q,j,k,h,r,p,g,s,e,n,f,k,d,p,h,s,b,m,r,l,c,t,m,i,g,i,s,p,k,b,l,s,j,r,h,s,f,d,p,o,d,p,m,o,s,s,c,e,k,o,h,s,d,f,i,c,l,m,h,c,d,j,e,n,i,t,d,e,j,c,t,s,m,g,b,t,c5
+c,f,s,s,p,c,t,g,t,a,o,i,d,e,t,p,l,g,e,b,m,t,t,m,e,q,i,h,l,j,b,j,g,r,c,e,g,n,s,t,c,a,k,a,q,r,l,k,o,h,d,e,l,n,b,r,t,i,k,c,f,b,s,m,r,c,q,a,c,k,k,q,a,k,n,s,h,n,l,k,t,n,f,m,n,n,a,o,i,g,j,o,k,j,t,o,b,m,o,g,c4
+d,b,n,q,l,j,n,m,d,t,a,j,e,o,k,f,a,q,r,e,s,j,g,c,n,j,d,o,j,g,a,f,e,n,k,r,m,e,f,f,b,a,g,k,s,k,c,p,i,c,j,o,t,f,l,c,q,m,g,m,l,m,g,j,q,t,t,c,j,m,l,k,e,o,n,s,l,f,r,c,e,e,n,k,b,o,j,f,o,q,d,s,r,b,j,r,m,o,b,k,c5
+g,i,a,l,m,j,c,o,o,a,s,t,i,k,b,b,i,s,l,d,o,a,d,h,j,q,g,r,b,t,h,m,h,l,r,m,f,p,p,a,f,n,n,t,e,l,o,g,o,m,i,b,j,a,n,n,j,m,e,s,j,f,f,m,g,j,a,t,n,p,i,c,a,m,t,m,b,r,e,l,c,t,b,l,m,c,n,m,h,m,c,p,d,m,o,t,s,h,m,o,c3
+a,n,t,i,r,d,c,p,t,a,i,m,a,c,h,t,i,t,k,h,a,k,a,t,b,l,a,q,k,n,s,f,o,t,h,m,f,p,c,h,o,r,p,m,j,k,j,o,r,e,i,o,k,m,q,n,a,i,m,f,q,o,l,c,f,k,n,s,j,p,f,a,d,k,g,j,s,m,r,c,m,g,n,t,d,c,l,l,o,a,r,g,s,m,c,g,m,p,j,r,c3
+l,p,c,q,l,k,b,p,k,j,b,p,q,i,t,j,a,p,i,m,g,m,n,p,t,f,d,r,d,h,l,m,p,m,f,t,h,i,k,o,q,d,k,e,b,t,j,r,b,q,p,r,t,b,j,r,t,c,f,c,f,e,a,f,b,g,e,a,d,n,k,c,g,g,f,t,d,n,n,k,q,j,r,j,o,n,a,q,i,e,j,a,i,k,p,e,g,p,s,e,c4
+k,t,p,e,n,e,r,o,q,m,j,e,j,l,r,t,s,n,p,e,m,h,f,b,h,t,f,o,k,d,r,j,s,a,g,g,a,g,f,f,e,j,r,a,c,e,t,i,f,t,c,o,k,h,e,l,d,h,m,j,t,d,s,g,c,g,e,r,t,c,j,l,r,o,m,q,a,o,h,e,i,l,l,f,p,b,i,h,j,f,r,p,m,l,m,f,d,m,s,o,c1
+f,o,j,b,r,d,c,b,j,a,a,t,t,d,b,m,i,b,g,i,k,o,q,e,c,l,q,i,k,j,b,p,o,s,o,m,f,p,t,q,m,l,h,s,k,c,i,p,f,q,i,k,j,n,e,n,q,g,k,s,m,t,a,e,j,t,k,a,k,p,h,t,g,g,h,q,s,m,q,k,i,e,s,t,m,c,a,g,c,r,t,l,k,m,g,k,i,r,l,g,c3
+d,k,p,r,a,b,d,l,d,t,a,q,c,n,l,k,e,q,q,i,i,r,g,q,a,j,a,s,a,s,e,c,k,p,k,d,n,o,p,e,c,f,k,e,b,a,k,d,j,i,k,c,g,g,l,k,d,k,h,l,e,q,r,n,l,b,k,c,q,g,e,h,a,c,s,s,j,f,d,k,e,k,e,g,j,b,t,l,d,k,d,b,n,j,s,p,m,c,b,n,c5
+g,o,d,g,b,i,s,t,l,q,t,l,k,k,f,p,s,n,r,j,h,t,o,m,j,r,i,o,k,j,a,j,a,m,d,l,s,s,f,d,g,h,l,l,j,e,i,h,p,t,e,s,p,p,q,i,b,h,c,j,p,g,f,d,s,b,r,r,t,b,a,t,b,r,d,m,h,q,h,b,r,r,t,f,c,l,m,m,p,j,s,g,e,i,r,m,c,s,r,e,c1
+k,t,p,r,g,b,o,b,k,q,b,f,e,b,l,m,s,n,m,l,n,d,o,m,n,k,i,o,k,i,a,j,t,h,l,d,g,h,f,l,h,d,o,i,m,p,i,j,c,t,f,m,n,a,e,t,d,j,s,j,j,c,g,j,n,m,c,r,t,k,r,p,n,g,m,m,b,s,q,d,q,p,f,f,r,c,t,r,a,l,e,j,r,e,k,k,l,d,k,o,c1
+c,i,t,d,n,i,c,k,b,a,a,i,m,a,o,l,i,d,p,g,c,a,j,a,d,n,n,h,s,g,o,q,b,g,s,m,f,p,b,r,k,n,o,m,b,t,m,g,r,n,i,o,c,j,t,n,c,c,s,n,f,t,l,t,j,n,i,a,j,p,b,t,n,f,a,a,i,o,p,n,q,n,h,g,c,c,c,t,a,f,s,l,t,m,h,a,n,h,h,a,c3
+a,q,a,j,n,b,c,g,b,a,l,c,p,a,p,k,i,h,g,c,m,b,o,k,i,f,s,p,q,f,r,s,c,r,b,m,f,p,j,h,j,a,e,o,h,c,q,e,a,o,i,c,c,i,h,n,h,d,a,j,h,m,m,l,o,d,f,i,m,p,g,i,t,k,o,r,p,o,j,p,e,k,a,k,t,c,h,a,j,g,d,e,n,m,f,d,t,a,b,o,c3
+m,i,g,t,f,r,a,j,h,d,g,o,m,f,k,k,s,n,o,t,s,d,k,a,r,l,e,o,k,s,n,j,s,l,e,a,h,d,f,t,r,t,s,t,p,r,l,b,g,t,t,d,d,i,n,l,s,j,o,j,k,l,i,i,r,g,h,r,t,o,b,f,q,h,i,l,l,l,f,k,d,s,i,f,d,e,d,t,i,b,n,s,c,p,l,m,l,c,j,t,c1
+s,t,j,s,k,m,r,n,j,q,l,h,d,j,f,i,s,n,h,d,d,j,t,e,b,s,h,o,k,e,k,j,d,q,b,r,m,b,f,s,p,r,l,r,j,q,i,f,p,t,d,s,t,f,o,g,l,b,o,j,m,b,n,c,h,b,q,r,t,m,i,r,p,g,h,k,j,l,e,f,h,g,t,f,r,q,m,m,r,g,h,b,s,c,d,h,q,f,g,j,c1
+t,p,t,o,e,g,s,e,n,m,n,e,s,c,t,h,o,n,h,n,t,m,h,o,r,f,o,n,g,t,j,h,s,s,r,c,c,p,d,f,e,i,k,l,d,i,a,i,a,b,k,c,p,d,b,r,t,a,k,c,f,s,o,c,c,j,j,a,a,e,o,t,j,k,h,b,b,n,m,k,n,i,i,t,i,k,a,a,k,q,j,h,b,p,c,h,p,n,i,p,c4
+d,h,c,c,j,m,k,d,s,h,o,s,g,d,l,d,p,t,p,t,l,c,c,g,n,g,p,g,a,c,s,m,o,a,m,o,k,m,q,k,l,t,o,b,o,l,p,b,d,n,p,l,d,k,e,h,n,l,t,a,d,s,m,s,a,k,m,l,p,d,k,l,c,t,h,a,l,l,a,p,d,b,f,d,d,h,q,k,l,l,t,k,o,a,n,l,t,a,i,c,c2
+r,o,c,s,s,t,m,q,t,o,b,r,k,s,s,d,g,n,p,j,l,q,e,j,h,g,r,e,n,c,h,m,k,t,q,b,f,n,q,l,d,c,r,e,p,e,l,g,j,r,p,l,c,m,f,m,n,i,m,l,m,t,t,c,f,d,k,i,o,i,o,h,e,t,e,i,r,h,a,t,b,g,c,d,m,c,a,i,p,n,c,b,g,e,l,p,p,a,k,c,c2
+p,n,o,k,l,d,n,i,k,a,k,c,e,e,t,j,b,r,g,h,t,c,r,b,n,f,g,c,l,n,s,r,p,e,n,n,g,e,b,o,e,s,k,m,h,h,s,f,h,l,k,j,q,a,c,r,t,e,b,c,f,j,o,c,g,t,d,a,g,j,b,s,d,c,q,k,o,n,a,k,n,g,b,o,j,d,a,g,e,e,j,k,t,h,r,b,q,o,f,p,c4
+d,p,n,l,t,r,q,s,d,t,e,g,q,l,d,r,q,q,o,n,o,k,g,i,t,j,p,e,l,b,l,m,o,s,m,i,a,q,f,h,p,s,p,p,n,m,d,c,a,s,m,k,l,p,l,k,s,b,h,m,j,d,l,t,j,j,n,n,s,a,o,c,s,d,d,s,h,o,c,t,h,d,r,j,o,g,o,r,i,g,d,p,o,m,l,h,m,t,b,d,c5
+b,g,j,j,h,p,t,a,m,b,h,d,j,m,r,d,s,n,l,r,m,b,r,f,s,r,o,o,k,e,m,j,j,j,g,k,g,n,f,g,m,l,g,g,j,f,p,j,g,t,r,o,j,a,g,b,l,a,p,j,m,p,s,k,p,c,l,r,t,j,m,c,i,f,m,p,i,d,g,r,s,m,g,f,i,j,o,s,d,n,s,e,i,a,d,c,o,t,o,r,c1
+d,t,d,c,m,i,j,k,d,t,j,r,b,p,c,g,t,q,a,s,j,h,g,p,b,j,n,n,m,t,q,h,n,l,t,g,r,m,o,a,r,c,o,f,d,n,s,j,s,m,i,c,s,o,l,t,q,f,l,l,s,h,e,r,e,f,k,s,m,q,e,n,n,k,r,s,m,c,g,g,h,h,c,f,h,n,f,i,t,q,d,m,k,t,r,c,m,s,b,p,c5
+m,c,l,l,h,f,s,s,e,f,b,j,k,p,n,a,s,n,r,d,h,e,j,l,q,s,c,o,k,b,j,j,b,d,a,j,g,m,f,c,m,o,h,o,j,b,d,b,g,t,n,r,d,i,a,k,o,b,e,j,j,c,m,q,o,q,p,r,t,o,d,j,j,s,o,g,l,d,c,o,b,f,n,f,j,i,q,t,a,p,g,c,s,m,o,a,l,h,b,m,c1
+k,c,f,t,h,n,h,k,k,c,k,o,g,l,s,a,s,n,p,c,j,p,i,g,i,g,g,o,k,c,n,j,i,l,j,f,d,r,f,p,q,k,r,t,e,r,p,t,j,t,b,k,a,m,r,f,a,f,e,j,r,h,p,c,f,k,a,r,t,n,g,c,k,q,q,c,i,d,m,l,d,m,d,f,b,d,n,l,f,t,j,a,n,c,o,g,p,q,l,j,c1
+h,c,a,k,m,b,o,b,m,p,m,d,k,i,k,e,s,n,q,j,c,c,b,a,b,q,q,o,k,q,a,j,e,g,e,s,m,n,f,c,g,b,k,t,k,l,f,a,o,t,n,m,r,g,n,g,o,s,s,j,n,j,g,g,l,m,t,r,t,s,p,m,d,f,e,i,a,d,j,g,p,p,f,f,j,h,k,i,f,p,g,t,i,t,t,f,t,m,k,i,c1
+j,e,j,a,h,p,c,l,o,a,k,q,r,e,s,s,i,n,l,s,t,p,d,g,d,l,p,t,s,j,i,p,h,d,t,m,f,p,a,n,h,k,o,a,a,c,s,r,l,r,i,q,g,n,d,n,k,m,l,h,o,m,p,j,g,l,p,a,s,p,l,c,p,g,d,a,d,t,g,m,p,l,p,b,a,c,p,a,q,h,k,f,p,m,i,p,m,p,o,o,c3
+a,p,h,m,n,k,o,h,b,i,s,c,s,a,t,o,l,g,m,r,t,a,g,a,k,g,n,m,e,k,b,h,g,p,h,a,o,n,e,o,t,l,k,r,f,m,j,h,f,j,f,b,q,i,q,r,t,i,s,c,f,l,k,f,l,d,r,a,i,r,n,m,t,s,r,j,k,n,m,k,d,e,b,k,h,a,a,i,l,s,j,g,c,n,q,b,p,s,c,d,c4
+d,q,t,p,n,f,o,q,d,t,o,s,h,r,p,c,p,q,j,n,k,a,g,g,d,j,o,o,a,g,j,r,m,k,j,k,n,g,c,m,i,f,a,g,m,d,r,h,h,b,j,t,j,j,l,r,e,o,o,i,b,p,q,p,n,t,k,t,n,g,h,r,k,g,j,s,p,c,t,s,r,d,j,a,d,r,f,f,e,p,d,c,a,b,t,e,m,b,b,a,c5
+p,k,b,d,f,k,c,e,g,a,a,n,s,t,d,f,i,j,r,a,c,j,d,e,t,f,o,j,b,n,r,e,t,e,f,m,f,p,t,b,c,a,m,q,k,r,c,a,n,s,i,p,f,n,g,n,h,l,t,m,p,b,f,p,b,m,d,j,q,p,r,b,r,b,j,p,i,p,t,j,k,g,g,q,c,c,t,e,i,d,g,t,b,m,l,t,e,p,j,i,c3
+j,e,c,s,a,n,r,f,i,a,s,o,l,t,a,d,h,e,p,e,l,f,q,e,n,g,f,c,h,c,t,m,a,q,t,o,e,p,s,o,q,i,i,r,o,q,m,s,o,c,p,q,t,t,k,r,n,a,p,f,a,g,m,j,h,a,d,a,b,o,e,n,j,t,l,j,h,n,k,b,n,d,n,d,n,s,c,c,m,r,k,i,k,d,i,i,j,e,b,c,c2
+d,c,r,m,b,c,t,h,d,t,a,t,b,d,k,g,n,q,m,o,b,q,g,n,q,j,j,j,g,k,l,n,d,q,b,s,h,g,k,l,a,t,d,a,g,m,q,g,m,l,q,d,a,e,l,e,a,c,i,e,s,g,s,f,j,s,j,i,t,n,e,g,i,e,h,s,c,a,j,r,k,h,r,g,f,h,q,i,o,l,d,s,o,n,e,s,m,n,b,a,c5
+p,n,e,i,o,f,d,r,l,c,t,h,p,k,t,r,e,i,a,s,h,a,h,t,h,g,m,c,h,q,b,b,c,r,m,r,t,e,s,j,h,i,k,l,g,j,q,o,r,e,r,d,a,n,n,r,t,t,r,c,f,f,q,h,g,r,m,a,k,p,b,h,l,n,p,j,e,n,b,k,l,o,b,r,t,l,a,q,i,c,j,i,c,l,l,j,h,r,t,m,c4
+l,n,d,j,o,f,c,c,j,a,l,t,b,i,e,g,i,p,l,j,b,a,a,g,l,q,n,t,o,e,r,d,m,a,f,m,f,p,g,i,b,c,q,j,o,i,h,m,j,b,i,o,m,q,n,n,f,h,l,h,r,h,r,p,p,f,m,j,n,p,i,l,g,a,o,d,q,q,b,n,k,l,p,i,r,c,o,l,i,s,j,g,g,m,n,o,d,b,l,k,c3
+f,q,e,b,q,l,k,c,o,q,o,p,l,g,t,r,e,t,g,d,c,q,n,q,k,n,d,i,h,b,l,e,o,c,h,r,t,j,i,r,a,n,k,f,r,i,j,p,o,l,k,e,d,n,g,r,t,l,n,c,f,g,j,b,l,f,s,a,r,s,q,b,q,k,o,g,k,n,o,k,h,o,p,l,s,p,a,a,d,l,j,q,s,a,m,a,i,r,s,q,c4
+s,m,c,g,l,o,g,e,g,l,f,s,p,o,p,d,a,l,p,d,l,l,t,n,r,g,f,o,n,c,r,m,s,d,g,o,r,a,g,p,a,j,s,q,e,i,l,a,g,n,p,s,n,e,k,g,n,o,t,b,l,m,k,e,q,f,j,b,n,g,q,k,k,b,l,p,c,c,k,f,d,a,l,d,m,k,k,f,s,k,t,l,h,c,m,m,m,n,q,c,c2
+i,c,n,j,h,p,h,q,t,f,g,o,e,b,i,c,s,n,m,p,f,b,c,n,m,m,d,o,k,f,i,j,n,r,h,a,o,h,f,c,j,m,b,b,e,k,s,c,m,t,l,q,s,m,t,j,p,m,c,j,k,f,t,h,b,i,b,r,t,n,o,e,o,c,e,i,a,d,e,q,e,l,d,f,m,a,r,m,j,o,s,t,j,e,i,g,q,p,h,o,c1
+h,r,i,a,f,m,n,p,g,d,m,o,d,r,d,l,s,n,s,e,p,r,n,n,b,b,r,o,k,q,l,j,q,k,p,q,a,l,f,r,g,t,k,s,r,k,s,e,b,t,n,i,i,j,g,s,b,m,i,j,t,f,c,e,e,b,e,r,t,l,q,r,p,c,j,k,l,g,e,s,b,l,d,f,e,c,q,h,o,e,a,h,c,f,l,t,s,k,g,l,c1
+d,r,b,q,a,q,i,s,d,t,p,n,q,e,f,d,l,q,o,i,d,a,g,a,i,j,p,j,a,f,a,o,e,k,f,e,q,l,g,q,d,l,g,k,i,l,b,b,q,m,i,b,i,e,l,o,r,f,b,d,i,c,i,m,r,d,k,n,f,b,d,d,t,g,c,s,i,l,g,t,p,i,k,a,s,p,o,b,i,f,d,s,n,m,j,e,m,e,b,m,c5
+q,t,k,q,q,k,g,o,j,o,a,i,c,m,q,e,s,n,d,o,k,i,s,h,g,m,a,o,k,p,t,j,r,j,t,p,d,q,f,g,s,j,b,p,c,o,a,e,e,t,h,o,b,o,b,h,f,r,c,j,h,i,m,f,b,f,r,r,t,j,q,m,j,h,r,n,r,g,f,k,s,e,c,f,t,j,e,n,n,k,t,n,l,h,r,a,b,q,c,k,c1
+d,r,j,f,g,p,o,c,d,t,f,d,j,f,p,t,g,q,k,n,r,j,g,t,j,j,q,o,k,c,a,s,c,b,a,l,l,a,n,m,s,p,d,q,r,j,k,e,s,e,f,r,p,p,l,i,n,j,m,d,m,q,i,c,n,i,p,j,c,r,a,o,b,a,b,s,a,m,f,g,i,c,k,f,e,l,b,r,k,q,d,g,r,i,b,q,m,b,b,m,c5
+m,t,f,g,o,d,n,k,t,c,p,l,b,m,t,i,j,k,n,h,n,s,e,t,p,q,a,i,c,c,m,f,i,a,e,e,r,t,p,e,j,o,k,d,m,f,a,c,i,p,q,l,h,n,k,r,t,c,a,c,f,g,d,r,l,t,a,a,d,e,r,q,t,o,e,p,h,n,j,k,p,i,p,t,h,i,a,g,m,t,j,c,p,i,q,q,l,k,n,o,c4
+g,d,q,n,r,q,c,n,o,a,m,q,r,s,b,g,i,a,b,m,j,o,f,t,i,o,o,b,m,c,r,d,e,d,n,m,f,p,f,f,o,r,h,k,t,l,e,h,o,f,i,i,l,f,e,n,s,m,m,d,t,t,b,j,l,k,f,s,o,p,h,a,f,k,j,t,h,c,g,k,g,o,i,j,k,c,t,k,b,c,j,h,i,m,q,t,o,r,c,f,c3
+a,m,d,r,n,i,h,q,c,r,l,k,j,k,t,f,f,q,n,l,g,e,m,l,j,d,h,a,c,k,e,r,m,q,a,n,h,s,k,e,i,b,k,s,b,r,l,h,i,m,r,b,l,b,o,r,t,d,a,c,f,i,m,r,l,c,s,a,e,p,b,h,t,s,a,j,f,n,t,k,h,j,o,e,k,r,a,c,j,r,j,f,q,f,s,l,a,a,f,a,c4
+e,b,f,p,l,l,c,c,q,a,p,e,n,f,m,b,i,c,c,e,e,s,e,q,c,g,h,t,h,n,e,l,t,a,g,m,f,p,d,n,h,l,i,t,g,n,n,i,g,c,i,q,d,d,r,n,t,n,b,t,d,n,f,h,o,o,m,t,p,p,g,d,b,r,c,o,j,i,j,g,g,k,e,a,o,c,a,i,d,e,i,f,g,m,s,g,b,t,h,c,c3
+j,s,t,t,s,k,o,a,e,f,m,q,f,n,t,a,r,n,a,n,t,f,g,e,e,j,m,r,l,m,r,o,h,t,t,e,n,e,d,b,d,g,k,o,n,q,d,s,o,j,r,p,a,m,h,r,t,i,d,c,f,o,q,o,t,o,a,a,i,k,m,s,c,b,m,g,l,n,l,k,m,g,f,i,n,s,a,j,m,t,j,e,d,l,d,l,i,c,j,d,c4
+l,n,s,n,q,c,b,j,d,m,m,e,h,b,t,c,d,q,p,q,d,f,p,d,o,q,o,o,i,b,k,n,t,n,e,t,m,t,l,r,d,q,k,h,i,l,m,e,b,i,o,f,k,q,n,r,t,t,q,c,f,g,g,l,b,t,q,a,a,c,f,q,g,g,b,e,k,n,k,k,o,t,d,m,e,f,a,k,e,k,j,f,j,o,e,q,t,t,k,e,c4
+i,g,c,j,p,p,s,d,h,g,k,m,d,l,c,d,d,i,p,i,l,o,r,k,n,g,l,i,r,c,q,m,a,h,c,i,o,k,b,i,a,m,e,f,b,e,q,a,p,k,p,f,p,s,n,d,n,p,r,m,p,o,s,e,s,q,l,p,r,a,s,p,d,n,r,e,j,a,l,t,q,f,g,d,g,i,c,p,b,n,f,s,t,r,d,f,c,k,o,c,c2
+a,i,c,e,r,j,t,s,l,t,g,b,l,g,j,m,s,n,a,t,l,c,a,i,b,p,f,o,k,g,i,j,a,l,f,c,o,i,f,b,m,t,d,f,s,h,p,j,g,t,l,b,e,i,i,d,k,q,d,j,g,i,t,l,b,k,a,r,t,t,l,a,i,r,q,r,p,n,q,c,d,r,a,f,m,d,k,k,l,j,r,r,p,o,m,a,b,q,h,r,c1
+p,t,c,b,d,f,s,j,j,e,c,t,b,e,r,d,d,r,p,f,l,a,c,m,p,g,c,n,q,c,h,m,p,p,i,j,p,i,b,m,r,d,t,d,i,b,i,q,q,f,p,l,s,k,i,o,n,t,k,e,c,s,g,p,f,g,b,c,l,t,q,m,o,m,i,p,l,r,t,j,c,h,r,d,c,k,k,g,r,c,j,l,e,b,o,a,s,c,i,c,c2
+k,i,c,p,j,t,e,m,l,d,i,n,s,n,d,d,l,t,p,q,l,i,h,l,h,g,e,q,e,c,i,m,g,b,d,b,h,e,e,p,p,c,a,s,e,g,t,c,d,e,p,s,q,r,g,m,n,m,g,t,a,b,m,b,k,b,t,t,h,o,a,r,n,f,h,n,k,f,e,k,o,f,a,d,a,l,d,a,a,t,d,n,f,b,b,c,b,f,m,c,c2
+g,r,t,p,h,t,c,e,d,e,j,p,p,q,t,c,n,f,a,j,c,q,o,m,a,g,q,a,j,p,m,b,k,k,n,e,m,j,b,p,k,j,k,t,k,j,k,n,h,d,b,p,o,r,o,r,t,h,s,c,f,n,g,k,c,f,s,a,s,e,r,q,b,d,a,b,g,n,b,k,b,i,t,n,d,c,a,j,d,b,j,h,b,p,h,k,b,j,m,b,c4
+a,g,c,d,i,t,a,c,c,m,k,b,j,o,l,d,h,j,p,g,l,a,o,c,e,g,o,s,e,c,o,m,k,o,j,f,o,k,c,e,f,b,t,o,e,k,p,h,e,a,p,e,q,a,c,f,n,a,b,r,f,e,o,q,p,t,l,k,i,g,h,l,d,r,r,k,m,r,k,s,q,g,q,d,d,a,n,i,j,s,k,g,t,o,q,d,o,r,t,c,c2
+d,i,h,j,p,a,n,c,d,t,m,q,k,f,t,c,f,q,t,d,i,n,g,a,t,j,k,q,j,b,t,b,g,d,p,q,r,q,r,j,s,b,n,f,r,o,i,c,j,s,j,s,p,r,l,f,r,c,l,d,o,i,j,q,h,g,k,s,f,f,j,d,e,i,f,s,l,e,b,q,h,f,n,h,l,p,p,e,k,o,d,h,i,h,k,m,m,a,b,o,c5
+i,b,c,o,m,j,s,m,t,t,j,g,t,k,j,d,s,q,p,h,l,t,r,t,q,g,g,j,l,c,p,m,t,a,n,e,i,n,l,h,e,r,m,r,r,h,n,l,t,j,p,q,h,n,a,t,n,h,q,c,m,m,f,e,d,i,h,m,s,j,c,t,i,o,m,b,d,l,i,p,b,f,p,d,s,q,r,q,h,t,c,l,d,p,n,s,s,d,t,c,c2
+m,j,c,o,r,l,r,i,p,d,r,f,n,p,q,d,k,a,p,a,l,o,m,m,m,g,h,o,g,c,k,m,f,f,r,q,g,r,g,s,j,s,p,n,o,t,m,q,h,c,p,r,a,a,h,f,n,b,k,m,k,c,h,i,k,r,f,f,m,j,i,l,b,r,l,b,b,k,r,c,n,r,o,d,h,l,h,g,d,h,t,k,d,g,g,b,n,a,q,c,c2
+n,a,l,h,f,m,c,p,r,h,l,o,j,m,a,t,s,n,g,n,i,s,a,p,d,f,l,o,k,f,p,j,q,a,g,g,l,e,f,m,a,l,c,j,d,f,n,s,p,t,b,i,f,c,f,k,e,f,k,j,a,a,d,l,q,p,q,r,t,r,j,s,f,i,h,g,m,p,a,d,s,a,h,f,d,c,d,k,c,j,q,l,k,m,l,t,a,e,t,l,c1
+q,r,s,c,q,r,o,t,a,o,o,j,l,g,r,b,s,n,q,j,f,i,r,g,c,j,d,o,k,e,p,j,l,h,o,r,i,q,f,e,m,s,e,t,h,o,e,s,p,t,r,e,t,s,h,i,e,t,s,j,p,f,f,t,p,n,l,r,t,m,f,m,d,c,q,l,b,i,g,p,e,q,a,f,t,g,n,g,n,j,t,h,k,l,e,h,a,r,j,m,c1
+j,e,c,l,e,n,l,q,e,i,q,c,l,p,d,d,l,a,p,q,l,f,i,e,j,g,m,t,r,c,a,m,b,q,m,e,n,s,h,h,i,h,n,k,d,p,e,r,a,i,p,q,n,a,q,g,n,m,l,f,i,r,s,d,q,o,m,e,k,g,q,j,t,f,t,s,c,b,q,q,c,k,t,d,o,o,o,l,g,f,m,a,d,l,l,b,d,r,t,c,c2
+g,r,p,b,f,r,c,a,j,a,c,k,d,k,l,o,i,l,f,n,s,c,p,m,i,c,t,r,g,o,j,a,a,a,l,m,f,p,i,e,k,n,o,n,f,j,s,g,q,k,i,k,k,n,t,n,e,a,g,j,e,d,h,c,j,e,k,o,c,p,a,l,s,l,b,e,o,f,t,e,s,t,i,f,t,c,a,n,b,s,a,n,j,m,p,i,k,h,h,b,c3
+d,d,b,q,f,m,d,p,d,t,n,l,o,r,m,j,b,q,p,b,o,s,g,n,b,j,e,o,s,c,b,k,k,o,k,m,q,b,e,n,g,m,f,s,a,c,i,h,s,h,d,j,f,e,l,a,j,t,r,b,p,c,r,l,g,j,o,m,t,k,q,c,m,a,m,s,f,b,g,n,l,i,j,t,f,s,j,k,s,q,d,o,h,t,o,q,m,f,b,k,c5
+i,m,d,n,b,c,n,q,h,m,n,n,q,p,j,h,s,n,p,j,s,a,a,s,a,c,h,o,k,j,p,j,s,g,f,e,k,f,f,o,s,s,l,b,s,d,f,g,g,t,k,j,i,j,c,a,c,e,a,j,r,e,o,b,i,t,m,r,t,k,f,m,k,p,n,a,a,q,r,i,h,l,s,f,j,n,p,e,t,e,i,j,c,h,c,q,a,t,e,a,c1
+d,s,l,n,n,r,r,c,d,t,f,d,p,e,d,m,p,q,r,f,n,l,g,l,n,j,p,t,a,j,o,c,t,c,a,j,k,g,r,f,l,i,g,t,j,p,k,d,f,r,e,t,q,b,l,j,r,f,r,j,a,n,o,m,e,c,d,d,d,e,f,e,i,f,j,s,l,t,p,l,e,g,a,r,o,n,c,j,q,t,d,b,f,t,e,r,m,n,b,e,c5
+o,p,m,b,g,f,b,r,k,s,f,a,m,e,t,i,c,l,f,j,b,r,f,n,c,b,g,s,c,g,e,b,n,c,b,h,l,r,e,c,d,d,k,c,s,s,d,r,b,r,r,i,b,n,j,r,t,b,f,c,f,d,i,m,o,j,c,a,j,t,r,f,a,a,r,p,k,n,d,k,i,g,p,q,r,s,a,q,l,l,j,e,g,s,b,p,g,a,c,g,c4
+d,d,f,h,l,h,n,r,d,t,m,n,i,l,d,e,e,q,o,r,d,c,g,h,s,j,s,p,n,t,j,l,q,c,i,e,h,o,f,p,l,d,h,e,f,q,g,d,s,n,i,g,p,d,l,s,h,l,q,n,r,e,j,e,r,e,s,e,n,f,g,b,p,l,q,s,c,n,r,g,m,t,h,n,g,m,a,o,t,g,d,a,c,a,g,p,m,r,b,p,c5
+g,s,h,t,o,q,a,f,d,m,g,g,q,g,t,c,s,n,e,r,b,l,l,n,s,q,c,o,k,d,l,j,h,l,k,i,s,o,f,p,l,b,h,f,a,j,t,n,a,t,m,e,a,j,j,f,q,d,k,j,j,m,g,i,c,d,d,r,t,t,i,r,k,t,l,b,t,r,m,p,h,o,j,f,p,q,l,j,j,c,q,l,j,i,s,e,n,p,h,j,c1
+j,d,o,k,o,b,m,r,r,n,o,b,d,g,t,d,b,f,n,t,t,b,i,l,j,j,p,r,d,m,c,m,k,m,c,h,o,g,h,q,f,c,k,g,d,p,n,g,i,b,d,r,h,i,c,r,t,i,k,c,f,h,t,e,p,n,q,a,i,e,b,c,d,o,p,h,g,n,d,k,h,t,n,p,n,o,a,i,c,r,j,a,o,a,j,k,c,o,k,j,c4
+g,n,o,p,b,l,k,d,m,n,p,j,f,j,t,j,d,p,p,l,a,j,k,b,q,c,d,g,f,a,e,s,c,h,a,j,j,j,b,i,k,t,k,b,d,d,o,l,p,d,o,c,h,r,e,r,t,f,m,c,f,d,r,j,f,b,q,a,i,i,t,f,t,h,h,l,p,n,p,k,e,a,b,i,e,j,a,q,q,j,j,p,g,a,s,d,r,g,s,c,c4
+g,h,o,a,n,p,m,t,f,n,o,a,m,l,t,k,b,m,l,l,f,l,h,o,e,l,j,f,d,r,r,c,s,c,h,e,q,j,b,d,c,b,k,h,g,s,c,q,k,b,h,s,a,r,j,r,t,k,r,c,f,g,g,q,h,i,o,a,m,h,b,g,q,l,j,j,g,n,a,k,b,e,s,d,f,e,a,i,a,f,j,g,l,s,c,h,t,b,g,k,c4
+d,h,b,o,j,r,c,m,l,a,l,l,e,t,c,r,i,q,t,o,m,n,o,n,g,n,t,s,e,o,c,j,l,k,g,m,f,p,k,e,f,q,o,o,b,h,f,j,h,a,i,e,n,o,e,n,d,o,l,g,j,o,r,q,f,n,n,l,h,p,i,q,s,k,l,s,e,s,b,p,a,r,g,s,s,c,c,b,p,f,k,l,q,m,f,d,k,l,d,m,c3
+q,l,d,i,p,b,d,n,g,e,b,k,h,i,t,k,a,s,a,l,l,j,q,a,p,t,o,n,l,b,c,h,t,l,i,l,n,d,c,i,i,t,k,a,h,t,p,m,l,b,k,b,m,p,h,r,t,c,p,c,f,h,c,p,n,o,d,a,f,e,e,e,e,g,f,a,t,n,n,k,m,o,q,l,t,s,a,b,m,b,j,q,p,e,a,f,k,o,p,d,c4
+o,j,n,l,m,j,b,a,b,e,e,e,n,d,t,d,j,j,j,d,m,b,k,t,h,s,s,f,b,m,b,e,p,s,o,b,j,o,m,f,q,h,k,o,g,h,d,i,e,r,h,f,h,t,d,r,t,r,i,c,f,t,k,f,i,o,t,a,m,t,n,p,q,c,e,k,t,n,s,k,a,o,j,q,t,r,a,j,h,s,j,h,e,e,c,l,c,b,s,o,c4
+i,t,q,e,d,r,n,p,t,i,p,s,m,b,g,f,s,n,a,c,l,o,f,i,d,c,a,o,k,o,j,j,n,h,f,m,p,h,f,r,q,n,i,l,m,c,e,e,f,t,o,o,o,b,k,k,a,f,i,j,n,c,s,q,f,f,s,r,t,m,p,l,g,n,j,o,k,b,t,c,l,r,t,f,c,e,c,c,n,c,a,s,j,t,b,i,f,c,s,l,c1
+h,k,h,j,i,r,b,q,e,s,c,t,a,b,t,l,o,l,h,b,l,t,n,d,d,o,e,b,q,g,p,h,d,t,e,i,i,r,t,h,q,m,k,t,a,i,e,i,n,e,n,k,s,p,k,r,t,d,m,c,f,k,n,l,m,o,h,a,m,q,p,d,n,n,i,p,l,n,n,k,m,h,c,i,e,g,a,o,t,q,j,m,s,g,r,e,q,i,s,g,c4
+c,a,m,i,j,i,e,s,l,b,c,s,q,s,e,m,s,n,h,l,e,j,d,d,t,j,e,o,k,f,t,j,d,q,k,q,e,m,f,s,q,r,b,s,p,e,h,k,g,t,h,l,m,j,q,l,l,o,s,j,l,k,r,a,c,d,m,r,t,c,p,l,l,k,j,s,n,c,r,k,t,p,b,f,b,k,a,d,i,j,a,c,h,i,p,i,o,a,j,q,c1
+d,i,o,i,h,s,j,s,d,t,p,r,l,c,h,f,f,q,t,a,s,q,g,a,n,j,r,q,j,b,d,n,g,i,d,h,e,f,f,r,a,d,c,h,g,k,q,b,b,j,o,d,c,t,l,q,f,i,r,f,p,c,t,o,f,f,r,s,r,h,b,r,i,k,j,s,s,t,i,j,k,s,h,r,g,i,l,o,s,e,d,j,a,e,j,r,m,k,b,b,c5
+d,c,e,k,d,j,k,e,d,t,j,f,t,a,j,p,r,q,a,p,q,m,g,i,k,j,r,g,s,k,e,e,q,f,r,o,h,l,f,q,m,k,b,m,d,t,i,n,f,h,g,t,f,a,l,t,l,p,r,p,p,l,n,c,n,g,d,f,j,h,i,s,c,b,i,s,j,b,a,o,k,i,k,o,d,i,s,d,j,l,d,r,n,j,o,q,m,d,b,p,c5
+b,f,q,f,c,a,b,c,j,o,f,d,i,e,t,o,k,o,n,s,t,r,g,o,i,l,q,i,h,n,i,j,h,n,i,f,e,j,t,l,g,a,k,e,o,s,t,q,t,q,n,l,k,r,d,r,t,h,k,c,f,s,p,d,t,c,e,a,m,a,o,b,p,g,o,l,f,n,f,k,r,q,q,e,e,a,a,m,o,p,j,f,q,s,p,m,l,f,e,n,c4
+d,r,t,e,b,a,j,n,d,t,c,h,h,g,s,o,e,q,h,s,n,g,g,n,o,j,l,r,t,c,p,n,a,r,i,e,d,o,h,j,a,b,f,m,a,k,e,c,d,o,a,f,r,p,l,a,o,e,n,s,r,c,p,q,o,a,b,f,p,l,k,t,j,e,i,s,n,h,s,o,o,m,q,o,j,t,k,b,s,b,d,t,s,c,f,l,m,h,b,i,c5
+g,a,c,i,l,d,k,m,r,n,l,b,r,n,a,d,h,e,p,d,l,k,q,b,d,g,p,n,c,c,r,m,f,a,j,q,k,n,t,g,h,m,n,t,m,n,n,d,c,m,p,q,j,i,j,n,n,n,h,b,s,e,m,g,a,l,b,j,b,e,g,k,g,m,s,s,k,e,m,r,r,r,t,d,k,o,c,i,d,n,o,h,h,k,j,b,b,s,n,c,c2
+c,p,c,d,o,d,m,a,f,n,d,i,c,f,q,d,s,n,p,m,l,q,r,r,c,g,f,p,p,c,h,m,f,j,a,p,b,h,j,g,l,k,i,g,g,h,f,t,p,h,p,b,s,t,t,i,n,q,m,j,n,c,n,s,d,f,o,g,b,c,p,g,g,c,o,n,g,l,s,k,m,r,t,d,r,p,o,i,a,c,c,r,b,m,k,g,f,d,l,c,c2
+d,j,m,h,l,h,s,b,d,t,b,d,o,o,s,g,s,q,i,q,f,h,g,c,r,j,c,p,e,s,g,p,a,j,p,t,n,l,h,r,c,m,s,d,c,i,j,a,l,j,m,g,s,p,l,t,n,b,k,s,p,r,m,m,q,m,l,j,i,o,p,m,i,n,s,s,p,n,d,q,b,j,i,p,h,j,t,a,c,s,d,n,f,p,n,o,m,e,b,n,c5
+g,t,s,a,r,k,b,m,j,q,c,a,e,c,t,e,d,a,r,b,j,e,k,p,e,m,i,c,q,e,t,q,i,n,c,l,s,e,f,b,m,c,k,t,o,j,l,e,m,k,m,e,e,f,i,r,t,k,d,c,f,e,a,r,j,i,h,a,l,j,t,e,o,f,k,r,s,n,k,k,a,n,b,e,j,e,a,j,o,c,j,h,s,b,h,s,f,l,h,t,c4
+f,t,k,t,r,p,s,b,i,l,h,s,q,o,a,l,s,n,a,n,p,i,e,j,q,s,o,o,k,c,a,j,h,a,r,m,c,l,f,b,t,a,l,q,e,k,i,n,m,t,p,q,k,k,j,h,k,g,g,j,n,s,d,s,n,j,s,r,t,o,m,r,f,l,j,s,l,h,q,e,s,o,s,f,c,e,l,g,h,c,a,e,s,i,s,m,n,p,p,n,c1
+i,h,b,n,a,g,c,m,f,a,f,n,d,l,l,d,i,o,e,i,m,r,o,n,i,n,p,i,r,s,e,m,j,r,d,m,f,p,h,i,t,r,h,g,c,j,c,n,h,i,i,j,p,p,e,n,t,a,s,l,f,m,j,c,a,r,f,p,k,p,j,f,g,f,f,a,e,r,b,r,f,j,e,a,t,c,t,i,q,p,r,k,j,m,l,m,c,q,q,b,c3
+t,l,n,t,n,k,c,e,f,a,h,g,t,g,h,c,i,k,h,r,q,s,c,h,f,b,k,d,b,q,d,g,a,b,j,m,f,p,d,p,m,q,p,i,b,d,f,e,e,s,i,l,n,i,a,n,f,g,m,g,h,q,n,p,g,k,r,q,n,p,m,f,s,p,c,p,c,b,k,q,l,i,f,t,g,c,q,i,t,o,q,m,q,m,k,h,c,s,g,e,c3
+h,c,k,p,n,o,c,o,a,a,r,o,d,l,f,d,i,h,b,j,h,k,a,t,s,l,n,a,i,r,l,c,j,e,n,m,f,p,q,n,e,e,m,q,i,p,c,d,i,t,i,s,f,k,j,n,k,c,m,p,m,o,e,c,h,d,a,c,k,p,e,n,j,k,i,c,o,q,k,m,h,r,o,i,s,c,q,e,p,g,r,t,r,m,s,g,r,m,o,b,c3
+d,o,k,a,l,d,p,a,d,t,i,c,j,i,i,e,g,q,r,f,f,i,g,h,j,j,c,e,f,l,q,d,s,k,d,e,t,t,a,g,b,r,p,l,i,p,q,g,h,t,e,m,h,j,l,l,b,p,o,h,j,h,p,k,f,a,o,q,s,q,e,j,a,j,p,s,e,j,s,d,t,d,g,j,c,t,l,b,p,i,d,k,l,e,g,o,m,o,b,p,c5
+s,o,d,r,e,n,j,t,k,t,h,r,q,o,t,s,k,k,o,c,j,b,g,t,f,n,l,e,p,q,n,s,b,i,s,a,m,a,g,t,m,a,k,k,t,e,k,b,l,i,g,b,a,b,f,r,t,t,j,c,f,n,p,l,k,c,m,a,s,q,p,r,t,c,g,r,k,n,c,k,p,m,p,e,h,f,a,q,p,n,j,i,m,o,k,a,d,j,i,q,c4
+d,c,i,i,o,q,q,l,d,t,t,s,g,f,q,o,s,q,j,f,l,q,g,f,t,j,d,r,l,r,t,b,n,g,a,i,i,k,s,a,g,a,r,a,c,t,s,p,b,j,m,m,p,b,l,p,e,q,r,t,p,e,q,g,n,a,p,c,a,l,a,c,o,p,c,s,a,n,s,t,t,e,l,i,s,d,e,q,a,g,d,b,j,s,r,j,m,d,b,g,c5

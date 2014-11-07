@@ -1,0 +1,13 @@
+@relation Book1
+
+@attribute A {a,b}
+@attribute B {a,b}
+@attribute Class {d1,d2}
+
+@data
+a,a,d1
+a,b,d1
+a,b,d2
+a,b,d1
+a,b,?
+b,b,?
